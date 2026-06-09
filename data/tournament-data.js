@@ -1,15 +1,16 @@
 window.BALTICWOOD_TOURNAMENT_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Faza Grupowa - Punktacja",
-  "generatedAt": "2026-06-09T19:25:26+00:00",
-  "workbookModifiedAt": "2026-06-09T19:06:59+00:00",
+  "generatedAt": "2026-06-09T19:47:19+00:00",
+  "workbookModifiedAt": "2026-06-09T19:46:22+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
     "Maciej Niemiec",
     "Janusz Orlewski",
     "Waldemar Węgrzyniak",
-    "Dawid Cetnar"
+    "Dawid Cetnar",
+    "Ktoś Nowy"
   ],
   "matches": [
     {
@@ -24,7 +25,7 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "date": "2026-06-12",
       "time": "04:00",
       "match": "Korea Południowa – Czechy",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 3,
@@ -525,30 +526,49 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "match": "Meksyk – RPA",
       "result": "2-0",
       "points": {
-        "Maciej Zając": 0,
+        "Maciej Zając": 3,
         "Tomasz Brocławik": 0,
         "Maciej Niemiec": 3,
         "Janusz Orlewski": 3,
         "Waldemar Węgrzyniak": 0,
-        "Dawid Cetnar": 1
+        "Dawid Cetnar": 1,
+        "Ktoś Nowy": 0
+      }
+    },
+    {
+      "number": 2,
+      "date": "2026-06-12",
+      "time": "04:00",
+      "match": "Korea Południowa – Czechy",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 1,
+        "Maciej Niemiec": 1,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 1,
+        "Ktoś Nowy": 1
       }
     }
   ],
   "currentTotals": {
-    "Maciej Zając": 0,
-    "Tomasz Brocławik": 0,
-    "Maciej Niemiec": 3,
+    "Maciej Zając": 6,
+    "Tomasz Brocławik": 1,
+    "Maciej Niemiec": 4,
     "Janusz Orlewski": 3,
-    "Waldemar Węgrzyniak": 0,
-    "Dawid Cetnar": 1
+    "Waldemar Węgrzyniak": 1,
+    "Dawid Cetnar": 2,
+    "Ktoś Nowy": 1
   },
   "lastMatchPoints": {
-    "Maciej Zając": 0,
-    "Tomasz Brocławik": 0,
-    "Maciej Niemiec": 3,
-    "Janusz Orlewski": 3,
-    "Waldemar Węgrzyniak": 0,
-    "Dawid Cetnar": 1
+    "Maciej Zając": 3,
+    "Tomasz Brocławik": 1,
+    "Maciej Niemiec": 1,
+    "Janusz Orlewski": 0,
+    "Waldemar Węgrzyniak": 1,
+    "Dawid Cetnar": 1,
+    "Ktoś Nowy": 1
   },
   "raceSnapshots": [
     {
@@ -558,12 +578,29 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "match": "Meksyk – RPA",
       "result": "2-0",
       "totals": {
-        "Maciej Zając": 0,
+        "Maciej Zając": 3,
         "Tomasz Brocławik": 0,
         "Maciej Niemiec": 3,
         "Janusz Orlewski": 3,
         "Waldemar Węgrzyniak": 0,
-        "Dawid Cetnar": 1
+        "Dawid Cetnar": 1,
+        "Ktoś Nowy": 0
+      }
+    },
+    {
+      "matchNumber": 2,
+      "date": "2026-06-12",
+      "time": "04:00",
+      "match": "Korea Południowa – Czechy",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 6,
+        "Tomasz Brocławik": 1,
+        "Maciej Niemiec": 4,
+        "Janusz Orlewski": 3,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 2,
+        "Ktoś Nowy": 1
       }
     }
   ],
