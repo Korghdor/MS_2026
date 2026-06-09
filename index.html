@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="BalticWood Mundial 2026 - aktualna klasyfikacja typujących, podium i wyścig punktowy po każdym meczu."
+    />
+    <title>BalticWood Mundial 2026</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav shell" aria-label="Główna nawigacja">
+        <a class="brand" href="#start" aria-label="BalticWood Mundial 2026">
+          <span class="brand-mark" aria-hidden="true">BW</span>
+          <span>
+            <strong>BalticWood</strong>
+            <small>Mundial 2026</small>
+          </span>
+        </a>
+        <a class="nav-link" href="#klasyfikacja">Klasyfikacja</a>
+      </nav>
+
+      <div class="hero-content shell" id="start">
+        <div class="hero-copy">
+          <p class="eyebrow">Firmowa liga ekspertów</p>
+          <h1>My też gramy na mundialu.<br /><span>Tylko bez korków.</span></h1>
+          <p class="hero-lead">
+            BalticWood bierze udział w mistrzostwach w nieco innej formie:
+            zamiast biegać po murawie, biegamy wzrokiem po wynikach. Emocje są
+            prawdziwe, punkty bezlitosne, a VAR nadal nie sprawdza Excela.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#podium">Zobacz liderów</a>
+            <a class="button button-ghost" href="#wyscig">Śledź wyścig</a>
+          </div>
+        </div>
+
+        <aside class="scoreboard" aria-label="Stan turnieju">
+          <div class="scoreboard-top">
+            <span>Stan gry</span>
+            <span class="live-dot">Dane z XLSM</span>
+          </div>
+          <div class="scoreboard-main">
+            <div>
+              <strong id="played-count">0</strong>
+              <span>rozegranych</span>
+            </div>
+            <span class="score-separator">:</span>
+            <div>
+              <strong id="matches-count">0</strong>
+              <span>meczów</span>
+            </div>
+          </div>
+          <div class="scoreboard-bottom">
+            <span>Zawodnicy</span>
+            <strong id="players-count">0</strong>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="section shell" id="podium">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Aktualne podium</p>
+            <h2>TOP 3 miejsca</h2>
+          </div>
+          <p class="section-note">
+            Tu nie ma przypadkowych bramek. Są tylko odważne typy i bardzo
+            krótkie chwile chwały.
+          </p>
+        </div>
+        <div class="podium" id="podium-list" aria-live="polite"></div>
+      </section>
+
+      <section class="section section-dark" id="wyscig">
+        <div class="shell">
+          <div class="section-heading section-heading-light">
+            <div>
+              <p class="eyebrow">Mecz po meczu</p>
+              <h2>Race Chart</h2>
+            </div>
+            <p class="section-note">
+              Odtwórz, jak zmieniała się klasyfikacja po kolejnych
+              rozstrzygnięciach.
+            </p>
+          </div>
+
+          <div class="race-card">
+            <div class="race-header">
+              <div>
+                <p id="race-kicker">Aktualny stan</p>
+                <h3 id="race-title">Czekamy na pierwszy wynik</h3>
+                <span id="race-meta"></span>
+              </div>
+              <div class="race-controls" aria-label="Sterowanie wykresem">
+                <button id="race-prev" type="button" aria-label="Poprzedni mecz">
+                  <span aria-hidden="true">←</span>
+                </button>
+                <button
+                  class="play-button"
+                  id="race-play"
+                  type="button"
+                  aria-label="Odtwórz wyścig"
+                >
+                  Odtwórz
+                </button>
+                <button id="race-next" type="button" aria-label="Następny mecz">
+                  <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </div>
+            <div class="race-bars" id="race-bars"></div>
+            <div class="race-timeline">
+              <input
+                id="race-range"
+                type="range"
+                min="0"
+                max="0"
+                value="0"
+                aria-label="Wybierz rozegrany mecz"
+              />
+              <div>
+                <span>Pierwszy gwizdek</span>
+                <strong id="race-progress">0 / 0</strong>
+                <span>Aktualnie</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell" id="klasyfikacja">
+        <div class="section-heading table-heading">
+          <div>
+            <p class="eyebrow">Pełna stawka</p>
+            <h2>Klasyfikacja generalna</h2>
+          </div>
+          <label class="search">
+            <span class="sr-only">Szukaj zawodnika</span>
+            <input
+              id="player-search"
+              type="search"
+              placeholder="Szukaj zawodnika..."
+              autocomplete="off"
+            />
+          </label>
+        </div>
+
+        <div class="table-card">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Miejsce</th>
+                <th scope="col">Zawodnik</th>
+                <th scope="col">Ostatni mecz</th>
+                <th scope="col" class="points-column">Punkty</th>
+              </tr>
+            </thead>
+            <tbody id="standings-body"></tbody>
+          </table>
+          <p class="empty-state" id="empty-state" hidden>
+            Brak zawodników pasujących do wyszukiwania.
+          </p>
+        </div>
+
+        <div class="data-note">
+          <div class="data-note-icon" aria-hidden="true">XLSM</div>
+          <div>
+            <strong>Dane prosto z arkusza „Faza Grupowa - Punktacja”</strong>
+            <p>
+              Ostatnie wygenerowanie strony:
+              <time id="updated-at">brak danych</time>.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell footer-content">
+        <span>BalticWood Mundial 2026</span>
+        <span>Excel liczy. My przeżywamy.</span>
+      </div>
+    </footer>
+
+    <noscript>
+      Do wyświetlenia rankingu potrzebna jest obsługa JavaScript.
+    </noscript>
+    <script src="data/tournament-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,571 @@
+window.BALTICWOOD_TOURNAMENT_DATA = {
+  "sourceFile": "MS_2026.xlsm",
+  "sheet": "Faza Grupowa - Punktacja",
+  "generatedAt": "2026-06-09T19:25:26+00:00",
+  "workbookModifiedAt": "2026-06-09T19:06:59+00:00",
+  "players": [
+    "Maciej Zając",
+    "Tomasz Brocławik",
+    "Maciej Niemiec",
+    "Janusz Orlewski",
+    "Waldemar Węgrzyniak",
+    "Dawid Cetnar"
+  ],
+  "matches": [
+    {
+      "number": 1,
+      "date": "2026-06-11",
+      "time": "21:00",
+      "match": "Meksyk – RPA",
+      "result": "2-0"
+    },
+    {
+      "number": 2,
+      "date": "2026-06-12",
+      "time": "04:00",
+      "match": "Korea Południowa – Czechy",
+      "result": "X-X"
+    },
+    {
+      "number": 3,
+      "date": "2026-06-12",
+      "time": "21:00",
+      "match": "Kanada – Bośnia i Hercegowina",
+      "result": "X-X"
+    },
+    {
+      "number": 4,
+      "date": "2026-06-13",
+      "time": "03:00",
+      "match": "USA – Paragwaj",
+      "result": "X-X"
+    },
+    {
+      "number": 5,
+      "date": "2026-06-13",
+      "time": "21:00",
+      "match": "Katar – Szwajcaria",
+      "result": "X-X"
+    },
+    {
+      "number": 6,
+      "date": "2026-06-14",
+      "time": "00:00",
+      "match": "Brazylia – Maroko",
+      "result": "X-X"
+    },
+    {
+      "number": 7,
+      "date": "2026-06-14",
+      "time": "03:00",
+      "match": "Haiti – Szkocja",
+      "result": "X-X"
+    },
+    {
+      "number": 8,
+      "date": "2026-06-14",
+      "time": "06:00",
+      "match": "Australia – Turcja",
+      "result": "X-X"
+    },
+    {
+      "number": 9,
+      "date": "2026-06-14",
+      "time": "19:00",
+      "match": "Niemcy – Curaçao",
+      "result": "X-X"
+    },
+    {
+      "number": 10,
+      "date": "2026-06-14",
+      "time": "22:00",
+      "match": "Holandia – Japonia",
+      "result": "X-X"
+    },
+    {
+      "number": 11,
+      "date": "2026-06-15",
+      "time": "01:00",
+      "match": "Wybrzeże Kości Słoniowej – Ekwador",
+      "result": "X-X"
+    },
+    {
+      "number": 12,
+      "date": "2026-06-15",
+      "time": "04:00",
+      "match": "Szwecja – Tunezja",
+      "result": "X-X"
+    },
+    {
+      "number": 13,
+      "date": "2026-06-15",
+      "time": "18:00",
+      "match": "Hiszpania – Republika Zielonego Przylądka",
+      "result": "X-X"
+    },
+    {
+      "number": 14,
+      "date": "2026-06-15",
+      "time": "21:00",
+      "match": "Belgia – Egipt",
+      "result": "X-X"
+    },
+    {
+      "number": 15,
+      "date": "2026-06-16",
+      "time": "00:00",
+      "match": "Arabia Saudyjska – Urugwaj",
+      "result": "X-X"
+    },
+    {
+      "number": 16,
+      "date": "2026-06-16",
+      "time": "03:00",
+      "match": "Iran – Nowa Zelandia",
+      "result": "X-X"
+    },
+    {
+      "number": 17,
+      "date": "2026-06-16",
+      "time": "21:00",
+      "match": "Francja – Senegal",
+      "result": "X-X"
+    },
+    {
+      "number": 18,
+      "date": "2026-06-17",
+      "time": "00:00",
+      "match": "Irak – Norwegia",
+      "result": "X-X"
+    },
+    {
+      "number": 19,
+      "date": "2026-06-17",
+      "time": "03:00",
+      "match": "Argentyna – Algieria",
+      "result": "X-X"
+    },
+    {
+      "number": 20,
+      "date": "2026-06-17",
+      "time": "06:00",
+      "match": "Austria – Jordania",
+      "result": "X-X"
+    },
+    {
+      "number": 21,
+      "date": "2026-06-17",
+      "time": "19:00",
+      "match": "Portugalia – DR Konga",
+      "result": "X-X"
+    },
+    {
+      "number": 22,
+      "date": "2026-06-17",
+      "time": "22:00",
+      "match": "Anglia – Chorwacja",
+      "result": "X-X"
+    },
+    {
+      "number": 23,
+      "date": "2026-06-18",
+      "time": "01:00",
+      "match": "Ghana – Panama",
+      "result": "X-X"
+    },
+    {
+      "number": 24,
+      "date": "2026-06-18",
+      "time": "04:00",
+      "match": "Uzbekistan – Kolumbia",
+      "result": "X-X"
+    },
+    {
+      "number": 25,
+      "date": "2026-06-18",
+      "time": "18:00",
+      "match": "Czechy – RPA",
+      "result": "X-X"
+    },
+    {
+      "number": 26,
+      "date": "2026-06-18",
+      "time": "21:00",
+      "match": "Szwajcaria – Bośnia i Hercegowina",
+      "result": "X-X"
+    },
+    {
+      "number": 27,
+      "date": "2026-06-19",
+      "time": "00:00",
+      "match": "Kanada – Katar",
+      "result": "X-X"
+    },
+    {
+      "number": 28,
+      "date": "2026-06-19",
+      "time": "03:00",
+      "match": "Meksyk – Korea Południowa",
+      "result": "X-X"
+    },
+    {
+      "number": 29,
+      "date": "2026-06-19",
+      "time": "21:00",
+      "match": "USA – Australia",
+      "result": "X-X"
+    },
+    {
+      "number": 30,
+      "date": "2026-06-20",
+      "time": "00:00",
+      "match": "Szkocja – Maroko",
+      "result": "X-X"
+    },
+    {
+      "number": 31,
+      "date": "2026-06-20",
+      "time": "03:00",
+      "match": "Brazylia – Haiti",
+      "result": "X-X"
+    },
+    {
+      "number": 32,
+      "date": "2026-06-20",
+      "time": "06:00",
+      "match": "Turcja – Paragwaj",
+      "result": "X-X"
+    },
+    {
+      "number": 33,
+      "date": "2026-06-20",
+      "time": "19:00",
+      "match": "Holandia – Szwecja",
+      "result": "X-X"
+    },
+    {
+      "number": 34,
+      "date": "2026-06-20",
+      "time": "22:00",
+      "match": "Niemcy – Wybrzeże Kości Słoniowej",
+      "result": "X-X"
+    },
+    {
+      "number": 35,
+      "date": "2026-06-21",
+      "time": "02:00",
+      "match": "Ekwador – Curaçao",
+      "result": "X-X"
+    },
+    {
+      "number": 36,
+      "date": "2026-06-21",
+      "time": "06:00",
+      "match": "Tunezja – Japonia",
+      "result": "X-X"
+    },
+    {
+      "number": 37,
+      "date": "2026-06-21",
+      "time": "18:00",
+      "match": "Hiszpania – Arabia Saudyjska",
+      "result": "X-X"
+    },
+    {
+      "number": 38,
+      "date": "2026-06-21",
+      "time": "21:00",
+      "match": "Belgia – Iran",
+      "result": "X-X"
+    },
+    {
+      "number": 39,
+      "date": "2026-06-22",
+      "time": "00:00",
+      "match": "Urugwaj – Republika Zielonego Przylądka",
+      "result": "X-X"
+    },
+    {
+      "number": 40,
+      "date": "2026-06-22",
+      "time": "03:00",
+      "match": "Nowa Zelandia – Egipt",
+      "result": "X-X"
+    },
+    {
+      "number": 41,
+      "date": "2026-06-22",
+      "time": "19:00",
+      "match": "Argentyna – Austria",
+      "result": "X-X"
+    },
+    {
+      "number": 42,
+      "date": "2026-06-22",
+      "time": "23:00",
+      "match": "Francja – Irak",
+      "result": "X-X"
+    },
+    {
+      "number": 43,
+      "date": "2026-06-23",
+      "time": "02:00",
+      "match": "Norwegia – Senegal",
+      "result": "X-X"
+    },
+    {
+      "number": 44,
+      "date": "2026-06-23",
+      "time": "05:00",
+      "match": "Jordania – Algieria",
+      "result": "X-X"
+    },
+    {
+      "number": 45,
+      "date": "2026-06-23",
+      "time": "19:00",
+      "match": "Portugalia – Uzbekistan",
+      "result": "X-X"
+    },
+    {
+      "number": 46,
+      "date": "2026-06-23",
+      "time": "22:00",
+      "match": "Anglia – Ghana",
+      "result": "X-X"
+    },
+    {
+      "number": 47,
+      "date": "2026-06-24",
+      "time": "01:00",
+      "match": "Panama – Chorwacja",
+      "result": "X-X"
+    },
+    {
+      "number": 48,
+      "date": "2026-06-24",
+      "time": "04:00",
+      "match": "Kolumbia – DR Konga",
+      "result": "X-X"
+    },
+    {
+      "number": 49,
+      "date": "2026-06-24",
+      "time": "21:00",
+      "match": "Szwajcaria – Kanada",
+      "result": "X-X"
+    },
+    {
+      "number": 50,
+      "date": "2026-06-24",
+      "time": "21:00",
+      "match": "Bośnia i Hercegowina – Katar",
+      "result": "X-X"
+    },
+    {
+      "number": 51,
+      "date": "2026-06-25",
+      "time": "00:00",
+      "match": "Szkocja – Brazylia",
+      "result": "X-X"
+    },
+    {
+      "number": 52,
+      "date": "2026-06-25",
+      "time": "00:00",
+      "match": "Maroko – Haiti",
+      "result": "X-X"
+    },
+    {
+      "number": 53,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "match": "Czechy – Meksyk",
+      "result": "X-X"
+    },
+    {
+      "number": 54,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "match": "RPA – Korea Południowa",
+      "result": "X-X"
+    },
+    {
+      "number": 55,
+      "date": "2026-06-25",
+      "time": "22:00",
+      "match": "Curaçao – Wybrzeże Kości Słoniowej",
+      "result": "X-X"
+    },
+    {
+      "number": 56,
+      "date": "2026-06-25",
+      "time": "22:00",
+      "match": "Ekwador – Niemcy",
+      "result": "X-X"
+    },
+    {
+      "number": 57,
+      "date": "2026-06-26",
+      "time": "01:00",
+      "match": "Japonia – Szwecja",
+      "result": "X-X"
+    },
+    {
+      "number": 58,
+      "date": "2026-06-26",
+      "time": "01:00",
+      "match": "Tunezja – Holandia",
+      "result": "X-X"
+    },
+    {
+      "number": 59,
+      "date": "2026-06-26",
+      "time": "04:00",
+      "match": "Turcja – USA",
+      "result": "X-X"
+    },
+    {
+      "number": 60,
+      "date": "2026-06-26",
+      "time": "04:00",
+      "match": "Paragwaj – Australia",
+      "result": "X-X"
+    },
+    {
+      "number": 61,
+      "date": "2026-06-26",
+      "time": "21:00",
+      "match": "Norwegia – Francja",
+      "result": "X-X"
+    },
+    {
+      "number": 62,
+      "date": "2026-06-26",
+      "time": "21:00",
+      "match": "Senegal – Irak",
+      "result": "X-X"
+    },
+    {
+      "number": 63,
+      "date": "2026-06-27",
+      "time": "02:00",
+      "match": "Republika Zielonego Przylądka – Arabia Saudyjska",
+      "result": "X-X"
+    },
+    {
+      "number": 64,
+      "date": "2026-06-27",
+      "time": "02:00",
+      "match": "Urugwaj – Hiszpania",
+      "result": "X-X"
+    },
+    {
+      "number": 65,
+      "date": "2026-06-27",
+      "time": "05:00",
+      "match": "Egipt – Iran",
+      "result": "X-X"
+    },
+    {
+      "number": 66,
+      "date": "2026-06-27",
+      "time": "05:00",
+      "match": "Nowa Zelandia – Belgia",
+      "result": "X-X"
+    },
+    {
+      "number": 67,
+      "date": "2026-06-27",
+      "time": "23:00",
+      "match": "Panama – Anglia",
+      "result": "X-X"
+    },
+    {
+      "number": 68,
+      "date": "2026-06-27",
+      "time": "23:00",
+      "match": "Chorwacja – Ghana",
+      "result": "X-X"
+    },
+    {
+      "number": 69,
+      "date": "2026-06-28",
+      "time": "01:30",
+      "match": "Kolumbia – Portugalia",
+      "result": "X-X"
+    },
+    {
+      "number": 70,
+      "date": "2026-06-28",
+      "time": "01:30",
+      "match": "DR Konga – Uzbekistan",
+      "result": "X-X"
+    },
+    {
+      "number": 71,
+      "date": "2026-06-28",
+      "time": "04:00",
+      "match": "Algieria – Austria",
+      "result": "X-X"
+    },
+    {
+      "number": 72,
+      "date": "2026-06-28",
+      "time": "04:00",
+      "match": "Jordania – Argentyna",
+      "result": "X-X"
+    }
+  ],
+  "completedMatches": [
+    {
+      "number": 1,
+      "date": "2026-06-11",
+      "time": "21:00",
+      "match": "Meksyk – RPA",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 3,
+        "Janusz Orlewski": 3,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1
+      }
+    }
+  ],
+  "currentTotals": {
+    "Maciej Zając": 0,
+    "Tomasz Brocławik": 0,
+    "Maciej Niemiec": 3,
+    "Janusz Orlewski": 3,
+    "Waldemar Węgrzyniak": 0,
+    "Dawid Cetnar": 1
+  },
+  "lastMatchPoints": {
+    "Maciej Zając": 0,
+    "Tomasz Brocławik": 0,
+    "Maciej Niemiec": 3,
+    "Janusz Orlewski": 3,
+    "Waldemar Węgrzyniak": 0,
+    "Dawid Cetnar": 1
+  },
+  "raceSnapshots": [
+    {
+      "matchNumber": 1,
+      "date": "2026-06-11",
+      "time": "21:00",
+      "match": "Meksyk – RPA",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 3,
+        "Janusz Orlewski": 3,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1
+      }
+    }
+  ],
+  "warnings": []
+};
