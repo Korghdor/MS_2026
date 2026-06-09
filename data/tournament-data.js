@@ -1,8 +1,8 @@
 window.BALTICWOOD_TOURNAMENT_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Faza Grupowa - Punktacja",
-  "generatedAt": "2026-06-09T19:47:19+00:00",
-  "workbookModifiedAt": "2026-06-09T19:46:22+00:00",
+  "generatedAt": "2026-06-09T19:58:37+00:00",
+  "workbookModifiedAt": "2026-06-09T19:58:23+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -10,7 +10,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Janusz Orlewski",
     "Waldemar Węgrzyniak",
     "Dawid Cetnar",
-    "Ktoś Nowy"
+    "Ktoś Nowy",
+    "Krzysiek Ross"
   ],
   "matches": [
     {
@@ -532,7 +533,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Janusz Orlewski": 3,
         "Waldemar Węgrzyniak": 0,
         "Dawid Cetnar": 1,
-        "Ktoś Nowy": 0
+        "Ktoś Nowy": 0,
+        "Krzysiek Ross": 0
       }
     },
     {
@@ -548,7 +550,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Janusz Orlewski": 0,
         "Waldemar Węgrzyniak": 1,
         "Dawid Cetnar": 1,
-        "Ktoś Nowy": 1
+        "Ktoś Nowy": 1,
+        "Krzysiek Ross": 1
       }
     }
   ],
@@ -559,7 +562,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Janusz Orlewski": 3,
     "Waldemar Węgrzyniak": 1,
     "Dawid Cetnar": 2,
-    "Ktoś Nowy": 1
+    "Ktoś Nowy": 1,
+    "Krzysiek Ross": 1
   },
   "lastMatchPoints": {
     "Maciej Zając": 3,
@@ -568,7 +572,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Janusz Orlewski": 0,
     "Waldemar Węgrzyniak": 1,
     "Dawid Cetnar": 1,
-    "Ktoś Nowy": 1
+    "Ktoś Nowy": 1,
+    "Krzysiek Ross": 1
   },
   "raceSnapshots": [
     {
@@ -584,7 +589,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Janusz Orlewski": 3,
         "Waldemar Węgrzyniak": 0,
         "Dawid Cetnar": 1,
-        "Ktoś Nowy": 0
+        "Ktoś Nowy": 0,
+        "Krzysiek Ross": 0
       }
     },
     {
@@ -600,7 +606,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Janusz Orlewski": 3,
         "Waldemar Węgrzyniak": 1,
         "Dawid Cetnar": 2,
-        "Ktoś Nowy": 1
+        "Ktoś Nowy": 1,
+        "Krzysiek Ross": 1
       }
     }
   ],
