@@ -393,10 +393,42 @@ h2 {
 .podium-card h3 {
   position: relative;
   z-index: 1;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   font-size: clamp(20px, 2.4vw, 28px);
   line-height: 1.14;
   letter-spacing: -0.025em;
+}
+
+.podium-names {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 8px;
+  margin: 0 0 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.podium-names li {
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.podium-names li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.podium-empty {
+  position: relative;
+  z-index: 1;
+  color: var(--muted);
+}
+
+.podium-card-empty {
+  opacity: 0.7;
 }
 
 .podium-score {

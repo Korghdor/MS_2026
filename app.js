@@ -48,24 +48,35 @@
   byId("players-count").textContent = data.players.length;
 
   const podium = byId("podium-list");
-  const podiumCutoff = standings[Math.min(2, standings.length - 1)]?.points ?? 0;
-  const podiumPlayers = standings.filter(
-    (player) => player.points >= podiumCutoff,
-  );
-
-  podiumPlayers.forEach((player) => {
-    const rank = player.rank;
+  [1, 2, 3].forEach((rank) => {
+    const playersAtRank = standings.filter((player) => player.rank === rank);
     const card = document.createElement("article");
     card.className = `podium-card rank-${rank}`;
     card.dataset.rank = String(rank);
-    card.innerHTML = `
-      <span class="place-badge" aria-label="${rank}. miejsce">${rank}</span>
-      <h3>${escapeHtml(player.name)}</h3>
-      <p class="podium-score">
-        <strong>${player.points}</strong>
-        <span>${pluralPoints(player.points)}</span>
-      </p>
-    `;
+
+    if (playersAtRank.length === 0) {
+      card.classList.add("podium-card-empty");
+      card.innerHTML = `
+        <span class="place-badge" aria-label="${rank}. miejsce">${rank}</span>
+        <h3>${rank}. miejsce</h3>
+        <p class="podium-empty">Na razie wolne</p>
+      `;
+    } else {
+      const points = playersAtRank[0].points;
+      card.innerHTML = `
+        <span class="place-badge" aria-label="${rank}. miejsce">${rank}</span>
+        <h3>${rank}. miejsce</h3>
+        <ul class="podium-names">
+          ${playersAtRank
+            .map((player) => `<li>${escapeHtml(player.name)}</li>`)
+            .join("")}
+        </ul>
+        <p class="podium-score">
+          <strong>${points}</strong>
+          <span>${pluralPoints(points)}</span>
+        </p>
+      `;
+    }
     podium.appendChild(card);
   });
 
