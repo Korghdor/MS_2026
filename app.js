@@ -122,19 +122,15 @@
         timeStyle: "short",
       }).format(generatedAt);
 
-  const snapshots =
-    data.raceSnapshots.length > 0
-      ? data.raceSnapshots
-      : [
-          {
-            matchNumber: 0,
-            match: "Czekamy na pierwszy wynik",
-            result: "",
-            date: "",
-            time: "",
-            totals: Object.fromEntries(data.players.map((name) => [name, 0])),
-          },
-        ];
+  const openingSnapshot = {
+    matchNumber: 0,
+    match: "Przed pierwszym gwizdkiem",
+    result: "",
+    date: "",
+    time: "",
+    totals: Object.fromEntries(data.players.map((name) => [name, 0])),
+  };
+  const snapshots = [openingSnapshot, ...data.raceSnapshots];
 
   const raceBars = byId("race-bars");
   const range = byId("race-range");
@@ -143,9 +139,29 @@
   const nextButton = byId("race-next");
   let raceIndex = snapshots.length - 1;
   let timer = null;
+  const raceRows = new Map();
+  const rowStep = 59;
 
   range.max = String(snapshots.length - 1);
   range.value = String(raceIndex);
+
+  data.players.forEach((name, playerIndex) => {
+    const row = document.createElement("div");
+    row.className = "race-row";
+    row.dataset.points = "0";
+    row.style.setProperty("--player-color", getPlayerColor(playerIndex));
+    row.innerHTML = `
+      <span class="race-position">-</span>
+      <span class="race-name" title="${escapeHtml(name)}">${escapeHtml(name)}</span>
+      <div class="race-track" aria-hidden="true">
+        <div class="race-fill"></div>
+      </div>
+      <strong class="race-points">0</strong>
+    `;
+    raceBars.appendChild(row);
+    raceRows.set(name, row);
+  });
+  raceBars.style.height = `${Math.max(290, data.players.length * rowStep)}px`;
 
   const renderRace = () => {
     const snapshot = snapshots[raceIndex];
@@ -163,21 +179,68 @@
     byId("race-meta").textContent = [snapshot.date, snapshot.time, snapshot.result]
       .filter(Boolean)
       .join("  |  ");
-    byId("race-progress").textContent = `${raceIndex + 1} / ${snapshots.length}`;
+    byId("race-progress").textContent =
+      raceIndex === 0
+        ? `0 / ${snapshots.length - 1}`
+        : `${raceIndex} / ${snapshots.length - 1}`;
 
-    raceBars.innerHTML = rows
-      .map(
-        (row) => `
-          <div class="race-row">
-            <span class="race-name" title="${escapeHtml(row.name)}">${escapeHtml(row.name)}</span>
-            <div class="race-track" aria-hidden="true">
-              <div class="race-fill" style="width: ${(row.points / maxPoints) * 100}%"></div>
-            </div>
-            <strong class="race-points">${row.points}</strong>
-          </div>
-        `,
-      )
-      .join("");
+    let displayRank = 0;
+    let previousRacePoints = null;
+
+    rows.forEach((player, position) => {
+      const row = raceRows.get(player.name);
+      const oldPoints = Number(row.dataset.points || 0);
+      const gainedPoints = player.points - oldPoints;
+      const oldPosition =
+        row.dataset.position === undefined ? null : Number(row.dataset.position);
+
+      if (previousRacePoints === null || player.points < previousRacePoints) {
+        displayRank += 1;
+      }
+      previousRacePoints = player.points;
+
+      row.style.transform = `translateY(${position * rowStep}px)`;
+      row.style.zIndex = String(rows.length - position);
+      row.querySelector(".race-position").textContent = String(displayRank);
+      row.classList.toggle("race-leader", displayRank === 1);
+      row.querySelector(".race-fill").style.width =
+        `${(player.points / maxPoints) * 100}%`;
+      animateNumber(row.querySelector(".race-points"), oldPoints, player.points);
+      row.dataset.points = String(player.points);
+      row.dataset.position = String(position);
+
+      row.classList.remove("race-moving-up", "race-moving-down");
+      if (oldPosition !== null && oldPosition !== position) {
+        const movementClass =
+          position < oldPosition ? "race-moving-up" : "race-moving-down";
+        const movementToken = String(Date.now() + position);
+        row.dataset.movementToken = movementToken;
+        row.classList.add(movementClass);
+        window.setTimeout(() => {
+          if (row.dataset.movementToken !== movementToken) return;
+          row.classList.remove(movementClass);
+        }, 950);
+      }
+
+      row.classList.remove("race-gained");
+      const oldGain = row.querySelector(".race-gain");
+      if (oldGain) oldGain.remove();
+
+      if (gainedPoints > 0) {
+        const gainToken = String(Date.now() + position);
+        row.dataset.gainToken = gainToken;
+        const gain = document.createElement("span");
+        gain.className = "race-gain";
+        gain.textContent = `+${gainedPoints}`;
+        row.appendChild(gain);
+        window.requestAnimationFrame(() => row.classList.add("race-gained"));
+        window.setTimeout(() => {
+          if (row.dataset.gainToken !== gainToken) return;
+          row.classList.remove("race-gained");
+          gain.remove();
+        }, 1200);
+      }
+    });
 
     range.value = String(raceIndex);
     prevButton.disabled = raceIndex === 0;
@@ -207,7 +270,7 @@
       }
       raceIndex += 1;
       renderRace();
-    }, 1500);
+    }, 2200);
   };
 
   playButton.addEventListener("click", () => {
@@ -234,6 +297,43 @@
   });
 
   renderRace();
+
+  function animateNumber(element, from, to) {
+    const animationToken = String(performance.now());
+    element.dataset.animationToken = animationToken;
+
+    if (from === to || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      element.textContent = String(to);
+      return;
+    }
+
+    const startedAt = performance.now();
+    const duration = 650;
+
+    const tick = (now) => {
+      if (element.dataset.animationToken !== animationToken) return;
+      const progress = Math.min(1, (now - startedAt) / duration);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      element.textContent = String(Math.round(from + (to - from) * eased));
+      if (progress < 1) window.requestAnimationFrame(tick);
+    };
+
+    window.requestAnimationFrame(tick);
+  }
+
+  function getPlayerColor(index) {
+    const colors = [
+      "#32c877",
+      "#38a8d0",
+      "#f0b84b",
+      "#9a7de0",
+      "#e97575",
+      "#4fc3ad",
+      "#ef8f49",
+      "#6f98c9",
+    ];
+    return colors[index % colors.length];
+  }
 
   function escapeHtml(value) {
     return String(value)
