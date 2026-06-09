@@ -114,14 +114,6 @@
   });
   renderTable();
 
-  const generatedAt = new Date(data.generatedAt);
-  byId("updated-at").textContent = Number.isNaN(generatedAt.getTime())
-    ? data.generatedAt
-    : new Intl.DateTimeFormat("pl-PL", {
-        dateStyle: "long",
-        timeStyle: "short",
-      }).format(generatedAt);
-
   const openingSnapshot = {
     matchNumber: 0,
     match: "Przed pierwszym gwizdkiem",

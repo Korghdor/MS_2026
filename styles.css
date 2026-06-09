@@ -794,40 +794,6 @@ td.points-column {
   text-align: center;
 }
 
-.data-note {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  margin-top: 24px;
-  padding: 22px 24px;
-  border: 1px solid rgba(31, 168, 94, 0.22);
-  border-radius: 16px;
-  background: var(--green-100);
-}
-
-.data-note-icon {
-  display: grid;
-  width: 50px;
-  height: 50px;
-  flex: 0 0 auto;
-  place-items: center;
-  border-radius: 12px;
-  color: var(--white);
-  background: var(--green-700);
-  font-size: 11px;
-  font-weight: 950;
-}
-
-.data-note strong {
-  display: block;
-}
-
-.data-note p {
-  margin-bottom: 0;
-  color: var(--muted);
-  font-size: 14px;
-}
-
 footer {
   padding-block: 28px;
   color: rgba(255, 255, 255, 0.6);
@@ -967,10 +933,6 @@ footer {
   th,
   td {
     padding: 16px;
-  }
-
-  .data-note {
-    align-items: flex-start;
   }
 
   .footer-content {
