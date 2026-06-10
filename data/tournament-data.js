@@ -1,8 +1,8 @@
 window.BALTICWOOD_TOURNAMENT_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Faza Grupowa - Punktacja",
-  "generatedAt": "2026-06-09T19:58:37+00:00",
-  "workbookModifiedAt": "2026-06-09T19:58:23+00:00",
+  "generatedAt": "2026-06-10T13:08:27+00:00",
+  "workbookModifiedAt": "2026-06-10T13:08:10+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -10,8 +10,13 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Janusz Orlewski",
     "Waldemar Węgrzyniak",
     "Dawid Cetnar",
-    "Ktoś Nowy",
-    "Krzysiek Ross"
+    "Witold Pacek",
+    "Brtek KJ",
+    "Paweł Turek",
+    "Grzegorz Kilar",
+    "Mariusz Blezień",
+    "Ryszard Żyra",
+    "Grzegorz Rak"
   ],
   "matches": [
     {
@@ -26,483 +31,483 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "date": "2026-06-12",
       "time": "04:00",
       "match": "Korea Południowa – Czechy",
-      "result": "2-0"
+      "result": "3-0"
     },
     {
       "number": 3,
       "date": "2026-06-12",
       "time": "21:00",
       "match": "Kanada – Bośnia i Hercegowina",
-      "result": "X-X"
+      "result": "2-4"
     },
     {
       "number": 4,
       "date": "2026-06-13",
       "time": "03:00",
       "match": "USA – Paragwaj",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 5,
       "date": "2026-06-13",
       "time": "21:00",
       "match": "Katar – Szwajcaria",
-      "result": "X-X"
+      "result": "2-3"
     },
     {
       "number": 6,
       "date": "2026-06-14",
       "time": "00:00",
       "match": "Brazylia – Maroko",
-      "result": "X-X"
+      "result": "0-1"
     },
     {
       "number": 7,
       "date": "2026-06-14",
       "time": "03:00",
       "match": "Haiti – Szkocja",
-      "result": "X-X"
+      "result": "0-2"
     },
     {
       "number": 8,
       "date": "2026-06-14",
       "time": "06:00",
       "match": "Australia – Turcja",
-      "result": "X-X"
+      "result": "2-1"
     },
     {
       "number": 9,
       "date": "2026-06-14",
       "time": "19:00",
       "match": "Niemcy – Curaçao",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 10,
       "date": "2026-06-14",
       "time": "22:00",
       "match": "Holandia – Japonia",
-      "result": "X-X"
+      "result": "0-0"
     },
     {
       "number": 11,
       "date": "2026-06-15",
       "time": "01:00",
       "match": "Wybrzeże Kości Słoniowej – Ekwador",
-      "result": "X-X"
+      "result": "1-0"
     },
     {
       "number": 12,
       "date": "2026-06-15",
       "time": "04:00",
       "match": "Szwecja – Tunezja",
-      "result": "X-X"
+      "result": "1-4"
     },
     {
       "number": 13,
       "date": "2026-06-15",
       "time": "18:00",
       "match": "Hiszpania – Republika Zielonego Przylądka",
-      "result": "X-X"
+      "result": "2-1"
     },
     {
       "number": 14,
       "date": "2026-06-15",
       "time": "21:00",
       "match": "Belgia – Egipt",
-      "result": "X-X"
+      "result": "0-1"
     },
     {
       "number": 15,
       "date": "2026-06-16",
       "time": "00:00",
       "match": "Arabia Saudyjska – Urugwaj",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 16,
       "date": "2026-06-16",
       "time": "03:00",
       "match": "Iran – Nowa Zelandia",
-      "result": "X-X"
+      "result": "3-0"
     },
     {
       "number": 17,
       "date": "2026-06-16",
       "time": "21:00",
       "match": "Francja – Senegal",
-      "result": "X-X"
+      "result": "2-4"
     },
     {
       "number": 18,
       "date": "2026-06-17",
       "time": "00:00",
       "match": "Irak – Norwegia",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 19,
       "date": "2026-06-17",
       "time": "03:00",
       "match": "Argentyna – Algieria",
-      "result": "X-X"
+      "result": "2-3"
     },
     {
       "number": 20,
       "date": "2026-06-17",
       "time": "06:00",
       "match": "Austria – Jordania",
-      "result": "X-X"
+      "result": "0-1"
     },
     {
       "number": 21,
       "date": "2026-06-17",
       "time": "19:00",
       "match": "Portugalia – DR Konga",
-      "result": "X-X"
+      "result": "0-2"
     },
     {
       "number": 22,
       "date": "2026-06-17",
       "time": "22:00",
       "match": "Anglia – Chorwacja",
-      "result": "X-X"
+      "result": "2-1"
     },
     {
       "number": 23,
       "date": "2026-06-18",
       "time": "01:00",
       "match": "Ghana – Panama",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 24,
       "date": "2026-06-18",
       "time": "04:00",
       "match": "Uzbekistan – Kolumbia",
-      "result": "X-X"
+      "result": "0-0"
     },
     {
       "number": 25,
       "date": "2026-06-18",
       "time": "18:00",
       "match": "Czechy – RPA",
-      "result": "X-X"
+      "result": "1-0"
     },
     {
       "number": 26,
       "date": "2026-06-18",
       "time": "21:00",
       "match": "Szwajcaria – Bośnia i Hercegowina",
-      "result": "X-X"
+      "result": "1-4"
     },
     {
       "number": 27,
       "date": "2026-06-19",
       "time": "00:00",
       "match": "Kanada – Katar",
-      "result": "X-X"
+      "result": "2-1"
     },
     {
       "number": 28,
       "date": "2026-06-19",
       "time": "03:00",
       "match": "Meksyk – Korea Południowa",
-      "result": "X-X"
+      "result": "0-1"
     },
     {
       "number": 29,
       "date": "2026-06-19",
       "time": "21:00",
       "match": "USA – Australia",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 30,
       "date": "2026-06-20",
       "time": "00:00",
       "match": "Szkocja – Maroko",
-      "result": "X-X"
+      "result": "3-0"
     },
     {
       "number": 31,
       "date": "2026-06-20",
       "time": "03:00",
       "match": "Brazylia – Haiti",
-      "result": "X-X"
+      "result": "2-4"
     },
     {
       "number": 32,
       "date": "2026-06-20",
       "time": "06:00",
       "match": "Turcja – Paragwaj",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 33,
       "date": "2026-06-20",
       "time": "19:00",
       "match": "Holandia – Szwecja",
-      "result": "X-X"
+      "result": "2-3"
     },
     {
       "number": 34,
       "date": "2026-06-20",
       "time": "22:00",
       "match": "Niemcy – Wybrzeże Kości Słoniowej",
-      "result": "X-X"
+      "result": "0-1"
     },
     {
       "number": 35,
       "date": "2026-06-21",
       "time": "02:00",
       "match": "Ekwador – Curaçao",
-      "result": "X-X"
+      "result": "0-2"
     },
     {
       "number": 36,
       "date": "2026-06-21",
       "time": "06:00",
       "match": "Tunezja – Japonia",
-      "result": "X-X"
+      "result": "2-1"
     },
     {
       "number": 37,
       "date": "2026-06-21",
       "time": "18:00",
       "match": "Hiszpania – Arabia Saudyjska",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 38,
       "date": "2026-06-21",
       "time": "21:00",
       "match": "Belgia – Iran",
-      "result": "X-X"
+      "result": "0-0"
     },
     {
       "number": 39,
       "date": "2026-06-22",
       "time": "00:00",
       "match": "Urugwaj – Republika Zielonego Przylądka",
-      "result": "X-X"
+      "result": "1-0"
     },
     {
       "number": 40,
       "date": "2026-06-22",
       "time": "03:00",
       "match": "Nowa Zelandia – Egipt",
-      "result": "X-X"
+      "result": "1-4"
     },
     {
       "number": 41,
       "date": "2026-06-22",
       "time": "19:00",
       "match": "Argentyna – Austria",
-      "result": "X-X"
+      "result": "2-1"
     },
     {
       "number": 42,
       "date": "2026-06-22",
       "time": "23:00",
       "match": "Francja – Irak",
-      "result": "X-X"
+      "result": "0-1"
     },
     {
       "number": 43,
       "date": "2026-06-23",
       "time": "02:00",
       "match": "Norwegia – Senegal",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 44,
       "date": "2026-06-23",
       "time": "05:00",
       "match": "Jordania – Algieria",
-      "result": "X-X"
+      "result": "3-0"
     },
     {
       "number": 45,
       "date": "2026-06-23",
       "time": "19:00",
       "match": "Portugalia – Uzbekistan",
-      "result": "X-X"
+      "result": "2-4"
     },
     {
       "number": 46,
       "date": "2026-06-23",
       "time": "22:00",
       "match": "Anglia – Ghana",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 47,
       "date": "2026-06-24",
       "time": "01:00",
       "match": "Panama – Chorwacja",
-      "result": "X-X"
+      "result": "2-3"
     },
     {
       "number": 48,
       "date": "2026-06-24",
       "time": "04:00",
       "match": "Kolumbia – DR Konga",
-      "result": "X-X"
+      "result": "0-1"
     },
     {
       "number": 49,
       "date": "2026-06-24",
       "time": "21:00",
       "match": "Szwajcaria – Kanada",
-      "result": "X-X"
+      "result": "0-2"
     },
     {
       "number": 50,
       "date": "2026-06-24",
       "time": "21:00",
       "match": "Bośnia i Hercegowina – Katar",
-      "result": "X-X"
+      "result": "2-1"
     },
     {
       "number": 51,
       "date": "2026-06-25",
       "time": "00:00",
       "match": "Szkocja – Brazylia",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 52,
       "date": "2026-06-25",
       "time": "00:00",
       "match": "Maroko – Haiti",
-      "result": "X-X"
+      "result": "0-0"
     },
     {
       "number": 53,
       "date": "2026-06-25",
       "time": "03:00",
       "match": "Czechy – Meksyk",
-      "result": "X-X"
+      "result": "1-0"
     },
     {
       "number": 54,
       "date": "2026-06-25",
       "time": "03:00",
       "match": "RPA – Korea Południowa",
-      "result": "X-X"
+      "result": "1-4"
     },
     {
       "number": 55,
       "date": "2026-06-25",
       "time": "22:00",
       "match": "Curaçao – Wybrzeże Kości Słoniowej",
-      "result": "X-X"
+      "result": "2-1"
     },
     {
       "number": 56,
       "date": "2026-06-25",
       "time": "22:00",
       "match": "Ekwador – Niemcy",
-      "result": "X-X"
+      "result": "0-1"
     },
     {
       "number": 57,
       "date": "2026-06-26",
       "time": "01:00",
       "match": "Japonia – Szwecja",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 58,
       "date": "2026-06-26",
       "time": "01:00",
       "match": "Tunezja – Holandia",
-      "result": "X-X"
+      "result": "3-0"
     },
     {
       "number": 59,
       "date": "2026-06-26",
       "time": "04:00",
       "match": "Turcja – USA",
-      "result": "X-X"
+      "result": "2-4"
     },
     {
       "number": 60,
       "date": "2026-06-26",
       "time": "04:00",
       "match": "Paragwaj – Australia",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 61,
       "date": "2026-06-26",
       "time": "21:00",
       "match": "Norwegia – Francja",
-      "result": "X-X"
+      "result": "2-3"
     },
     {
       "number": 62,
       "date": "2026-06-26",
       "time": "21:00",
       "match": "Senegal – Irak",
-      "result": "X-X"
+      "result": "0-1"
     },
     {
       "number": 63,
       "date": "2026-06-27",
       "time": "02:00",
       "match": "Republika Zielonego Przylądka – Arabia Saudyjska",
-      "result": "X-X"
+      "result": "0-2"
     },
     {
       "number": 64,
       "date": "2026-06-27",
       "time": "02:00",
       "match": "Urugwaj – Hiszpania",
-      "result": "X-X"
+      "result": "2-1"
     },
     {
       "number": 65,
       "date": "2026-06-27",
       "time": "05:00",
       "match": "Egipt – Iran",
-      "result": "X-X"
+      "result": "2-0"
     },
     {
       "number": 66,
       "date": "2026-06-27",
       "time": "05:00",
       "match": "Nowa Zelandia – Belgia",
-      "result": "X-X"
+      "result": "0-0"
     },
     {
       "number": 67,
       "date": "2026-06-27",
       "time": "23:00",
       "match": "Panama – Anglia",
-      "result": "X-X"
+      "result": "1-0"
     },
     {
       "number": 68,
       "date": "2026-06-27",
       "time": "23:00",
       "match": "Chorwacja – Ghana",
-      "result": "X-X"
+      "result": "1-4"
     },
     {
       "number": 69,
       "date": "2026-06-28",
       "time": "01:30",
       "match": "Kolumbia – Portugalia",
-      "result": "X-X"
+      "result": "2-1"
     },
     {
       "number": 70,
       "date": "2026-06-28",
       "time": "01:30",
       "match": "DR Konga – Uzbekistan",
-      "result": "X-X"
+      "result": "0-1"
     },
     {
       "number": 71,
@@ -527,14 +532,19 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "match": "Meksyk – RPA",
       "result": "2-0",
       "points": {
-        "Maciej Zając": 3,
-        "Tomasz Brocławik": 0,
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 3,
         "Maciej Niemiec": 3,
         "Janusz Orlewski": 3,
         "Waldemar Węgrzyniak": 0,
         "Dawid Cetnar": 1,
-        "Ktoś Nowy": 0,
-        "Krzysiek Ross": 0
+        "Witold Pacek": 3,
+        "Brtek KJ": 1,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 3,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 1
       }
     },
     {
@@ -542,38 +552,1549 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "date": "2026-06-12",
       "time": "04:00",
       "match": "Korea Południowa – Czechy",
+      "result": "3-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 1,
+        "Brtek KJ": 0,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 3,
+      "date": "2026-06-12",
+      "time": "21:00",
+      "match": "Kanada – Bośnia i Hercegowina",
+      "result": "2-4",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 4,
+      "date": "2026-06-13",
+      "time": "03:00",
+      "match": "USA – Paragwaj",
       "result": "2-0",
       "points": {
-        "Maciej Zając": 3,
+        "Maciej Zając": 0,
         "Tomasz Brocławik": 1,
         "Maciej Niemiec": 1,
         "Janusz Orlewski": 0,
-        "Waldemar Węgrzyniak": 1,
+        "Waldemar Węgrzyniak": 0,
         "Dawid Cetnar": 1,
-        "Ktoś Nowy": 1,
-        "Krzysiek Ross": 1
+        "Witold Pacek": 0,
+        "Brtek KJ": 1,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 1
+      }
+    },
+    {
+      "number": 5,
+      "date": "2026-06-13",
+      "time": "21:00",
+      "match": "Katar – Szwajcaria",
+      "result": "2-3",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 1,
+        "Maciej Niemiec": 1,
+        "Janusz Orlewski": 1,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 1,
+        "Brtek KJ": 1,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 1
+      }
+    },
+    {
+      "number": 6,
+      "date": "2026-06-14",
+      "time": "00:00",
+      "match": "Brazylia – Maroko",
+      "result": "0-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 7,
+      "date": "2026-06-14",
+      "time": "03:00",
+      "match": "Haiti – Szkocja",
+      "result": "0-2",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 3,
+        "Maciej Niemiec": 3,
+        "Janusz Orlewski": 3,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 0,
+        "Brtek KJ": 3,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 3,
+        "Mariusz Blezień": 3,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 1
+      }
+    },
+    {
+      "number": 8,
+      "date": "2026-06-14",
+      "time": "06:00",
+      "match": "Australia – Turcja",
+      "result": "2-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 9,
+      "date": "2026-06-14",
+      "time": "19:00",
+      "match": "Niemcy – Curaçao",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 1,
+        "Maciej Niemiec": 1,
+        "Janusz Orlewski": 3,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 1,
+        "Brtek KJ": 1,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 1
+      }
+    },
+    {
+      "number": 10,
+      "date": "2026-06-14",
+      "time": "22:00",
+      "match": "Holandia – Japonia",
+      "result": "0-0",
+      "points": {
+        "Maciej Zając": 1,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 11,
+      "date": "2026-06-15",
+      "time": "01:00",
+      "match": "Wybrzeże Kości Słoniowej – Ekwador",
+      "result": "1-0",
+      "points": {
+        "Maciej Zając": 1,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 12,
+      "date": "2026-06-15",
+      "time": "04:00",
+      "match": "Szwecja – Tunezja",
+      "result": "1-4",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 13,
+      "date": "2026-06-15",
+      "time": "18:00",
+      "match": "Hiszpania – Republika Zielonego Przylądka",
+      "result": "2-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 1,
+        "Maciej Niemiec": 1,
+        "Janusz Orlewski": 1,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 1,
+        "Brtek KJ": 1,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 1
+      }
+    },
+    {
+      "number": 14,
+      "date": "2026-06-15",
+      "time": "21:00",
+      "match": "Belgia – Egipt",
+      "result": "0-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 15,
+      "date": "2026-06-16",
+      "time": "00:00",
+      "match": "Arabia Saudyjska – Urugwaj",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 16,
+      "date": "2026-06-16",
+      "time": "03:00",
+      "match": "Iran – Nowa Zelandia",
+      "result": "3-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 1,
+        "Maciej Niemiec": 1,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 1,
+        "Brtek KJ": 1,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 1
+      }
+    },
+    {
+      "number": 17,
+      "date": "2026-06-16",
+      "time": "21:00",
+      "match": "Francja – Senegal",
+      "result": "2-4",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 18,
+      "date": "2026-06-17",
+      "time": "00:00",
+      "match": "Irak – Norwegia",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 19,
+      "date": "2026-06-17",
+      "time": "03:00",
+      "match": "Argentyna – Algieria",
+      "result": "2-3",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 20,
+      "date": "2026-06-17",
+      "time": "06:00",
+      "match": "Austria – Jordania",
+      "result": "0-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 21,
+      "date": "2026-06-17",
+      "time": "19:00",
+      "match": "Portugalia – DR Konga",
+      "result": "0-2",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 22,
+      "date": "2026-06-17",
+      "time": "22:00",
+      "match": "Anglia – Chorwacja",
+      "result": "2-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 3,
+        "Maciej Niemiec": 3,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 3,
+        "Brtek KJ": 3,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 3,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 3
+      }
+    },
+    {
+      "number": 23,
+      "date": "2026-06-18",
+      "time": "01:00",
+      "match": "Ghana – Panama",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 3,
+        "Maciej Niemiec": 1,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 0,
+        "Brtek KJ": 1,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 3,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 24,
+      "date": "2026-06-18",
+      "time": "04:00",
+      "match": "Uzbekistan – Kolumbia",
+      "result": "0-0",
+      "points": {
+        "Maciej Zając": 1,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 3,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 1,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 25,
+      "date": "2026-06-18",
+      "time": "18:00",
+      "match": "Czechy – RPA",
+      "result": "1-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 1,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 3,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 1,
+        "Brtek KJ": 1,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 3,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 26,
+      "date": "2026-06-18",
+      "time": "21:00",
+      "match": "Szwajcaria – Bośnia i Hercegowina",
+      "result": "1-4",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 1,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 27,
+      "date": "2026-06-19",
+      "time": "00:00",
+      "match": "Kanada – Katar",
+      "result": "2-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 3,
+        "Maciej Niemiec": 1,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 0,
+        "Brtek KJ": 1,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 3
+      }
+    },
+    {
+      "number": 28,
+      "date": "2026-06-19",
+      "time": "03:00",
+      "match": "Meksyk – Korea Południowa",
+      "result": "0-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 29,
+      "date": "2026-06-19",
+      "time": "21:00",
+      "match": "USA – Australia",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 1,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 1,
+        "Brtek KJ": 1,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 3,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 3
+      }
+    },
+    {
+      "number": 30,
+      "date": "2026-06-20",
+      "time": "00:00",
+      "match": "Szkocja – Maroko",
+      "result": "3-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 31,
+      "date": "2026-06-20",
+      "time": "03:00",
+      "match": "Brazylia – Haiti",
+      "result": "2-4",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 32,
+      "date": "2026-06-20",
+      "time": "06:00",
+      "match": "Turcja – Paragwaj",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 3,
+        "Witold Pacek": 0,
+        "Brtek KJ": 1,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 1
+      }
+    },
+    {
+      "number": 33,
+      "date": "2026-06-20",
+      "time": "19:00",
+      "match": "Holandia – Szwecja",
+      "result": "2-3",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 34,
+      "date": "2026-06-20",
+      "time": "22:00",
+      "match": "Niemcy – Wybrzeże Kości Słoniowej",
+      "result": "0-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 35,
+      "date": "2026-06-21",
+      "time": "02:00",
+      "match": "Ekwador – Curaçao",
+      "result": "0-2",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 36,
+      "date": "2026-06-21",
+      "time": "06:00",
+      "match": "Tunezja – Japonia",
+      "result": "2-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 37,
+      "date": "2026-06-21",
+      "time": "18:00",
+      "match": "Hiszpania – Arabia Saudyjska",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 1,
+        "Maciej Niemiec": 1,
+        "Janusz Orlewski": 1,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 1,
+        "Brtek KJ": 1,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 1,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 1
+      }
+    },
+    {
+      "number": 38,
+      "date": "2026-06-21",
+      "time": "21:00",
+      "match": "Belgia – Iran",
+      "result": "0-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 39,
+      "date": "2026-06-22",
+      "time": "00:00",
+      "match": "Urugwaj – Republika Zielonego Przylądka",
+      "result": "1-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 40,
+      "date": "2026-06-22",
+      "time": "03:00",
+      "match": "Nowa Zelandia – Egipt",
+      "result": "1-4",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 41,
+      "date": "2026-06-22",
+      "time": "19:00",
+      "match": "Argentyna – Austria",
+      "result": "2-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 42,
+      "date": "2026-06-22",
+      "time": "23:00",
+      "match": "Francja – Irak",
+      "result": "0-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 43,
+      "date": "2026-06-23",
+      "time": "02:00",
+      "match": "Norwegia – Senegal",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 44,
+      "date": "2026-06-23",
+      "time": "05:00",
+      "match": "Jordania – Algieria",
+      "result": "3-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 45,
+      "date": "2026-06-23",
+      "time": "19:00",
+      "match": "Portugalia – Uzbekistan",
+      "result": "2-4",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 46,
+      "date": "2026-06-23",
+      "time": "22:00",
+      "match": "Anglia – Ghana",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 47,
+      "date": "2026-06-24",
+      "time": "01:00",
+      "match": "Panama – Chorwacja",
+      "result": "2-3",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 48,
+      "date": "2026-06-24",
+      "time": "04:00",
+      "match": "Kolumbia – DR Konga",
+      "result": "0-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 49,
+      "date": "2026-06-24",
+      "time": "21:00",
+      "match": "Szwajcaria – Kanada",
+      "result": "0-2",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 50,
+      "date": "2026-06-24",
+      "time": "21:00",
+      "match": "Bośnia i Hercegowina – Katar",
+      "result": "2-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 51,
+      "date": "2026-06-25",
+      "time": "00:00",
+      "match": "Szkocja – Brazylia",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 52,
+      "date": "2026-06-25",
+      "time": "00:00",
+      "match": "Maroko – Haiti",
+      "result": "0-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 53,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "match": "Czechy – Meksyk",
+      "result": "1-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 54,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "match": "RPA – Korea Południowa",
+      "result": "1-4",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 55,
+      "date": "2026-06-25",
+      "time": "22:00",
+      "match": "Curaçao – Wybrzeże Kości Słoniowej",
+      "result": "2-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 56,
+      "date": "2026-06-25",
+      "time": "22:00",
+      "match": "Ekwador – Niemcy",
+      "result": "0-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 57,
+      "date": "2026-06-26",
+      "time": "01:00",
+      "match": "Japonia – Szwecja",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 58,
+      "date": "2026-06-26",
+      "time": "01:00",
+      "match": "Tunezja – Holandia",
+      "result": "3-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 59,
+      "date": "2026-06-26",
+      "time": "04:00",
+      "match": "Turcja – USA",
+      "result": "2-4",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 60,
+      "date": "2026-06-26",
+      "time": "04:00",
+      "match": "Paragwaj – Australia",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 61,
+      "date": "2026-06-26",
+      "time": "21:00",
+      "match": "Norwegia – Francja",
+      "result": "2-3",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 62,
+      "date": "2026-06-26",
+      "time": "21:00",
+      "match": "Senegal – Irak",
+      "result": "0-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 63,
+      "date": "2026-06-27",
+      "time": "02:00",
+      "match": "Republika Zielonego Przylądka – Arabia Saudyjska",
+      "result": "0-2",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 64,
+      "date": "2026-06-27",
+      "time": "02:00",
+      "match": "Urugwaj – Hiszpania",
+      "result": "2-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 65,
+      "date": "2026-06-27",
+      "time": "05:00",
+      "match": "Egipt – Iran",
+      "result": "2-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 66,
+      "date": "2026-06-27",
+      "time": "05:00",
+      "match": "Nowa Zelandia – Belgia",
+      "result": "0-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 67,
+      "date": "2026-06-27",
+      "time": "23:00",
+      "match": "Panama – Anglia",
+      "result": "1-0",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 68,
+      "date": "2026-06-27",
+      "time": "23:00",
+      "match": "Chorwacja – Ghana",
+      "result": "1-4",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 69,
+      "date": "2026-06-28",
+      "time": "01:30",
+      "match": "Kolumbia – Portugalia",
+      "result": "2-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
+      }
+    },
+    {
+      "number": 70,
+      "date": "2026-06-28",
+      "time": "01:30",
+      "match": "DR Konga – Uzbekistan",
+      "result": "0-1",
+      "points": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 0,
+        "Maciej Niemiec": 0,
+        "Janusz Orlewski": 0,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 0,
+        "Witold Pacek": 0,
+        "Brtek KJ": 0,
+        "Paweł Turek": 0,
+        "Grzegorz Kilar": 0,
+        "Mariusz Blezień": 0,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 0
       }
     }
   ],
   "currentTotals": {
-    "Maciej Zając": 6,
-    "Tomasz Brocławik": 1,
-    "Maciej Niemiec": 4,
-    "Janusz Orlewski": 3,
-    "Waldemar Węgrzyniak": 1,
-    "Dawid Cetnar": 2,
-    "Ktoś Nowy": 1,
-    "Krzysiek Ross": 1
+    "Maciej Zając": 3,
+    "Tomasz Brocławik": 22,
+    "Maciej Niemiec": 16,
+    "Janusz Orlewski": 17,
+    "Waldemar Węgrzyniak": 2,
+    "Dawid Cetnar": 15,
+    "Witold Pacek": 15,
+    "Brtek KJ": 17,
+    "Paweł Turek": 10,
+    "Grzegorz Kilar": 15,
+    "Mariusz Blezień": 19,
+    "Ryszard Żyra": 17,
+    "Grzegorz Rak": 17
   },
   "lastMatchPoints": {
-    "Maciej Zając": 3,
-    "Tomasz Brocławik": 1,
-    "Maciej Niemiec": 1,
+    "Maciej Zając": 0,
+    "Tomasz Brocławik": 0,
+    "Maciej Niemiec": 0,
     "Janusz Orlewski": 0,
-    "Waldemar Węgrzyniak": 1,
-    "Dawid Cetnar": 1,
-    "Ktoś Nowy": 1,
-    "Krzysiek Ross": 1
+    "Waldemar Węgrzyniak": 0,
+    "Dawid Cetnar": 0,
+    "Witold Pacek": 0,
+    "Brtek KJ": 0,
+    "Paweł Turek": 0,
+    "Grzegorz Kilar": 0,
+    "Mariusz Blezień": 0,
+    "Ryszard Żyra": 0,
+    "Grzegorz Rak": 0
   },
   "raceSnapshots": [
     {
@@ -583,14 +2104,19 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "match": "Meksyk – RPA",
       "result": "2-0",
       "totals": {
-        "Maciej Zając": 3,
-        "Tomasz Brocławik": 0,
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 3,
         "Maciej Niemiec": 3,
         "Janusz Orlewski": 3,
         "Waldemar Węgrzyniak": 0,
         "Dawid Cetnar": 1,
-        "Ktoś Nowy": 0,
-        "Krzysiek Ross": 0
+        "Witold Pacek": 3,
+        "Brtek KJ": 1,
+        "Paweł Turek": 1,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 3,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 1
       }
     },
     {
@@ -598,18 +2124,1521 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "date": "2026-06-12",
       "time": "04:00",
       "match": "Korea Południowa – Czechy",
+      "result": "3-0",
+      "totals": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 3,
+        "Maciej Niemiec": 3,
+        "Janusz Orlewski": 3,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 1,
+        "Witold Pacek": 4,
+        "Brtek KJ": 1,
+        "Paweł Turek": 2,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 3,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 1
+      }
+    },
+    {
+      "matchNumber": 3,
+      "date": "2026-06-12",
+      "time": "21:00",
+      "match": "Kanada – Bośnia i Hercegowina",
+      "result": "2-4",
+      "totals": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 3,
+        "Maciej Niemiec": 3,
+        "Janusz Orlewski": 3,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 2,
+        "Witold Pacek": 4,
+        "Brtek KJ": 1,
+        "Paweł Turek": 2,
+        "Grzegorz Kilar": 1,
+        "Mariusz Blezień": 3,
+        "Ryszard Żyra": 0,
+        "Grzegorz Rak": 1
+      }
+    },
+    {
+      "matchNumber": 4,
+      "date": "2026-06-13",
+      "time": "03:00",
+      "match": "USA – Paragwaj",
       "result": "2-0",
       "totals": {
-        "Maciej Zając": 6,
-        "Tomasz Brocławik": 1,
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 4,
         "Maciej Niemiec": 4,
         "Janusz Orlewski": 3,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 3,
+        "Witold Pacek": 4,
+        "Brtek KJ": 2,
+        "Paweł Turek": 3,
+        "Grzegorz Kilar": 2,
+        "Mariusz Blezień": 4,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 2
+      }
+    },
+    {
+      "matchNumber": 5,
+      "date": "2026-06-13",
+      "time": "21:00",
+      "match": "Katar – Szwajcaria",
+      "result": "2-3",
+      "totals": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 5,
+        "Maciej Niemiec": 5,
+        "Janusz Orlewski": 4,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 4,
+        "Witold Pacek": 5,
+        "Brtek KJ": 3,
+        "Paweł Turek": 4,
+        "Grzegorz Kilar": 3,
+        "Mariusz Blezień": 5,
+        "Ryszard Żyra": 1,
+        "Grzegorz Rak": 3
+      }
+    },
+    {
+      "matchNumber": 6,
+      "date": "2026-06-14",
+      "time": "00:00",
+      "match": "Brazylia – Maroko",
+      "result": "0-1",
+      "totals": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 5,
+        "Maciej Niemiec": 5,
+        "Janusz Orlewski": 4,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 4,
+        "Witold Pacek": 5,
+        "Brtek KJ": 3,
+        "Paweł Turek": 4,
+        "Grzegorz Kilar": 3,
+        "Mariusz Blezień": 5,
+        "Ryszard Żyra": 2,
+        "Grzegorz Rak": 3
+      }
+    },
+    {
+      "matchNumber": 7,
+      "date": "2026-06-14",
+      "time": "03:00",
+      "match": "Haiti – Szkocja",
+      "result": "0-2",
+      "totals": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 8,
+        "Maciej Niemiec": 8,
+        "Janusz Orlewski": 7,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 5,
+        "Witold Pacek": 5,
+        "Brtek KJ": 6,
+        "Paweł Turek": 5,
+        "Grzegorz Kilar": 6,
+        "Mariusz Blezień": 8,
+        "Ryszard Żyra": 2,
+        "Grzegorz Rak": 4
+      }
+    },
+    {
+      "matchNumber": 8,
+      "date": "2026-06-14",
+      "time": "06:00",
+      "match": "Australia – Turcja",
+      "result": "2-1",
+      "totals": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 8,
+        "Maciej Niemiec": 8,
+        "Janusz Orlewski": 7,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 5,
+        "Witold Pacek": 5,
+        "Brtek KJ": 6,
+        "Paweł Turek": 5,
+        "Grzegorz Kilar": 6,
+        "Mariusz Blezień": 8,
+        "Ryszard Żyra": 2,
+        "Grzegorz Rak": 4
+      }
+    },
+    {
+      "matchNumber": 9,
+      "date": "2026-06-14",
+      "time": "19:00",
+      "match": "Niemcy – Curaçao",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 0,
+        "Tomasz Brocławik": 9,
+        "Maciej Niemiec": 9,
+        "Janusz Orlewski": 10,
+        "Waldemar Węgrzyniak": 0,
+        "Dawid Cetnar": 6,
+        "Witold Pacek": 6,
+        "Brtek KJ": 7,
+        "Paweł Turek": 6,
+        "Grzegorz Kilar": 7,
+        "Mariusz Blezień": 9,
+        "Ryszard Żyra": 3,
+        "Grzegorz Rak": 5
+      }
+    },
+    {
+      "matchNumber": 10,
+      "date": "2026-06-14",
+      "time": "22:00",
+      "match": "Holandia – Japonia",
+      "result": "0-0",
+      "totals": {
+        "Maciej Zając": 1,
+        "Tomasz Brocławik": 9,
+        "Maciej Niemiec": 9,
+        "Janusz Orlewski": 10,
         "Waldemar Węgrzyniak": 1,
-        "Dawid Cetnar": 2,
-        "Ktoś Nowy": 1,
-        "Krzysiek Ross": 1
+        "Dawid Cetnar": 6,
+        "Witold Pacek": 6,
+        "Brtek KJ": 7,
+        "Paweł Turek": 6,
+        "Grzegorz Kilar": 7,
+        "Mariusz Blezień": 9,
+        "Ryszard Żyra": 4,
+        "Grzegorz Rak": 5
+      }
+    },
+    {
+      "matchNumber": 11,
+      "date": "2026-06-15",
+      "time": "01:00",
+      "match": "Wybrzeże Kości Słoniowej – Ekwador",
+      "result": "1-0",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 9,
+        "Maciej Niemiec": 9,
+        "Janusz Orlewski": 10,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 7,
+        "Witold Pacek": 6,
+        "Brtek KJ": 7,
+        "Paweł Turek": 6,
+        "Grzegorz Kilar": 7,
+        "Mariusz Blezień": 9,
+        "Ryszard Żyra": 4,
+        "Grzegorz Rak": 5
+      }
+    },
+    {
+      "matchNumber": 12,
+      "date": "2026-06-15",
+      "time": "04:00",
+      "match": "Szwecja – Tunezja",
+      "result": "1-4",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 9,
+        "Maciej Niemiec": 9,
+        "Janusz Orlewski": 10,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 7,
+        "Witold Pacek": 6,
+        "Brtek KJ": 7,
+        "Paweł Turek": 6,
+        "Grzegorz Kilar": 7,
+        "Mariusz Blezień": 9,
+        "Ryszard Żyra": 4,
+        "Grzegorz Rak": 5
+      }
+    },
+    {
+      "matchNumber": 13,
+      "date": "2026-06-15",
+      "time": "18:00",
+      "match": "Hiszpania – Republika Zielonego Przylądka",
+      "result": "2-1",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 10,
+        "Maciej Niemiec": 10,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 8,
+        "Witold Pacek": 7,
+        "Brtek KJ": 8,
+        "Paweł Turek": 7,
+        "Grzegorz Kilar": 8,
+        "Mariusz Blezień": 10,
+        "Ryszard Żyra": 5,
+        "Grzegorz Rak": 6
+      }
+    },
+    {
+      "matchNumber": 14,
+      "date": "2026-06-15",
+      "time": "21:00",
+      "match": "Belgia – Egipt",
+      "result": "0-1",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 10,
+        "Maciej Niemiec": 10,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 8,
+        "Witold Pacek": 7,
+        "Brtek KJ": 8,
+        "Paweł Turek": 7,
+        "Grzegorz Kilar": 8,
+        "Mariusz Blezień": 10,
+        "Ryszard Żyra": 6,
+        "Grzegorz Rak": 6
+      }
+    },
+    {
+      "matchNumber": 15,
+      "date": "2026-06-16",
+      "time": "00:00",
+      "match": "Arabia Saudyjska – Urugwaj",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 10,
+        "Maciej Niemiec": 10,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 8,
+        "Witold Pacek": 7,
+        "Brtek KJ": 8,
+        "Paweł Turek": 7,
+        "Grzegorz Kilar": 8,
+        "Mariusz Blezień": 10,
+        "Ryszard Żyra": 6,
+        "Grzegorz Rak": 6
+      }
+    },
+    {
+      "matchNumber": 16,
+      "date": "2026-06-16",
+      "time": "03:00",
+      "match": "Iran – Nowa Zelandia",
+      "result": "3-0",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 11,
+        "Maciej Niemiec": 11,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 9,
+        "Witold Pacek": 8,
+        "Brtek KJ": 9,
+        "Paweł Turek": 8,
+        "Grzegorz Kilar": 9,
+        "Mariusz Blezień": 11,
+        "Ryszard Żyra": 7,
+        "Grzegorz Rak": 7
+      }
+    },
+    {
+      "matchNumber": 17,
+      "date": "2026-06-16",
+      "time": "21:00",
+      "match": "Francja – Senegal",
+      "result": "2-4",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 11,
+        "Maciej Niemiec": 11,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 9,
+        "Witold Pacek": 8,
+        "Brtek KJ": 9,
+        "Paweł Turek": 8,
+        "Grzegorz Kilar": 9,
+        "Mariusz Blezień": 11,
+        "Ryszard Żyra": 7,
+        "Grzegorz Rak": 7
+      }
+    },
+    {
+      "matchNumber": 18,
+      "date": "2026-06-17",
+      "time": "00:00",
+      "match": "Irak – Norwegia",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 11,
+        "Maciej Niemiec": 11,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 9,
+        "Witold Pacek": 8,
+        "Brtek KJ": 9,
+        "Paweł Turek": 8,
+        "Grzegorz Kilar": 9,
+        "Mariusz Blezień": 11,
+        "Ryszard Żyra": 7,
+        "Grzegorz Rak": 7
+      }
+    },
+    {
+      "matchNumber": 19,
+      "date": "2026-06-17",
+      "time": "03:00",
+      "match": "Argentyna – Algieria",
+      "result": "2-3",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 11,
+        "Maciej Niemiec": 11,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 9,
+        "Witold Pacek": 8,
+        "Brtek KJ": 9,
+        "Paweł Turek": 8,
+        "Grzegorz Kilar": 9,
+        "Mariusz Blezień": 11,
+        "Ryszard Żyra": 7,
+        "Grzegorz Rak": 7
+      }
+    },
+    {
+      "matchNumber": 20,
+      "date": "2026-06-17",
+      "time": "06:00",
+      "match": "Austria – Jordania",
+      "result": "0-1",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 11,
+        "Maciej Niemiec": 11,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 9,
+        "Witold Pacek": 8,
+        "Brtek KJ": 9,
+        "Paweł Turek": 8,
+        "Grzegorz Kilar": 9,
+        "Mariusz Blezień": 11,
+        "Ryszard Żyra": 7,
+        "Grzegorz Rak": 7
+      }
+    },
+    {
+      "matchNumber": 21,
+      "date": "2026-06-17",
+      "time": "19:00",
+      "match": "Portugalia – DR Konga",
+      "result": "0-2",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 11,
+        "Maciej Niemiec": 11,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 9,
+        "Witold Pacek": 8,
+        "Brtek KJ": 9,
+        "Paweł Turek": 8,
+        "Grzegorz Kilar": 9,
+        "Mariusz Blezień": 11,
+        "Ryszard Żyra": 7,
+        "Grzegorz Rak": 7
+      }
+    },
+    {
+      "matchNumber": 22,
+      "date": "2026-06-17",
+      "time": "22:00",
+      "match": "Anglia – Chorwacja",
+      "result": "2-1",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 14,
+        "Maciej Niemiec": 14,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 9,
+        "Witold Pacek": 11,
+        "Brtek KJ": 12,
+        "Paweł Turek": 8,
+        "Grzegorz Kilar": 10,
+        "Mariusz Blezień": 14,
+        "Ryszard Żyra": 7,
+        "Grzegorz Rak": 10
+      }
+    },
+    {
+      "matchNumber": 23,
+      "date": "2026-06-18",
+      "time": "01:00",
+      "match": "Ghana – Panama",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 2,
+        "Tomasz Brocławik": 17,
+        "Maciej Niemiec": 15,
+        "Janusz Orlewski": 11,
+        "Waldemar Węgrzyniak": 1,
+        "Dawid Cetnar": 10,
+        "Witold Pacek": 11,
+        "Brtek KJ": 13,
+        "Paweł Turek": 8,
+        "Grzegorz Kilar": 10,
+        "Mariusz Blezień": 15,
+        "Ryszard Żyra": 10,
+        "Grzegorz Rak": 10
+      }
+    },
+    {
+      "matchNumber": 24,
+      "date": "2026-06-18",
+      "time": "04:00",
+      "match": "Uzbekistan – Kolumbia",
+      "result": "0-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 17,
+        "Maciej Niemiec": 15,
+        "Janusz Orlewski": 14,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 10,
+        "Witold Pacek": 12,
+        "Brtek KJ": 13,
+        "Paweł Turek": 8,
+        "Grzegorz Kilar": 10,
+        "Mariusz Blezień": 15,
+        "Ryszard Żyra": 11,
+        "Grzegorz Rak": 10
+      }
+    },
+    {
+      "matchNumber": 25,
+      "date": "2026-06-18",
+      "time": "18:00",
+      "match": "Czechy – RPA",
+      "result": "1-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 18,
+        "Maciej Niemiec": 15,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 11,
+        "Witold Pacek": 13,
+        "Brtek KJ": 14,
+        "Paweł Turek": 9,
+        "Grzegorz Kilar": 11,
+        "Mariusz Blezień": 16,
+        "Ryszard Żyra": 14,
+        "Grzegorz Rak": 10
+      }
+    },
+    {
+      "matchNumber": 26,
+      "date": "2026-06-18",
+      "time": "21:00",
+      "match": "Szwajcaria – Bośnia i Hercegowina",
+      "result": "1-4",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 18,
+        "Maciej Niemiec": 15,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 11,
+        "Witold Pacek": 14,
+        "Brtek KJ": 14,
+        "Paweł Turek": 9,
+        "Grzegorz Kilar": 11,
+        "Mariusz Blezień": 16,
+        "Ryszard Żyra": 14,
+        "Grzegorz Rak": 10
+      }
+    },
+    {
+      "matchNumber": 27,
+      "date": "2026-06-19",
+      "time": "00:00",
+      "match": "Kanada – Katar",
+      "result": "2-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 21,
+        "Maciej Niemiec": 16,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 12,
+        "Witold Pacek": 14,
+        "Brtek KJ": 15,
+        "Paweł Turek": 10,
+        "Grzegorz Kilar": 12,
+        "Mariusz Blezień": 17,
+        "Ryszard Żyra": 15,
+        "Grzegorz Rak": 13
+      }
+    },
+    {
+      "matchNumber": 28,
+      "date": "2026-06-19",
+      "time": "03:00",
+      "match": "Meksyk – Korea Południowa",
+      "result": "0-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 21,
+        "Maciej Niemiec": 16,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 12,
+        "Witold Pacek": 14,
+        "Brtek KJ": 15,
+        "Paweł Turek": 10,
+        "Grzegorz Kilar": 12,
+        "Mariusz Blezień": 17,
+        "Ryszard Żyra": 16,
+        "Grzegorz Rak": 13
+      }
+    },
+    {
+      "matchNumber": 29,
+      "date": "2026-06-19",
+      "time": "21:00",
+      "match": "USA – Australia",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 22,
+        "Maciej Niemiec": 16,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 12,
+        "Witold Pacek": 15,
+        "Brtek KJ": 16,
+        "Paweł Turek": 10,
+        "Grzegorz Kilar": 15,
+        "Mariusz Blezień": 18,
+        "Ryszard Żyra": 17,
+        "Grzegorz Rak": 16
+      }
+    },
+    {
+      "matchNumber": 30,
+      "date": "2026-06-20",
+      "time": "00:00",
+      "match": "Szkocja – Maroko",
+      "result": "3-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 22,
+        "Maciej Niemiec": 16,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 12,
+        "Witold Pacek": 15,
+        "Brtek KJ": 16,
+        "Paweł Turek": 10,
+        "Grzegorz Kilar": 15,
+        "Mariusz Blezień": 18,
+        "Ryszard Żyra": 17,
+        "Grzegorz Rak": 16
+      }
+    },
+    {
+      "matchNumber": 31,
+      "date": "2026-06-20",
+      "time": "03:00",
+      "match": "Brazylia – Haiti",
+      "result": "2-4",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 22,
+        "Maciej Niemiec": 16,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 12,
+        "Witold Pacek": 15,
+        "Brtek KJ": 16,
+        "Paweł Turek": 10,
+        "Grzegorz Kilar": 15,
+        "Mariusz Blezień": 18,
+        "Ryszard Żyra": 17,
+        "Grzegorz Rak": 16
+      }
+    },
+    {
+      "matchNumber": 32,
+      "date": "2026-06-20",
+      "time": "06:00",
+      "match": "Turcja – Paragwaj",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 22,
+        "Maciej Niemiec": 16,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 15,
+        "Witold Pacek": 15,
+        "Brtek KJ": 17,
+        "Paweł Turek": 10,
+        "Grzegorz Kilar": 15,
+        "Mariusz Blezień": 19,
+        "Ryszard Żyra": 17,
+        "Grzegorz Rak": 17
+      }
+    },
+    {
+      "matchNumber": 33,
+      "date": "2026-06-20",
+      "time": "19:00",
+      "match": "Holandia – Szwecja",
+      "result": "2-3",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 22,
+        "Maciej Niemiec": 16,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 15,
+        "Witold Pacek": 15,
+        "Brtek KJ": 17,
+        "Paweł Turek": 10,
+        "Grzegorz Kilar": 15,
+        "Mariusz Blezień": 19,
+        "Ryszard Żyra": 17,
+        "Grzegorz Rak": 17
+      }
+    },
+    {
+      "matchNumber": 34,
+      "date": "2026-06-20",
+      "time": "22:00",
+      "match": "Niemcy – Wybrzeże Kości Słoniowej",
+      "result": "0-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 22,
+        "Maciej Niemiec": 16,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 15,
+        "Witold Pacek": 15,
+        "Brtek KJ": 17,
+        "Paweł Turek": 10,
+        "Grzegorz Kilar": 15,
+        "Mariusz Blezień": 19,
+        "Ryszard Żyra": 17,
+        "Grzegorz Rak": 17
+      }
+    },
+    {
+      "matchNumber": 35,
+      "date": "2026-06-21",
+      "time": "02:00",
+      "match": "Ekwador – Curaçao",
+      "result": "0-2",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 22,
+        "Maciej Niemiec": 16,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 15,
+        "Witold Pacek": 15,
+        "Brtek KJ": 17,
+        "Paweł Turek": 10,
+        "Grzegorz Kilar": 15,
+        "Mariusz Blezień": 19,
+        "Ryszard Żyra": 17,
+        "Grzegorz Rak": 17
+      }
+    },
+    {
+      "matchNumber": 36,
+      "date": "2026-06-21",
+      "time": "06:00",
+      "match": "Tunezja – Japonia",
+      "result": "2-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 22,
+        "Maciej Niemiec": 16,
+        "Janusz Orlewski": 17,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 15,
+        "Witold Pacek": 15,
+        "Brtek KJ": 17,
+        "Paweł Turek": 10,
+        "Grzegorz Kilar": 15,
+        "Mariusz Blezień": 19,
+        "Ryszard Żyra": 17,
+        "Grzegorz Rak": 17
+      }
+    },
+    {
+      "matchNumber": 37,
+      "date": "2026-06-21",
+      "time": "18:00",
+      "match": "Hiszpania – Arabia Saudyjska",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 38,
+      "date": "2026-06-21",
+      "time": "21:00",
+      "match": "Belgia – Iran",
+      "result": "0-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 39,
+      "date": "2026-06-22",
+      "time": "00:00",
+      "match": "Urugwaj – Republika Zielonego Przylądka",
+      "result": "1-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 40,
+      "date": "2026-06-22",
+      "time": "03:00",
+      "match": "Nowa Zelandia – Egipt",
+      "result": "1-4",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 41,
+      "date": "2026-06-22",
+      "time": "19:00",
+      "match": "Argentyna – Austria",
+      "result": "2-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 42,
+      "date": "2026-06-22",
+      "time": "23:00",
+      "match": "Francja – Irak",
+      "result": "0-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 43,
+      "date": "2026-06-23",
+      "time": "02:00",
+      "match": "Norwegia – Senegal",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 44,
+      "date": "2026-06-23",
+      "time": "05:00",
+      "match": "Jordania – Algieria",
+      "result": "3-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 45,
+      "date": "2026-06-23",
+      "time": "19:00",
+      "match": "Portugalia – Uzbekistan",
+      "result": "2-4",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 46,
+      "date": "2026-06-23",
+      "time": "22:00",
+      "match": "Anglia – Ghana",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 47,
+      "date": "2026-06-24",
+      "time": "01:00",
+      "match": "Panama – Chorwacja",
+      "result": "2-3",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 48,
+      "date": "2026-06-24",
+      "time": "04:00",
+      "match": "Kolumbia – DR Konga",
+      "result": "0-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 49,
+      "date": "2026-06-24",
+      "time": "21:00",
+      "match": "Szwajcaria – Kanada",
+      "result": "0-2",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 50,
+      "date": "2026-06-24",
+      "time": "21:00",
+      "match": "Bośnia i Hercegowina – Katar",
+      "result": "2-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 51,
+      "date": "2026-06-25",
+      "time": "00:00",
+      "match": "Szkocja – Brazylia",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 52,
+      "date": "2026-06-25",
+      "time": "00:00",
+      "match": "Maroko – Haiti",
+      "result": "0-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 53,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "match": "Czechy – Meksyk",
+      "result": "1-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 54,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "match": "RPA – Korea Południowa",
+      "result": "1-4",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 55,
+      "date": "2026-06-25",
+      "time": "22:00",
+      "match": "Curaçao – Wybrzeże Kości Słoniowej",
+      "result": "2-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 56,
+      "date": "2026-06-25",
+      "time": "22:00",
+      "match": "Ekwador – Niemcy",
+      "result": "0-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 57,
+      "date": "2026-06-26",
+      "time": "01:00",
+      "match": "Japonia – Szwecja",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 58,
+      "date": "2026-06-26",
+      "time": "01:00",
+      "match": "Tunezja – Holandia",
+      "result": "3-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 59,
+      "date": "2026-06-26",
+      "time": "04:00",
+      "match": "Turcja – USA",
+      "result": "2-4",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 60,
+      "date": "2026-06-26",
+      "time": "04:00",
+      "match": "Paragwaj – Australia",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 61,
+      "date": "2026-06-26",
+      "time": "21:00",
+      "match": "Norwegia – Francja",
+      "result": "2-3",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 62,
+      "date": "2026-06-26",
+      "time": "21:00",
+      "match": "Senegal – Irak",
+      "result": "0-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 63,
+      "date": "2026-06-27",
+      "time": "02:00",
+      "match": "Republika Zielonego Przylądka – Arabia Saudyjska",
+      "result": "0-2",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 64,
+      "date": "2026-06-27",
+      "time": "02:00",
+      "match": "Urugwaj – Hiszpania",
+      "result": "2-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 65,
+      "date": "2026-06-27",
+      "time": "05:00",
+      "match": "Egipt – Iran",
+      "result": "2-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 66,
+      "date": "2026-06-27",
+      "time": "05:00",
+      "match": "Nowa Zelandia – Belgia",
+      "result": "0-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 67,
+      "date": "2026-06-27",
+      "time": "23:00",
+      "match": "Panama – Anglia",
+      "result": "1-0",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 68,
+      "date": "2026-06-27",
+      "time": "23:00",
+      "match": "Chorwacja – Ghana",
+      "result": "1-4",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 69,
+      "date": "2026-06-28",
+      "time": "01:30",
+      "match": "Kolumbia – Portugalia",
+      "result": "2-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
+      }
+    },
+    {
+      "matchNumber": 70,
+      "date": "2026-06-28",
+      "time": "01:30",
+      "match": "DR Konga – Uzbekistan",
+      "result": "0-1",
+      "totals": {
+        "Maciej Zając": 3,
+        "Tomasz Brocławik": 23,
+        "Maciej Niemiec": 17,
+        "Janusz Orlewski": 18,
+        "Waldemar Węgrzyniak": 2,
+        "Dawid Cetnar": 16,
+        "Witold Pacek": 16,
+        "Brtek KJ": 18,
+        "Paweł Turek": 11,
+        "Grzegorz Kilar": 16,
+        "Mariusz Blezień": 20,
+        "Ryszard Żyra": 18,
+        "Grzegorz Rak": 18
       }
     }
   ],
-  "warnings": []
+  "warnings": [
+    "Suma punktów z rozegranych meczów różni się od wiersza Podsumowanie."
+  ]
 };
