@@ -151,6 +151,47 @@
           </label>
         </div>
 
+        <div class="table-history">
+          <div class="table-history-header">
+            <div>
+              <p id="table-kicker">Aktualna klasyfikacja</p>
+              <h3 id="table-match-title">Stan po ostatnim meczu</h3>
+              <span id="table-match-meta"></span>
+            </div>
+            <div class="table-controls" aria-label="Sterowanie historią klasyfikacji">
+              <button id="table-prev" type="button" aria-label="Poprzedni mecz">
+                <span aria-hidden="true">←</span>
+              </button>
+              <button
+                class="table-play-button"
+                id="table-play"
+                type="button"
+                aria-label="Odtwórz historię klasyfikacji"
+              >
+                Odtwórz
+              </button>
+              <button id="table-next" type="button" aria-label="Następny mecz">
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </div>
+          <div class="table-timeline">
+            <input
+              id="table-range"
+              type="range"
+              min="0"
+              max="0"
+              value="0"
+              aria-label="Wybierz mecz w tabeli klasyfikacyjnej"
+            />
+            <div>
+              <span>Przed turniejem</span>
+              <strong id="table-progress">0 / 0</strong>
+              <span>Aktualnie</span>
+            </div>
+          </div>
+        </div>
+
         <div class="table-card">
           <table>
             <thead>

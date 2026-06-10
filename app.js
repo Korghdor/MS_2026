@@ -19,27 +19,33 @@
     return "punktów";
   };
 
-  const standings = data.players
-    .map((name) => ({
+  const rankStandings = (players) => {
+    const ranked = [...players].sort(
+      (a, b) =>
+        b.points - a.points ||
+        a.name.localeCompare(b.name, "pl", { sensitivity: "base" }),
+    );
+    let currentRank = 0;
+    let previousPoints = null;
+
+    ranked.forEach((player) => {
+      if (previousPoints === null || player.points < previousPoints) {
+        currentRank += 1;
+      }
+      player.rank = currentRank;
+      previousPoints = player.points;
+    });
+
+    return ranked;
+  };
+
+  const standings = rankStandings(
+    data.players.map((name) => ({
       name,
       points: Number(data.currentTotals[name] || 0),
       lastPoints: Number(data.lastMatchPoints?.[name] || 0),
-    }))
-    .sort(
-      (a, b) =>
-        b.points - a.points || a.name.localeCompare(b.name, "pl", { sensitivity: "base" }),
-    );
-
-  let currentRank = 0;
-  let previousPoints = null;
-
-  standings.forEach((player) => {
-    if (previousPoints === null || player.points < previousPoints) {
-      currentRank += 1;
-    }
-    player.rank = currentRank;
-    previousPoints = player.points;
-  });
+    })),
+  );
 
   const byId = (id) => document.getElementById(id);
 
@@ -80,12 +86,24 @@
     podium.appendChild(card);
   });
 
+  const openingSnapshot = {
+    matchNumber: 0,
+    match: "Przed pierwszym gwizdkiem",
+    result: "",
+    date: "",
+    time: "",
+    totals: Object.fromEntries(data.players.map((name) => [name, 0])),
+  };
+  const snapshots = [openingSnapshot, ...data.raceSnapshots];
+
   const standingsBody = byId("standings-body");
   const emptyState = byId("empty-state");
+  let tableStandings = standings;
+  let tableQuery = "";
 
   const renderTable = (query = "") => {
     const normalized = query.trim().toLocaleLowerCase("pl");
-    const filtered = standings.filter((player) =>
+    const filtered = tableStandings.filter((player) =>
       player.name.toLocaleLowerCase("pl").includes(normalized),
     );
 
@@ -106,23 +124,122 @@
       )
       .join("");
 
+    standingsBody.classList.remove("table-updated");
+    window.requestAnimationFrame(() =>
+      standingsBody.classList.add("table-updated"),
+    );
     emptyState.hidden = filtered.length > 0;
   };
 
   byId("player-search").addEventListener("input", (event) => {
-    renderTable(event.target.value);
+    tableQuery = event.target.value;
+    renderTable(tableQuery);
   });
-  renderTable();
 
-  const openingSnapshot = {
-    matchNumber: 0,
-    match: "Przed pierwszym gwizdkiem",
-    result: "",
-    date: "",
-    time: "",
-    totals: Object.fromEntries(data.players.map((name) => [name, 0])),
+  const playbackIntervalMs = 1000;
+  const tableRange = byId("table-range");
+  const tablePlayButton = byId("table-play");
+  const tablePrevButton = byId("table-prev");
+  const tableNextButton = byId("table-next");
+  let tableIndex = snapshots.length - 1;
+  let tableTimer = null;
+
+  tableRange.max = String(snapshots.length - 1);
+  tableRange.value = String(tableIndex);
+
+  const renderTableHistory = () => {
+    const snapshot = snapshots[tableIndex];
+    const previousSnapshot = snapshots[Math.max(0, tableIndex - 1)];
+
+    tableStandings = rankStandings(
+      data.players.map((name) => {
+        const points = Number(snapshot.totals[name] || 0);
+        const previousPoints = Number(previousSnapshot.totals[name] || 0);
+        return {
+          name,
+          points,
+          lastPoints: tableIndex === 0 ? 0 : points - previousPoints,
+        };
+      }),
+    );
+
+    byId("table-kicker").textContent =
+      tableIndex === 0
+        ? "Przed turniejem"
+        : `Klasyfikacja po meczu nr ${snapshot.matchNumber}`;
+    byId("table-match-title").textContent = snapshot.match;
+    byId("table-match-meta").textContent = [
+      snapshot.date,
+      snapshot.time,
+      snapshot.result,
+    ]
+      .filter(Boolean)
+      .join("  |  ");
+    byId("table-progress").textContent =
+      `${tableIndex} / ${snapshots.length - 1}`;
+
+    tableRange.value = String(tableIndex);
+    tablePrevButton.disabled = tableIndex === 0;
+    tableNextButton.disabled = tableIndex === snapshots.length - 1;
+    tablePlayButton.disabled = snapshots.length <= 1;
+    renderTable(tableQuery);
   };
-  const snapshots = [openingSnapshot, ...data.raceSnapshots];
+
+  const stopTablePlayback = () => {
+    if (tableTimer) {
+      window.clearInterval(tableTimer);
+      tableTimer = null;
+    }
+    tablePlayButton.textContent = "Odtwórz";
+    tablePlayButton.setAttribute(
+      "aria-label",
+      "Odtwórz historię klasyfikacji",
+    );
+  };
+
+  const startTablePlayback = () => {
+    if (snapshots.length <= 1) return;
+    if (tableIndex >= snapshots.length - 1) tableIndex = 0;
+    renderTableHistory();
+    tablePlayButton.textContent = "Pauza";
+    tablePlayButton.setAttribute(
+      "aria-label",
+      "Wstrzymaj historię klasyfikacji",
+    );
+    tableTimer = window.setInterval(() => {
+      if (tableIndex >= snapshots.length - 1) {
+        stopTablePlayback();
+        return;
+      }
+      tableIndex += 1;
+      renderTableHistory();
+    }, playbackIntervalMs);
+  };
+
+  tablePlayButton.addEventListener("click", () => {
+    if (tableTimer) stopTablePlayback();
+    else startTablePlayback();
+  });
+
+  tablePrevButton.addEventListener("click", () => {
+    stopTablePlayback();
+    tableIndex = Math.max(0, tableIndex - 1);
+    renderTableHistory();
+  });
+
+  tableNextButton.addEventListener("click", () => {
+    stopTablePlayback();
+    tableIndex = Math.min(snapshots.length - 1, tableIndex + 1);
+    renderTableHistory();
+  });
+
+  tableRange.addEventListener("input", (event) => {
+    stopTablePlayback();
+    tableIndex = Number(event.target.value);
+    renderTableHistory();
+  });
+
+  renderTableHistory();
 
   const raceBars = byId("race-bars");
   const range = byId("race-range");
@@ -262,7 +379,7 @@
       }
       raceIndex += 1;
       renderRace();
-    }, 2200);
+    }, playbackIntervalMs);
   };
 
   playButton.addEventListener("click", () => {
