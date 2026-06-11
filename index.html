@@ -222,7 +222,21 @@
     <noscript>
       Do wyświetlenia rankingu potrzebna jest obsługa JavaScript.
     </noscript>
-    <script src="data/tournament-data.js"></script>
-    <script src="app.js"></script>
+    <script>
+      const dataScript = document.createElement("script");
+      dataScript.src = `data/tournament-data.js?v=${Date.now()}`;
+      dataScript.onload = () => {
+        const appScript = document.createElement("script");
+        appScript.src = "app.js";
+        document.body.appendChild(appScript);
+      };
+      dataScript.onerror = () => {
+        document.body.insertAdjacentHTML(
+          "beforeend",
+          '<p class="shell">Nie udało się pobrać aktualnych danych.</p>',
+        );
+      };
+      document.body.appendChild(dataScript);
+    </script>
   </body>
 </html>
