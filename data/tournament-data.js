@@ -1,8 +1,8 @@
 window.BALTICWOOD_TOURNAMENT_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Faza Grupowa - Punktacja",
-  "generatedAt": "2026-06-11T15:59:55+00:00",
-  "workbookModifiedAt": "2026-06-11T15:59:32+00:00",
+  "generatedAt": "2026-06-11T17:51:34+00:00",
+  "workbookModifiedAt": "2026-06-11T17:51:24+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -34,7 +34,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Grzegorz Dąbrowski",
     "Grzegorz Murdzek",
     "Patrycja Bożek",
-    "Małgorzata Pelczar-Szczypta"
+    "Małgorzata Pelczar-Szczypta",
+    "Edward Baciak",
+    "Gabryś Więcek"
   ],
   "matches": [
     {
@@ -580,7 +582,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 3
       }
     },
     {
@@ -620,7 +624,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -660,7 +666,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 1
       }
     },
     {
@@ -700,7 +708,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 3,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 1
       }
     },
     {
@@ -740,7 +750,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 3,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 1
       }
     },
     {
@@ -780,7 +792,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 3,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -820,7 +834,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -860,7 +876,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -900,7 +918,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -940,7 +960,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -980,7 +1002,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1020,7 +1044,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1060,7 +1086,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 3,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1100,7 +1128,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1140,7 +1170,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1180,7 +1212,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 3,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1220,7 +1254,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1260,7 +1296,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1300,7 +1338,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1340,7 +1380,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 3,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1380,7 +1422,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1420,7 +1464,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1460,7 +1506,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1500,7 +1548,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 3,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1540,7 +1590,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1580,7 +1632,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1620,7 +1674,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 3,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1660,7 +1716,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1700,7 +1758,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1740,7 +1800,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1780,7 +1842,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1820,7 +1884,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1860,7 +1926,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1900,7 +1968,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1940,7 +2010,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -1980,7 +2052,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 3,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2020,7 +2094,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2060,7 +2136,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 3,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2100,7 +2178,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2140,7 +2220,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2180,7 +2262,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2220,7 +2304,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2260,7 +2346,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2300,7 +2388,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2340,7 +2430,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2380,7 +2472,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2420,7 +2514,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2460,7 +2556,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2500,7 +2598,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2540,7 +2640,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 3,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2580,7 +2682,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2620,7 +2724,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2660,7 +2766,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2700,7 +2808,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2740,7 +2850,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2780,7 +2892,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2820,7 +2934,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2860,7 +2976,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 3,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2900,7 +3018,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2940,7 +3060,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 3,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -2980,7 +3102,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3020,7 +3144,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3060,7 +3186,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3100,7 +3228,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3140,7 +3270,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3180,7 +3312,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3220,7 +3354,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 3,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3260,7 +3396,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 1,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3300,7 +3438,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 0
+        "Małgorzata Pelczar-Szczypta": 0,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3340,7 +3480,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 0,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 3,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3380,7 +3522,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 0,
+        "Gabryś Więcek": 0
       }
     },
     {
@@ -3420,7 +3564,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 0,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 1
+        "Małgorzata Pelczar-Szczypta": 1,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 0
       }
     }
   ],
@@ -3455,7 +3601,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Grzegorz Dąbrowski": 88,
     "Grzegorz Murdzek": 45,
     "Patrycja Bożek": 50,
-    "Małgorzata Pelczar-Szczypta": 122
+    "Małgorzata Pelczar-Szczypta": 122,
+    "Edward Baciak": 86,
+    "Gabryś Więcek": 6
   },
   "lastMatchPoints": {
     "Maciej Zając": 3,
@@ -3488,7 +3636,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Grzegorz Dąbrowski": 1,
     "Grzegorz Murdzek": 0,
     "Patrycja Bożek": 0,
-    "Małgorzata Pelczar-Szczypta": 1
+    "Małgorzata Pelczar-Szczypta": 1,
+    "Edward Baciak": 1,
+    "Gabryś Więcek": 0
   },
   "raceSnapshots": [
     {
@@ -3528,7 +3678,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 3
+        "Małgorzata Pelczar-Szczypta": 3,
+        "Edward Baciak": 1,
+        "Gabryś Więcek": 3
       }
     },
     {
@@ -3568,7 +3720,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 6
+        "Małgorzata Pelczar-Szczypta": 6,
+        "Edward Baciak": 2,
+        "Gabryś Więcek": 3
       }
     },
     {
@@ -3608,7 +3762,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 1,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 0,
-        "Małgorzata Pelczar-Szczypta": 6
+        "Małgorzata Pelczar-Szczypta": 6,
+        "Edward Baciak": 5,
+        "Gabryś Więcek": 4
       }
     },
     {
@@ -3648,7 +3804,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 4,
         "Grzegorz Murdzek": 1,
         "Patrycja Bożek": 3,
-        "Małgorzata Pelczar-Szczypta": 9
+        "Małgorzata Pelczar-Szczypta": 9,
+        "Edward Baciak": 6,
+        "Gabryś Więcek": 5
       }
     },
     {
@@ -3688,7 +3846,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 5,
         "Grzegorz Murdzek": 4,
         "Patrycja Bożek": 3,
-        "Małgorzata Pelczar-Szczypta": 12
+        "Małgorzata Pelczar-Szczypta": 12,
+        "Edward Baciak": 7,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -3728,7 +3888,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 6,
         "Grzegorz Murdzek": 7,
         "Patrycja Bożek": 4,
-        "Małgorzata Pelczar-Szczypta": 15
+        "Małgorzata Pelczar-Szczypta": 15,
+        "Edward Baciak": 10,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -3768,7 +3930,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 7,
         "Grzegorz Murdzek": 8,
         "Patrycja Bożek": 4,
-        "Małgorzata Pelczar-Szczypta": 18
+        "Małgorzata Pelczar-Szczypta": 18,
+        "Edward Baciak": 11,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -3808,7 +3972,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 10,
         "Grzegorz Murdzek": 9,
         "Patrycja Bożek": 4,
-        "Małgorzata Pelczar-Szczypta": 21
+        "Małgorzata Pelczar-Szczypta": 21,
+        "Edward Baciak": 14,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -3848,7 +4014,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 13,
         "Grzegorz Murdzek": 10,
         "Patrycja Bożek": 5,
-        "Małgorzata Pelczar-Szczypta": 24
+        "Małgorzata Pelczar-Szczypta": 24,
+        "Edward Baciak": 15,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -3888,7 +4056,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 13,
         "Grzegorz Murdzek": 10,
         "Patrycja Bożek": 5,
-        "Małgorzata Pelczar-Szczypta": 24
+        "Małgorzata Pelczar-Szczypta": 24,
+        "Edward Baciak": 15,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -3928,7 +4098,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 13,
         "Grzegorz Murdzek": 10,
         "Patrycja Bożek": 5,
-        "Małgorzata Pelczar-Szczypta": 24
+        "Małgorzata Pelczar-Szczypta": 24,
+        "Edward Baciak": 15,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -3968,7 +4140,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 14,
         "Grzegorz Murdzek": 11,
         "Patrycja Bożek": 6,
-        "Małgorzata Pelczar-Szczypta": 25
+        "Małgorzata Pelczar-Szczypta": 25,
+        "Edward Baciak": 15,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4008,7 +4182,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 15,
         "Grzegorz Murdzek": 14,
         "Patrycja Bożek": 7,
-        "Małgorzata Pelczar-Szczypta": 28
+        "Małgorzata Pelczar-Szczypta": 28,
+        "Edward Baciak": 18,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4048,7 +4224,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 16,
         "Grzegorz Murdzek": 15,
         "Patrycja Bożek": 8,
-        "Małgorzata Pelczar-Szczypta": 31
+        "Małgorzata Pelczar-Szczypta": 31,
+        "Edward Baciak": 19,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4088,7 +4266,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 17,
         "Grzegorz Murdzek": 15,
         "Patrycja Bożek": 8,
-        "Małgorzata Pelczar-Szczypta": 34
+        "Małgorzata Pelczar-Szczypta": 34,
+        "Edward Baciak": 19,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4128,7 +4308,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 20,
         "Grzegorz Murdzek": 18,
         "Patrycja Bożek": 9,
-        "Małgorzata Pelczar-Szczypta": 37
+        "Małgorzata Pelczar-Szczypta": 37,
+        "Edward Baciak": 20,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4168,7 +4350,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 23,
         "Grzegorz Murdzek": 18,
         "Patrycja Bożek": 9,
-        "Małgorzata Pelczar-Szczypta": 37
+        "Małgorzata Pelczar-Szczypta": 37,
+        "Edward Baciak": 20,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4208,7 +4392,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 24,
         "Grzegorz Murdzek": 19,
         "Patrycja Bożek": 9,
-        "Małgorzata Pelczar-Szczypta": 38
+        "Małgorzata Pelczar-Szczypta": 38,
+        "Edward Baciak": 21,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4248,7 +4434,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 25,
         "Grzegorz Murdzek": 20,
         "Patrycja Bożek": 10,
-        "Małgorzata Pelczar-Szczypta": 39
+        "Małgorzata Pelczar-Szczypta": 39,
+        "Edward Baciak": 22,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4288,7 +4476,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 26,
         "Grzegorz Murdzek": 21,
         "Patrycja Bożek": 13,
-        "Małgorzata Pelczar-Szczypta": 40
+        "Małgorzata Pelczar-Szczypta": 40,
+        "Edward Baciak": 23,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4328,7 +4518,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 27,
         "Grzegorz Murdzek": 22,
         "Patrycja Bożek": 14,
-        "Małgorzata Pelczar-Szczypta": 41
+        "Małgorzata Pelczar-Szczypta": 41,
+        "Edward Baciak": 24,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4368,7 +4560,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 27,
         "Grzegorz Murdzek": 23,
         "Patrycja Bożek": 14,
-        "Małgorzata Pelczar-Szczypta": 44
+        "Małgorzata Pelczar-Szczypta": 44,
+        "Edward Baciak": 27,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4408,7 +4602,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 28,
         "Grzegorz Murdzek": 24,
         "Patrycja Bożek": 14,
-        "Małgorzata Pelczar-Szczypta": 45
+        "Małgorzata Pelczar-Szczypta": 45,
+        "Edward Baciak": 28,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4448,7 +4644,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 29,
         "Grzegorz Murdzek": 27,
         "Patrycja Bożek": 14,
-        "Małgorzata Pelczar-Szczypta": 48
+        "Małgorzata Pelczar-Szczypta": 48,
+        "Edward Baciak": 29,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4488,7 +4686,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 30,
         "Grzegorz Murdzek": 28,
         "Patrycja Bożek": 15,
-        "Małgorzata Pelczar-Szczypta": 49
+        "Małgorzata Pelczar-Szczypta": 49,
+        "Edward Baciak": 32,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4528,7 +4728,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 31,
         "Grzegorz Murdzek": 29,
         "Patrycja Bożek": 16,
-        "Małgorzata Pelczar-Szczypta": 50
+        "Małgorzata Pelczar-Szczypta": 50,
+        "Edward Baciak": 32,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4568,7 +4770,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 31,
         "Grzegorz Murdzek": 32,
         "Patrycja Bożek": 16,
-        "Małgorzata Pelczar-Szczypta": 53
+        "Małgorzata Pelczar-Szczypta": 53,
+        "Edward Baciak": 33,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4608,7 +4812,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 32,
         "Grzegorz Murdzek": 33,
         "Patrycja Bożek": 16,
-        "Małgorzata Pelczar-Szczypta": 53
+        "Małgorzata Pelczar-Szczypta": 53,
+        "Edward Baciak": 33,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4648,7 +4854,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 33,
         "Grzegorz Murdzek": 33,
         "Patrycja Bożek": 16,
-        "Małgorzata Pelczar-Szczypta": 53
+        "Małgorzata Pelczar-Szczypta": 53,
+        "Edward Baciak": 36,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4688,7 +4896,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 33,
         "Grzegorz Murdzek": 33,
         "Patrycja Bożek": 16,
-        "Małgorzata Pelczar-Szczypta": 53
+        "Małgorzata Pelczar-Szczypta": 53,
+        "Edward Baciak": 37,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4728,7 +4938,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 34,
         "Grzegorz Murdzek": 34,
         "Patrycja Bożek": 17,
-        "Małgorzata Pelczar-Szczypta": 54
+        "Małgorzata Pelczar-Szczypta": 54,
+        "Edward Baciak": 38,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4768,7 +4980,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 35,
         "Grzegorz Murdzek": 34,
         "Patrycja Bożek": 17,
-        "Małgorzata Pelczar-Szczypta": 54
+        "Małgorzata Pelczar-Szczypta": 54,
+        "Edward Baciak": 41,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4808,7 +5022,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 36,
         "Grzegorz Murdzek": 34,
         "Patrycja Bożek": 18,
-        "Małgorzata Pelczar-Szczypta": 55
+        "Małgorzata Pelczar-Szczypta": 55,
+        "Edward Baciak": 41,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4848,7 +5064,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 37,
         "Grzegorz Murdzek": 35,
         "Patrycja Bożek": 19,
-        "Małgorzata Pelczar-Szczypta": 58
+        "Małgorzata Pelczar-Szczypta": 58,
+        "Edward Baciak": 44,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4888,7 +5106,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 40,
         "Grzegorz Murdzek": 36,
         "Patrycja Bożek": 20,
-        "Małgorzata Pelczar-Szczypta": 59
+        "Małgorzata Pelczar-Szczypta": 59,
+        "Edward Baciak": 45,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4928,7 +5148,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 40,
         "Grzegorz Murdzek": 39,
         "Patrycja Bożek": 21,
-        "Małgorzata Pelczar-Szczypta": 60
+        "Małgorzata Pelczar-Szczypta": 60,
+        "Edward Baciak": 46,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -4968,7 +5190,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 43,
         "Grzegorz Murdzek": 40,
         "Patrycja Bożek": 22,
-        "Małgorzata Pelczar-Szczypta": 63
+        "Małgorzata Pelczar-Szczypta": 63,
+        "Edward Baciak": 47,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5008,7 +5232,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 46,
         "Grzegorz Murdzek": 41,
         "Patrycja Bożek": 25,
-        "Małgorzata Pelczar-Szczypta": 66
+        "Małgorzata Pelczar-Szczypta": 66,
+        "Edward Baciak": 48,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5048,7 +5274,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 47,
         "Grzegorz Murdzek": 42,
         "Patrycja Bożek": 26,
-        "Małgorzata Pelczar-Szczypta": 69
+        "Małgorzata Pelczar-Szczypta": 69,
+        "Edward Baciak": 49,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5088,7 +5316,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 47,
         "Grzegorz Murdzek": 43,
         "Patrycja Bożek": 26,
-        "Małgorzata Pelczar-Szczypta": 72
+        "Małgorzata Pelczar-Szczypta": 72,
+        "Edward Baciak": 50,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5128,7 +5358,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 48,
         "Grzegorz Murdzek": 44,
         "Patrycja Bożek": 27,
-        "Małgorzata Pelczar-Szczypta": 73
+        "Małgorzata Pelczar-Szczypta": 73,
+        "Edward Baciak": 51,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5168,7 +5400,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 49,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 28,
-        "Małgorzata Pelczar-Szczypta": 74
+        "Małgorzata Pelczar-Szczypta": 74,
+        "Edward Baciak": 52,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5208,7 +5442,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 52,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 28,
-        "Małgorzata Pelczar-Szczypta": 74
+        "Małgorzata Pelczar-Szczypta": 74,
+        "Edward Baciak": 55,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5248,7 +5484,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 55,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 28,
-        "Małgorzata Pelczar-Szczypta": 77
+        "Małgorzata Pelczar-Szczypta": 77,
+        "Edward Baciak": 56,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5288,7 +5526,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 58,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 29,
-        "Małgorzata Pelczar-Szczypta": 78
+        "Małgorzata Pelczar-Szczypta": 78,
+        "Edward Baciak": 59,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5328,7 +5568,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 59,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 30,
-        "Małgorzata Pelczar-Szczypta": 79
+        "Małgorzata Pelczar-Szczypta": 79,
+        "Edward Baciak": 60,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5368,7 +5610,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 60,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 31,
-        "Małgorzata Pelczar-Szczypta": 80
+        "Małgorzata Pelczar-Szczypta": 80,
+        "Edward Baciak": 60,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5408,7 +5652,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 63,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 32,
-        "Małgorzata Pelczar-Szczypta": 83
+        "Małgorzata Pelczar-Szczypta": 83,
+        "Edward Baciak": 61,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5448,7 +5694,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 63,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 32,
-        "Małgorzata Pelczar-Szczypta": 86
+        "Małgorzata Pelczar-Szczypta": 86,
+        "Edward Baciak": 61,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5488,7 +5736,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 64,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 35,
-        "Małgorzata Pelczar-Szczypta": 89
+        "Małgorzata Pelczar-Szczypta": 89,
+        "Edward Baciak": 62,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5528,7 +5778,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 65,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 36,
-        "Małgorzata Pelczar-Szczypta": 90
+        "Małgorzata Pelczar-Szczypta": 90,
+        "Edward Baciak": 63,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5568,7 +5820,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 68,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 37,
-        "Małgorzata Pelczar-Szczypta": 93
+        "Małgorzata Pelczar-Szczypta": 93,
+        "Edward Baciak": 64,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5608,7 +5862,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 68,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 37,
-        "Małgorzata Pelczar-Szczypta": 93
+        "Małgorzata Pelczar-Szczypta": 93,
+        "Edward Baciak": 65,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5648,7 +5904,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 69,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 37,
-        "Małgorzata Pelczar-Szczypta": 96
+        "Małgorzata Pelczar-Szczypta": 96,
+        "Edward Baciak": 66,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5688,7 +5946,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 72,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 37,
-        "Małgorzata Pelczar-Szczypta": 99
+        "Małgorzata Pelczar-Szczypta": 99,
+        "Edward Baciak": 66,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5728,7 +5988,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 75,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 38,
-        "Małgorzata Pelczar-Szczypta": 102
+        "Małgorzata Pelczar-Szczypta": 102,
+        "Edward Baciak": 66,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5768,7 +6030,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 75,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 38,
-        "Małgorzata Pelczar-Szczypta": 102
+        "Małgorzata Pelczar-Szczypta": 102,
+        "Edward Baciak": 66,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5808,7 +6072,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 76,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 41,
-        "Małgorzata Pelczar-Szczypta": 105
+        "Małgorzata Pelczar-Szczypta": 105,
+        "Edward Baciak": 67,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5848,7 +6114,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 76,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 41,
-        "Małgorzata Pelczar-Szczypta": 105
+        "Małgorzata Pelczar-Szczypta": 105,
+        "Edward Baciak": 70,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5888,7 +6156,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 76,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 44,
-        "Małgorzata Pelczar-Szczypta": 108
+        "Małgorzata Pelczar-Szczypta": 108,
+        "Edward Baciak": 71,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5928,7 +6198,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 77,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 45,
-        "Małgorzata Pelczar-Szczypta": 108
+        "Małgorzata Pelczar-Szczypta": 108,
+        "Edward Baciak": 71,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -5968,7 +6240,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 78,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 46,
-        "Małgorzata Pelczar-Szczypta": 111
+        "Małgorzata Pelczar-Szczypta": 111,
+        "Edward Baciak": 72,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -6008,7 +6282,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 79,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 46,
-        "Małgorzata Pelczar-Szczypta": 111
+        "Małgorzata Pelczar-Szczypta": 111,
+        "Edward Baciak": 75,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -6048,7 +6324,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 79,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 47,
-        "Małgorzata Pelczar-Szczypta": 114
+        "Małgorzata Pelczar-Szczypta": 114,
+        "Edward Baciak": 75,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -6088,7 +6366,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 79,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 47,
-        "Małgorzata Pelczar-Szczypta": 114
+        "Małgorzata Pelczar-Szczypta": 114,
+        "Edward Baciak": 78,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -6128,7 +6408,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 82,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 48,
-        "Małgorzata Pelczar-Szczypta": 115
+        "Małgorzata Pelczar-Szczypta": 115,
+        "Edward Baciak": 79,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -6168,7 +6450,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 85,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 49,
-        "Małgorzata Pelczar-Szczypta": 116
+        "Małgorzata Pelczar-Szczypta": 116,
+        "Edward Baciak": 79,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -6208,7 +6492,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 86,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 50,
-        "Małgorzata Pelczar-Szczypta": 117
+        "Małgorzata Pelczar-Szczypta": 117,
+        "Edward Baciak": 79,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -6248,7 +6534,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 86,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 50,
-        "Małgorzata Pelczar-Szczypta": 117
+        "Małgorzata Pelczar-Szczypta": 117,
+        "Edward Baciak": 82,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -6288,7 +6576,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 86,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 50,
-        "Małgorzata Pelczar-Szczypta": 120
+        "Małgorzata Pelczar-Szczypta": 120,
+        "Edward Baciak": 85,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -6328,7 +6618,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 87,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 50,
-        "Małgorzata Pelczar-Szczypta": 121
+        "Małgorzata Pelczar-Szczypta": 121,
+        "Edward Baciak": 85,
+        "Gabryś Więcek": 6
       }
     },
     {
@@ -6368,7 +6660,9 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Grzegorz Dąbrowski": 88,
         "Grzegorz Murdzek": 45,
         "Patrycja Bożek": 50,
-        "Małgorzata Pelczar-Szczypta": 122
+        "Małgorzata Pelczar-Szczypta": 122,
+        "Edward Baciak": 86,
+        "Gabryś Więcek": 6
       }
     }
   ],
