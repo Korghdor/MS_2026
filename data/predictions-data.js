@@ -1,7 +1,7 @@
 window.BALTICWOOD_PREDICTIONS_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Typy",
-  "generatedAt": "2026-06-12T03:09:53+00:00",
+  "generatedAt": "2026-06-12T03:19:50+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -36,7 +36,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Małgorzata Pelczar-Szczypta",
     "Edward Baciak",
     "Gabryś Więcek",
-    "Jurgen Klinsmann(GD)"
+    "Jurgen Klinsmann(GD)",
+    "Marek Zarych"
   ],
   "completedCount": 1,
   "upcomingCount": 4,
@@ -80,7 +81,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Małgorzata Pelczar-Szczypta": "2-0",
         "Edward Baciak": "2-1",
         "Gabryś Więcek": "2-0",
-        "Jurgen Klinsmann(GD)": "2-1"
+        "Jurgen Klinsmann(GD)": "2-1",
+        "Marek Zarych": "2-1"
       }
     },
     {
@@ -122,7 +124,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Małgorzata Pelczar-Szczypta": "1-1",
         "Edward Baciak": "2-2",
         "Gabryś Więcek": "1-2",
-        "Jurgen Klinsmann(GD)": "2-3"
+        "Jurgen Klinsmann(GD)": "2-3",
+        "Marek Zarych": "1-2"
       }
     },
     {
@@ -164,7 +167,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Małgorzata Pelczar-Szczypta": "2-1",
         "Edward Baciak": "1-1",
         "Gabryś Więcek": "2-2",
-        "Jurgen Klinsmann(GD)": "0-1"
+        "Jurgen Klinsmann(GD)": "0-1",
+        "Marek Zarych": "2-1"
       }
     },
     {
@@ -206,7 +210,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Małgorzata Pelczar-Szczypta": "2-1",
         "Edward Baciak": "1-0",
         "Gabryś Więcek": "3-1",
-        "Jurgen Klinsmann(GD)": "0-5"
+        "Jurgen Klinsmann(GD)": "0-5",
+        "Marek Zarych": "1-0"
       }
     },
     {
@@ -248,7 +253,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Małgorzata Pelczar-Szczypta": "0-2",
         "Edward Baciak": "1-2",
         "Gabryś Więcek": "1-2",
-        "Jurgen Klinsmann(GD)": "1-3"
+        "Jurgen Klinsmann(GD)": "1-3",
+        "Marek Zarych": "1-3"
       }
     }
   ]

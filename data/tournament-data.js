@@ -1,8 +1,8 @@
 window.BALTICWOOD_TOURNAMENT_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Faza Grupowa - Punktacja",
-  "generatedAt": "2026-06-12T03:09:53+00:00",
-  "workbookModifiedAt": "2026-06-12T03:04:09+00:00",
+  "generatedAt": "2026-06-12T03:19:50+00:00",
+  "workbookModifiedAt": "2026-06-12T03:19:43+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -37,7 +37,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Małgorzata Pelczar-Szczypta",
     "Edward Baciak",
     "Gabryś Więcek",
-    "Jurgen Klinsmann(GD)"
+    "Jurgen Klinsmann(GD)",
+    "Marek Zarych"
   ],
   "matches": [
     {
@@ -52,7 +53,7 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "date": "2026-06-12",
       "time": "04:00",
       "match": "Korea Południowa – Czechy",
-      "result": "X-X"
+      "result": ""
     },
     {
       "number": 3,
@@ -586,45 +587,47 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Małgorzata Pelczar-Szczypta": 3,
         "Edward Baciak": 1,
         "Gabryś Więcek": 3,
-        "Jurgen Klinsmann(GD)": 1
+        "Jurgen Klinsmann(GD)": 1,
+        "Marek Zarych": 1
       }
     }
   ],
   "currentTotals": {
-    "Maciej Zając": 3,
+    "Maciej Zając": 4,
     "Tomasz Brocławik": 3,
-    "Maciej Niemiec": 3,
+    "Maciej Niemiec": 4,
     "Janusz Orlewski": 3,
     "Waldemar Węgrzyniak": 3,
-    "Dawid Cetnar": 1,
+    "Dawid Cetnar": 2,
     "Witold Pacek": 3,
-    "Brtek Szynal": 1,
+    "Brtek Szynal": 2,
     "Paweł Turek": 1,
-    "Grzegorz Kilar": 1,
-    "Mariusz Blezień": 3,
-    "Ryszard Żyra": 0,
-    "Grzegorz Rak": 1,
+    "Grzegorz Kilar": 2,
+    "Mariusz Blezień": 4,
+    "Ryszard Żyra": 1,
+    "Grzegorz Rak": 2,
     "Iwona Garnczarska": 0,
-    "Krzysztof Więcek": 3,
+    "Krzysztof Więcek": 4,
     "Rafał Kozioł": 3,
-    "Paweł Maszewski": 1,
-    "Rafał Flok": 3,
+    "Paweł Maszewski": 2,
+    "Rafał Flok": 4,
     "Szymon Przebienda": 1,
     "Bartosz Przebienda": 1,
     "Sławomir Przebienda": 1,
     "Jerzy Witusik": 3,
     "Krzysztof Filip": 0,
     "Waldemar Fundakowski": 0,
-    "Marcin Okarma": 3,
+    "Marcin Okarma": 4,
     "Dariusz Garncarski": 1,
-    "Marcin Danecki": 3,
+    "Marcin Danecki": 4,
     "Grzegorz Dąbrowski": 1,
     "Grzegorz Murdzek": 1,
     "Patrycja Bożek": 0,
-    "Małgorzata Pelczar-Szczypta": 3,
-    "Edward Baciak": 1,
+    "Małgorzata Pelczar-Szczypta": 4,
+    "Edward Baciak": 2,
     "Gabryś Więcek": 3,
-    "Jurgen Klinsmann(GD)": 1
+    "Jurgen Klinsmann(GD)": 1,
+    "Marek Zarych": 1
   },
   "lastMatchPoints": {
     "Maciej Zając": 3,
@@ -660,7 +663,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Małgorzata Pelczar-Szczypta": 3,
     "Edward Baciak": 1,
     "Gabryś Więcek": 3,
-    "Jurgen Klinsmann(GD)": 1
+    "Jurgen Klinsmann(GD)": 1,
+    "Marek Zarych": 1
   },
   "raceSnapshots": [
     {
@@ -703,9 +707,12 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Małgorzata Pelczar-Szczypta": 3,
         "Edward Baciak": 1,
         "Gabryś Więcek": 3,
-        "Jurgen Klinsmann(GD)": 1
+        "Jurgen Klinsmann(GD)": 1,
+        "Marek Zarych": 1
       }
     }
   ],
-  "warnings": []
+  "warnings": [
+    "Suma punktów z rozegranych meczów różni się od wiersza Podsumowanie."
+  ]
 };
