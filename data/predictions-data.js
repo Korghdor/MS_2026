@@ -1,7 +1,7 @@
 window.BALTICWOOD_PREDICTIONS_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Typy",
-  "generatedAt": "2026-06-12T03:25:05+00:00",
+  "generatedAt": "2026-06-12T03:28:43+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -39,7 +39,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Jurgen Klinsmann(GD)",
     "Marek Zarych"
   ],
-  "completedCount": 1,
+  "completedCount": 2,
   "upcomingCount": 4,
   "matches": [
     {
@@ -70,7 +70,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Bartosz Przebienda": "3-1",
         "Sławomir Przebienda": "2-1",
         "Jerzy Witusik": "2-0",
-        "Krzysztof Filip": "X-X",
+        "Krzysztof Filip": "2-1",
         "Waldemar Fundakowski": "1-1",
         "Marcin Okarma": "2-0",
         "Dariusz Garncarski": "2-1",
@@ -88,8 +88,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 2,
       "match": "Korea Południowa – Czechy",
-      "result": "X-X",
-      "completed": false,
+      "result": "1-1",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "1-1",
         "Tomasz Brocławik": "1-2",
@@ -255,6 +255,49 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Gabryś Więcek": "1-2",
         "Jurgen Klinsmann(GD)": "1-3",
         "Marek Zarych": "1-3"
+      }
+    },
+    {
+      "number": 6,
+      "match": "Brazylia – Maroko",
+      "result": "X-X",
+      "completed": false,
+      "predictions": {
+        "Maciej Zając": "2-1",
+        "Tomasz Brocławik": "3-1",
+        "Maciej Niemiec": "3-1",
+        "Janusz Orlewski": "3-0",
+        "Waldemar Węgrzyniak": "2-1",
+        "Dawid Cetnar": "1-1",
+        "Witold Pacek": "2-1",
+        "Brtek Szynal": "2-1",
+        "Paweł Turek": "0-0",
+        "Grzegorz Kilar": "2-1",
+        "Mariusz Blezień": "2-1",
+        "Ryszard Żyra": "1-2",
+        "Grzegorz Rak": "3-1",
+        "Iwona Garnczarska": "2-0",
+        "Krzysztof Więcek": "1-1",
+        "Rafał Kozioł": "3-1",
+        "Paweł Maszewski": "2-1",
+        "Rafał Flok": "2-1",
+        "Szymon Przebienda": "3-1",
+        "Bartosz Przebienda": "2-1",
+        "Sławomir Przebienda": "2-0",
+        "Jerzy Witusik": "3-1",
+        "Krzysztof Filip": "X-X",
+        "Waldemar Fundakowski": "3-1",
+        "Marcin Okarma": "2-1",
+        "Dariusz Garncarski": "4-3",
+        "Marcin Danecki": "2-1",
+        "Grzegorz Dąbrowski": "4-0",
+        "Grzegorz Murdzek": "2-1",
+        "Patrycja Bożek": "3-1",
+        "Małgorzata Pelczar-Szczypta": "2-1",
+        "Edward Baciak": "2-1",
+        "Gabryś Więcek": "X-X",
+        "Jurgen Klinsmann(GD)": "4-0",
+        "Marek Zarych": "3-1"
       }
     }
   ]
