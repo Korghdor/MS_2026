@@ -88,7 +88,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 2,
       "match": "Korea Południowa – Czechy",
-      "result": "1-1",
+      "result": "2-1",
       "completed": true,
       "predictions": {
         "Maciej Zając": "1-1",
