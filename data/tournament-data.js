@@ -53,7 +53,7 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "date": "2026-06-12",
       "time": "04:00",
       "match": "Korea Południowa – Czechy",
-      "result": "1-1"
+      "result": "2-1"
     },
     {
       "number": 3,
