@@ -1182,6 +1182,23 @@ footer {
     display: none;
   }
 
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-link-primary {
+    display: inline-flex;
+    min-height: 40px;
+    align-items: center;
+    padding: 0 16px;
+    border: 1px solid rgba(50, 200, 119, 0.55);
+    border-radius: 10px;
+    color: var(--navy-950);
+    background: var(--green-500);
+    font-size: 13px;
+    font-weight: 900;
+  }
+
   .predictions-page .nav-link {
     display: block;
     font-size: 12px;
