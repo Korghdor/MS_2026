@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Typy wszystkich graczy BalticWood Mundial 2026."
+    />
+    <title>Typy | BalticWood Mundial 2026</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="predictions-page">
+    <header class="subpage-header">
+      <nav class="nav shell" aria-label="Nawigacja podstrony typów">
+        <a class="brand" href="index.html" aria-label="BalticWood Mundial 2026">
+          <span class="brand-mark" aria-hidden="true">BW</span>
+          <span>
+            <strong>BalticWood</strong>
+            <small>Mundial 2026</small>
+          </span>
+        </a>
+        <a class="nav-link back-link" href="index.html">← Strona główna</a>
+      </nav>
+    </header>
+
+    <main class="predictions-main shell">
+      <div class="predictions-heading">
+        <div>
+          <p class="eyebrow">Mecz po meczu</p>
+          <h1>Typy graczy</h1>
+        </div>
+        <p id="predictions-summary">Wczytywanie typów...</p>
+      </div>
+
+      <div class="predictions-table-wrap">
+        <table class="predictions-table" id="predictions-table">
+          <thead id="predictions-head"></thead>
+          <tbody id="predictions-body"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <noscript>
+      Do wyświetlenia typów potrzebna jest obsługa JavaScript.
+    </noscript>
+    <script>
+      const predictionsScript = document.createElement("script");
+      predictionsScript.src = `data/predictions-data.js?v=${Date.now()}`;
+      predictionsScript.onload = () => {
+        const pageScript = document.createElement("script");
+        pageScript.src = `typy.js?v=${Date.now()}`;
+        document.body.appendChild(pageScript);
+      };
+      predictionsScript.onerror = () => {
+        document.getElementById("predictions-summary").textContent =
+          "Nie udało się pobrać aktualnych typów.";
+      };
+      document.body.appendChild(predictionsScript);
+    </script>
+  </body>
+</html>

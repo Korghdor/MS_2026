@@ -120,6 +120,12 @@ a {
   font-weight: 700;
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .nav-link:hover {
   color: var(--green-500);
 }
@@ -938,6 +944,172 @@ footer {
   gap: 24px;
 }
 
+.predictions-page {
+  min-height: 100vh;
+  background: var(--cream);
+}
+
+.subpage-header {
+  color: var(--white);
+  background:
+    radial-gradient(circle at 85% 10%, rgba(50, 200, 119, 0.16), transparent 28%),
+    var(--navy-950);
+}
+
+.predictions-main {
+  padding-block: 64px 80px;
+}
+
+.predictions-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.predictions-heading h1 {
+  margin-bottom: 0;
+  color: var(--navy-950);
+  font-size: clamp(42px, 6vw, 68px);
+  line-height: 1;
+}
+
+.predictions-heading > p {
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.predictions-table-wrap {
+  max-height: calc(100vh - 250px);
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.predictions-table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  white-space: nowrap;
+}
+
+.predictions-table th,
+.predictions-table td {
+  min-width: 112px;
+  padding: 15px 14px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+}
+
+.predictions-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  color: var(--white);
+  background: var(--navy-800);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.predictions-table tr:last-child th,
+.predictions-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.predictions-table th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  min-width: 280px;
+  max-width: 280px;
+  text-align: left;
+}
+
+.predictions-table th:nth-child(2),
+.predictions-table td:nth-child(2) {
+  position: sticky;
+  left: 280px;
+  z-index: 2;
+  min-width: 84px;
+  max-width: 84px;
+}
+
+.predictions-table thead th:first-child,
+.predictions-table thead th:nth-child(2) {
+  z-index: 5;
+  background: var(--navy-900);
+}
+
+.predictions-table tbody th:first-child,
+.predictions-table tbody td:nth-child(2) {
+  background: var(--white);
+}
+
+.predictions-table .match-upcoming th:first-child,
+.predictions-table .match-upcoming td:nth-child(2) {
+  background: #f7faf7;
+}
+
+.predictions-table .match-upcoming {
+  color: var(--muted);
+  background: #f7faf7;
+}
+
+.match-number {
+  display: inline-grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  margin-right: 9px;
+  border-radius: 8px;
+  color: var(--navy-800);
+  background: #eaf0ed;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.result-badge {
+  display: inline-flex;
+  min-width: 48px;
+  min-height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: var(--white);
+  background: var(--navy-800);
+  font-weight: 900;
+}
+
+.match-upcoming .result-badge {
+  color: var(--navy-800);
+  background: var(--green-100);
+}
+
+.predictions-table td.prediction-exact {
+  color: #08723d;
+  background: #daf5e5;
+  font-weight: 950;
+}
+
+.predictions-table td.prediction-outcome {
+  color: #725810;
+  background: #fff8d9;
+  font-weight: 800;
+}
+
+.predictions-table td.prediction-missing {
+  color: #9aa6ad;
+  background: #f3f5f4;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -989,6 +1161,12 @@ footer {
     align-items: flex-start;
     flex-direction: column;
   }
+
+  .predictions-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 @media (max-width: 680px) {
@@ -1002,6 +1180,29 @@ footer {
 
   .nav-link {
     display: none;
+  }
+
+  .predictions-page .nav-link {
+    display: block;
+    font-size: 12px;
+  }
+
+  .predictions-main {
+    padding-block: 42px 60px;
+  }
+
+  .predictions-table-wrap {
+    max-height: calc(100vh - 210px);
+  }
+
+  .predictions-table th:first-child {
+    min-width: 220px;
+    max-width: 220px;
+  }
+
+  .predictions-table th:nth-child(2),
+  .predictions-table td:nth-child(2) {
+    left: 220px;
   }
 
   .hero-content {

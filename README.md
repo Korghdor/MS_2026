@@ -8,6 +8,7 @@ Statyczna strona rankingu typujących, generowana z arkusza
 - aktualne TOP 3,
 - animowany Race Chart po każdym rozegranym meczu,
 - pełną klasyfikację wszystkich zawodników,
+- podstronę z typami wszystkich graczy dla rozegranych i 4 kolejnych meczów,
 - liczbę rozegranych meczów i datę aktualizacji.
 
 Lista zawodników jest wykrywana automatycznie z nagłówków od kolumny `F`.
@@ -23,8 +24,9 @@ Nowych osób nie trzeba dopisywać w kodzie strony.
 .\update-site.cmd "C:\Users\Maciej\Downloads\MS_2026.xlsm"
 ```
 
-3. Zatwierdź wygenerowany plik `data/tournament-data.js` i wyślij zmianę do
-   GitHuba. Akcja `Deploy GitHub Pages` sama opublikuje nową wersję.
+3. Zatwierdź wygenerowane pliki `data/tournament-data.js` oraz
+   `data/predictions-data.js` i wyślij zmianę do GitHuba. Akcja
+   `Deploy GitHub Pages` sama opublikuje nową wersję.
 
 Skrypt używa Pythona, jeśli jest dostępny. W przeciwnym razie odczytuje dane
 przez zainstalowany program Excel. Sam skoroszyt XLSM pozostaje na komputerze

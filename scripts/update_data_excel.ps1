@@ -93,6 +93,8 @@ $Excel = $null
 $Workbook = $null
 $Sheet = $null
 $UsedRange = $null
+$PredictionsSheet = $null
+$PredictionsRange = $null
 
 try {
     $Excel = New-Object -ComObject Excel.Application
@@ -246,6 +248,110 @@ try {
         warnings = @()
     }
 
+    $PredictionsSheet = $Workbook.Worksheets.Item("Typy")
+    $PredictionsRange = $PredictionsSheet.UsedRange
+    $PredictionValues = $PredictionsRange.Value2
+    $PredictionRowCount = $PredictionsRange.Rows.Count
+    $PredictionColumnCount = $PredictionsRange.Columns.Count
+
+    $PredictionPlayerColumns = [ordered]@{}
+    for ($Column = 3; $Column -le $PredictionColumnCount; $Column++) {
+        $Header = Get-CellValue $PredictionValues 1 $Column
+        if ($Header -is [string] -and -not [string]::IsNullOrWhiteSpace($Header)) {
+            $PredictionPlayerColumns.Add([string]$Column, $Header.Trim())
+        }
+    }
+
+    if ($PredictionPlayerColumns.Count -eq 0) {
+        throw "Nie znaleziono graczy w arkuszu Typy od kolumny C."
+    }
+
+    $PredictionPlayers = @($PredictionPlayerColumns.Values)
+    $AllPredictionMatches = [Collections.Generic.List[object]]::new()
+
+    for ($Row = 2; $Row -le $PredictionRowCount; $Row++) {
+        $MatchValue = Get-CellValue $PredictionValues $Row 1
+        $MatchName = if ($MatchValue -is [string]) {
+            $MatchValue.Trim()
+        }
+        else {
+            ""
+        }
+        if ([string]::IsNullOrWhiteSpace($MatchName)) {
+            continue
+        }
+
+        $ResultValue = Get-CellValue $PredictionValues $Row 2
+        $PredictionResult = if ($ResultValue -is [string] -and
+            -not [string]::IsNullOrWhiteSpace($ResultValue)) {
+            $ResultValue.Trim()
+        }
+        else {
+            "X-X"
+        }
+        $IsCompleted = $PredictionResult -match $ResultPattern
+
+        $Predictions = [ordered]@{}
+        foreach ($Column in $PredictionPlayerColumns.Keys) {
+            $PredictionValue = Get-CellValue $PredictionValues $Row ([int]$Column)
+            $PredictionText = if ($PredictionValue -is [string] -and
+                -not [string]::IsNullOrWhiteSpace($PredictionValue)) {
+                $PredictionValue.Trim()
+            }
+            else {
+                "X-X"
+            }
+            $Predictions[$PredictionPlayerColumns[$Column]] = $PredictionText
+        }
+
+        $PredictionMatch = [ordered]@{
+            number = $Row - 1
+            match = $MatchName
+            result = $PredictionResult
+            completed = $IsCompleted
+            predictions = $Predictions
+        }
+        $AllPredictionMatches.Add([object]$PredictionMatch)
+    }
+
+    $LastCompletedPredictionIndex = -1
+    for ($Index = 0; $Index -lt $AllPredictionMatches.Count; $Index++) {
+        if ($AllPredictionMatches[$Index].completed) {
+            $LastCompletedPredictionIndex = $Index
+        }
+    }
+
+    $VisiblePredictionMatches = [Collections.Generic.List[object]]::new()
+    $CompletedPredictionCount = 0
+    foreach ($PredictionMatch in $AllPredictionMatches) {
+        if ($PredictionMatch.completed) {
+            $VisiblePredictionMatches.Add([object]$PredictionMatch)
+            $CompletedPredictionCount += 1
+        }
+    }
+
+    $UpcomingPredictionCount = 0
+    for (
+        $Index = $LastCompletedPredictionIndex + 1;
+        $Index -lt $AllPredictionMatches.Count -and $UpcomingPredictionCount -lt 4;
+        $Index++
+    ) {
+        if (-not $AllPredictionMatches[$Index].completed) {
+            $VisiblePredictionMatches.Add([object]$AllPredictionMatches[$Index])
+            $UpcomingPredictionCount += 1
+        }
+    }
+
+    $PredictionsData = [ordered]@{
+        sourceFile = [IO.Path]::GetFileName($ResolvedWorkbook)
+        sheet = "Typy"
+        generatedAt = [DateTimeOffset]::UtcNow.ToString("yyyy-MM-ddTHH:mm:sszzz")
+        players = $PredictionPlayers
+        completedCount = $CompletedPredictionCount
+        upcomingCount = $UpcomingPredictionCount
+        matches = @($VisiblePredictionMatches)
+    }
+
     $OutputDirectory = Split-Path -Parent $ResolvedOutput
     New-Item -ItemType Directory -Path $OutputDirectory -Force | Out-Null
     $Json = $Data | ConvertTo-Json -Depth 10
@@ -255,9 +361,19 @@ try {
         $Content,
         [Text.UTF8Encoding]::new($false)
     )
+    $PredictionsOutput = Join-Path $OutputDirectory "predictions-data.js"
+    $PredictionsJson = $PredictionsData | ConvertTo-Json -Depth 10
+    $PredictionsContent = "window.BALTICWOOD_PREDICTIONS_DATA = $PredictionsJson;`n"
+    [IO.File]::WriteAllText(
+        $PredictionsOutput,
+        $PredictionsContent,
+        [Text.UTF8Encoding]::new($false)
+    )
 
     Write-Host "Gotowe: $($Players.Count) zawodników, $($CompletedMatches.Count)/$($MatchList.Count) rozegranych meczów."
     Write-Host "Zapisano: $ResolvedOutput"
+    Write-Host "Typy: $($PredictionPlayers.Count) graczy, $CompletedPredictionCount rozegranych + $UpcomingPredictionCount kolejnych."
+    Write-Host "Zapisano: $PredictionsOutput"
 }
 catch {
     Write-Error "$($_.Exception.Message)`n$($_.InvocationInfo.PositionMessage)`n$($_.ScriptStackTrace)"
@@ -270,7 +386,14 @@ finally {
     if ($null -ne $Excel) {
         $Excel.Quit()
     }
-    foreach ($ComObject in @($UsedRange, $Sheet, $Workbook, $Excel)) {
+    foreach ($ComObject in @(
+        $PredictionsRange,
+        $PredictionsSheet,
+        $UsedRange,
+        $Sheet,
+        $Workbook,
+        $Excel
+    )) {
         if ($null -ne $ComObject) {
             [Runtime.InteropServices.Marshal]::ReleaseComObject($ComObject) | Out-Null
         }

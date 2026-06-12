@@ -20,6 +20,7 @@ PACKAGE_REL_NS = "http://schemas.openxmlformats.org/package/2006/relationships"
 NS = {"m": MAIN_NS}
 REL_NS = {"r": PACKAGE_REL_NS}
 TARGET_SHEET = "Faza Grupowa - Punktacja"
+PREDICTIONS_SHEET = "Typy"
 RESULT_PATTERN = re.compile(r"^\s*\d+\s*[-:–—]\s*\d+\s*$")
 CELL_PATTERN = re.compile(r"^([A-Z]+)(\d+)$")
 
@@ -263,6 +264,93 @@ def build_tournament_data(workbook_path: Path) -> dict:
     }
 
 
+def build_predictions_data(workbook_path: Path, upcoming_count: int = 4) -> dict:
+    try:
+        with ZipFile(workbook_path) as archive:
+            shared_strings = load_shared_strings(archive)
+            sheet_path = find_sheet_path(archive, PREDICTIONS_SHEET)
+            rows = read_sheet(archive, sheet_path, shared_strings)
+    except (BadZipFile, KeyError, ET.ParseError) as error:
+        raise ValueError(f"Nie można odczytać arkusza Typy: {error}") from error
+
+    header = rows.get(1, {})
+    player_columns = {
+        column: clean_text(value)
+        for column, value in header.items()
+        if column >= 3 and clean_text(value)
+    }
+    if not player_columns:
+        raise ValueError("Nie znaleziono graczy w arkuszu Typy od kolumny C.")
+
+    players = list(player_columns.values())
+    all_matches = []
+
+    for row_number in sorted(rows):
+        if row_number == 1:
+            continue
+
+        row = rows[row_number]
+        match_name = clean_text(row.get(1))
+        if not match_name:
+            continue
+
+        result = clean_text(row.get(2)) or "X-X"
+        completed = bool(RESULT_PATTERN.match(result))
+        predictions = {
+            player: clean_text(row.get(column)) or "X-X"
+            for column, player in player_columns.items()
+        }
+        all_matches.append(
+            {
+                "number": row_number - 1,
+                "match": match_name,
+                "result": result,
+                "completed": completed,
+                "predictions": predictions,
+            }
+        )
+
+    last_completed_index = max(
+        (
+            index
+            for index, match in enumerate(all_matches)
+            if match["completed"]
+        ),
+        default=-1,
+    )
+    completed_matches = [
+        match for match in all_matches if match["completed"]
+    ]
+    upcoming_matches = [
+        match
+        for match in all_matches[last_completed_index + 1 :]
+        if not match["completed"]
+    ][:upcoming_count]
+    visible_matches = sorted(
+        [*completed_matches, *upcoming_matches],
+        key=lambda match: match["number"],
+    )
+
+    return {
+        "sourceFile": workbook_path.name,
+        "sheet": PREDICTIONS_SHEET,
+        "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "players": players,
+        "completedCount": len(completed_matches),
+        "upcomingCount": len(upcoming_matches),
+        "matches": visible_matches,
+    }
+
+
+def write_js_data(output_path: Path, variable_name: str, data: dict) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    payload = json.dumps(data, ensure_ascii=False, indent=2)
+    output_path.write_text(
+        f"window.{variable_name} = {payload};\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> int:
     if len(sys.argv) not in {2, 3}:
         print(
@@ -285,15 +373,17 @@ def main() -> int:
 
     try:
         data = build_tournament_data(workbook_path)
+        predictions_data = build_predictions_data(workbook_path)
     except ValueError as error:
         print(str(error), file=sys.stderr)
         return 1
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    payload = json.dumps(data, ensure_ascii=False, indent=2)
-    output_path.write_text(
-        f"window.BALTICWOOD_TOURNAMENT_DATA = {payload};\n",
-        encoding="utf-8",
+    predictions_output_path = output_path.with_name("predictions-data.js")
+    write_js_data(output_path, "BALTICWOOD_TOURNAMENT_DATA", data)
+    write_js_data(
+        predictions_output_path,
+        "BALTICWOOD_PREDICTIONS_DATA",
+        predictions_data,
     )
 
     print(
@@ -301,6 +391,12 @@ def main() -> int:
         f"{len(data['completedMatches'])}/{len(data['matches'])} rozegranych meczów."
     )
     print(f"Zapisano: {output_path.resolve()}")
+    print(
+        f"Typy: {len(predictions_data['players'])} graczy, "
+        f"{predictions_data['completedCount']} rozegranych + "
+        f"{predictions_data['upcomingCount']} kolejnych."
+    )
+    print(f"Zapisano: {predictions_output_path.resolve()}")
     return 0
 
 
