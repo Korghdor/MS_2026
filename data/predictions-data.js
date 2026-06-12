@@ -37,7 +37,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Edward Baciak",
     "Gabryś Więcek",
     "Jurgen Klinsmann(GD)",
-    "Marek Zarych"
+    "Marek Zarych",
+    "Mateusz Faryj"
   ],
   "completedCount": 2,
   "upcomingCount": 4,
@@ -82,7 +83,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Edward Baciak": "2-1",
         "Gabryś Więcek": "2-0",
         "Jurgen Klinsmann(GD)": "2-1",
-        "Marek Zarych": "2-1"
+        "Marek Zarych": "2-1",
+        "Mateusz Faryj": "0-0"
       }
     },
     {
@@ -125,7 +127,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Edward Baciak": "2-2",
         "Gabryś Więcek": "1-2",
         "Jurgen Klinsmann(GD)": "2-3",
-        "Marek Zarych": "1-2"
+        "Marek Zarych": "1-2",
+        "Mateusz Faryj": "0-1"
       }
     },
     {
@@ -168,7 +171,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Edward Baciak": "1-1",
         "Gabryś Więcek": "2-2",
         "Jurgen Klinsmann(GD)": "0-1",
-        "Marek Zarych": "2-1"
+        "Marek Zarych": "2-1",
+        "Mateusz Faryj": "2-0"
       }
     },
     {
@@ -211,7 +215,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Edward Baciak": "1-0",
         "Gabryś Więcek": "3-1",
         "Jurgen Klinsmann(GD)": "0-5",
-        "Marek Zarych": "1-0"
+        "Marek Zarych": "1-0",
+        "Mateusz Faryj": "0-0"
       }
     },
     {
@@ -254,7 +259,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Edward Baciak": "1-2",
         "Gabryś Więcek": "1-2",
         "Jurgen Klinsmann(GD)": "1-3",
-        "Marek Zarych": "1-3"
+        "Marek Zarych": "1-3",
+        "Mateusz Faryj": "0-1"
       }
     },
     {
@@ -297,7 +303,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Edward Baciak": "2-1",
         "Gabryś Więcek": "X-X",
         "Jurgen Klinsmann(GD)": "4-0",
-        "Marek Zarych": "3-1"
+        "Marek Zarych": "3-1",
+        "Mateusz Faryj": "3-0"
       }
     }
   ]

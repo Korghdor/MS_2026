@@ -38,7 +38,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Edward Baciak",
     "Gabryś Więcek",
     "Jurgen Klinsmann(GD)",
-    "Marek Zarych"
+    "Marek Zarych",
+    "Mateusz Faryj"
   ],
   "matches": [
     {
@@ -588,7 +589,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Edward Baciak": 1,
         "Gabryś Więcek": 3,
         "Jurgen Klinsmann(GD)": 1,
-        "Marek Zarych": 1
+        "Marek Zarych": 1,
+        "Mateusz Faryj": 0
       }
     },
     {
@@ -632,7 +634,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Edward Baciak": 0,
         "Gabryś Więcek": 0,
         "Jurgen Klinsmann(GD)": 0,
-        "Marek Zarych": 0
+        "Marek Zarych": 0,
+        "Mateusz Faryj": 0
       }
     }
   ],
@@ -671,7 +674,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Edward Baciak": 1,
     "Gabryś Więcek": 3,
     "Jurgen Klinsmann(GD)": 1,
-    "Marek Zarych": 1
+    "Marek Zarych": 1,
+    "Mateusz Faryj": 0
   },
   "lastMatchPoints": {
     "Maciej Zając": 0,
@@ -708,7 +712,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Edward Baciak": 0,
     "Gabryś Więcek": 0,
     "Jurgen Klinsmann(GD)": 0,
-    "Marek Zarych": 0
+    "Marek Zarych": 0,
+    "Mateusz Faryj": 0
   },
   "raceSnapshots": [
     {
@@ -752,7 +757,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Edward Baciak": 1,
         "Gabryś Więcek": 3,
         "Jurgen Klinsmann(GD)": 1,
-        "Marek Zarych": 1
+        "Marek Zarych": 1,
+        "Mateusz Faryj": 0
       }
     },
     {
@@ -796,7 +802,8 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
         "Edward Baciak": 1,
         "Gabryś Więcek": 3,
         "Jurgen Klinsmann(GD)": 1,
-        "Marek Zarych": 1
+        "Marek Zarych": 1,
+        "Mateusz Faryj": 0
       }
     }
   ],
