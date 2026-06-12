@@ -1,8 +1,8 @@
 window.BALTICWOOD_TOURNAMENT_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Faza Grupowa - Punktacja",
-  "generatedAt": "2026-06-12T03:19:50+00:00",
-  "workbookModifiedAt": "2026-06-12T03:19:43+00:00",
+  "generatedAt": "2026-06-12T03:25:05+00:00",
+  "workbookModifiedAt": "2026-06-12T03:24:59+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -53,7 +53,7 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "date": "2026-06-12",
       "time": "04:00",
       "match": "Korea Południowa – Czechy",
-      "result": ""
+      "result": "X-X"
     },
     {
       "number": 3,
@@ -593,38 +593,38 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     }
   ],
   "currentTotals": {
-    "Maciej Zając": 4,
+    "Maciej Zając": 3,
     "Tomasz Brocławik": 3,
-    "Maciej Niemiec": 4,
+    "Maciej Niemiec": 3,
     "Janusz Orlewski": 3,
     "Waldemar Węgrzyniak": 3,
-    "Dawid Cetnar": 2,
+    "Dawid Cetnar": 1,
     "Witold Pacek": 3,
-    "Brtek Szynal": 2,
+    "Brtek Szynal": 1,
     "Paweł Turek": 1,
-    "Grzegorz Kilar": 2,
-    "Mariusz Blezień": 4,
-    "Ryszard Żyra": 1,
-    "Grzegorz Rak": 2,
+    "Grzegorz Kilar": 1,
+    "Mariusz Blezień": 3,
+    "Ryszard Żyra": 0,
+    "Grzegorz Rak": 1,
     "Iwona Garnczarska": 0,
-    "Krzysztof Więcek": 4,
+    "Krzysztof Więcek": 3,
     "Rafał Kozioł": 3,
-    "Paweł Maszewski": 2,
-    "Rafał Flok": 4,
+    "Paweł Maszewski": 1,
+    "Rafał Flok": 3,
     "Szymon Przebienda": 1,
     "Bartosz Przebienda": 1,
     "Sławomir Przebienda": 1,
     "Jerzy Witusik": 3,
     "Krzysztof Filip": 0,
     "Waldemar Fundakowski": 0,
-    "Marcin Okarma": 4,
+    "Marcin Okarma": 3,
     "Dariusz Garncarski": 1,
-    "Marcin Danecki": 4,
+    "Marcin Danecki": 3,
     "Grzegorz Dąbrowski": 1,
     "Grzegorz Murdzek": 1,
     "Patrycja Bożek": 0,
-    "Małgorzata Pelczar-Szczypta": 4,
-    "Edward Baciak": 2,
+    "Małgorzata Pelczar-Szczypta": 3,
+    "Edward Baciak": 1,
     "Gabryś Więcek": 3,
     "Jurgen Klinsmann(GD)": 1,
     "Marek Zarych": 1
@@ -712,7 +712,5 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       }
     }
   ],
-  "warnings": [
-    "Suma punktów z rozegranych meczów różni się od wiersza Podsumowanie."
-  ]
+  "warnings": []
 };
