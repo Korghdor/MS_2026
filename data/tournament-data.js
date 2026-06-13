@@ -1,8 +1,8 @@
 window.BALTICWOOD_TOURNAMENT_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Faza Grupowa - Punktacja",
-  "generatedAt": "2026-06-12T21:26:19+00:00",
-  "workbookModifiedAt": "2026-06-12T21:26:08+00:00",
+  "generatedAt": "2026-06-13T06:01:47+00:00",
+  "workbookModifiedAt": "2026-06-13T06:01:41+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -68,7 +68,7 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       "date": "2026-06-13",
       "time": "03:00",
       "match": "USA – Paragwaj",
-      "result": "X-X"
+      "result": ""
     },
     {
       "number": 5,
@@ -688,10 +688,10 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Maciej Zając": 6,
     "Tomasz Brocławik": 6,
     "Maciej Niemiec": 6,
-    "Janusz Orlewski": 6,
+    "Janusz Orlewski": 7,
     "Waldemar Węgrzyniak": 3,
     "Dawid Cetnar": 1,
-    "Witold Pacek": 6,
+    "Witold Pacek": 7,
     "Bartek Szynal": 1,
     "Paweł Turek": 5,
     "Grzegorz Kilar": 1,
@@ -700,12 +700,12 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Grzegorz Rak": 4,
     "Iwona Garnczarska": 1,
     "Krzysztof Więcek": 3,
-    "Rafał Kozioł": 6,
+    "Rafał Kozioł": 7,
     "Paweł Maszewski": 1,
     "Rafał Flok": 3,
     "Szymon Przebienda": 1,
     "Bartosz Przebienda": 4,
-    "Sławomir Przebienda": 1,
+    "Sławomir Przebienda": 2,
     "Jerzy Witusik": 3,
     "Krzysztof Filip": 1,
     "Waldemar Fundakowski": 0,
@@ -713,14 +713,14 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
     "Dariusz Garncarski": 3,
     "Marcin Danecki": 3,
     "Grzegorz Dąbrowski": 1,
-    "Grzegorz Murdzek": 1,
+    "Grzegorz Murdzek": 2,
     "Patrycja Bożek": 3,
     "Małgorzata Pelczar-Szczypta": 3,
     "Edward Baciak": 4,
     "Gabryś Więcek": 4,
     "Jurgen Klinsmann(GD)": 1,
     "Marek Zarych": 1,
-    "Mateusz Faryj": 0
+    "Mateusz Faryj": 1
   },
   "lastMatchPoints": {
     "Maciej Zając": 3,
@@ -897,5 +897,7 @@ window.BALTICWOOD_TOURNAMENT_DATA = {
       }
     }
   ],
-  "warnings": []
+  "warnings": [
+    "Suma punktów z rozegranych meczów różni się od wiersza Podsumowanie."
+  ]
 };
