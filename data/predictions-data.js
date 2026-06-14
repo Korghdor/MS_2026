@@ -1,7 +1,7 @@
 window.BALTICWOOD_PREDICTIONS_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Typy",
-  "generatedAt": "2026-06-14T06:06:54+00:00",
+  "generatedAt": "2026-06-14T09:20:31+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
