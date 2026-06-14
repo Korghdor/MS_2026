@@ -1,7 +1,7 @@
 window.BALTICWOOD_PREDICTIONS_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Typy",
-  "generatedAt": "2026-06-14T04:14:09+00:00",
+  "generatedAt": "2026-06-14T06:06:54+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -40,7 +40,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Marek Zarych",
     "Mateusz Faryj"
   ],
-  "completedCount": 7,
+  "completedCount": 8,
   "upcomingCount": 4,
   "matches": [
     {
@@ -354,8 +354,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 8,
       "match": "Australia – Turcja",
-      "result": "X-X",
-      "completed": false,
+      "result": "2-0",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "1-2",
         "Tomasz Brocławik": "1-1",
@@ -524,6 +524,50 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Gabryś Więcek": "1-1",
         "Jurgen Klinsmann(GD)": "1-4",
         "Marek Zarych": "1-1",
+        "Mateusz Faryj": "1-1"
+      }
+    },
+    {
+      "number": 12,
+      "match": "Szwecja – Tunezja",
+      "result": "X-X",
+      "completed": false,
+      "predictions": {
+        "Maciej Zając": "1-0",
+        "Tomasz Brocławik": "2-0",
+        "Maciej Niemiec": "2-0",
+        "Janusz Orlewski": "2-1",
+        "Waldemar Węgrzyniak": "2-0",
+        "Dawid Cetnar": "1-1",
+        "Witold Pacek": "2-0",
+        "Bartek Szynal": "2-1",
+        "Paweł Turek": "1-1",
+        "Grzegorz Kilar": "2-0",
+        "Mariusz Blezień": "1-0",
+        "Ryszard Żyra": "2-0",
+        "Grzegorz Rak": "2-1",
+        "Iwona Garnczarska": "2-0",
+        "Krzysztof Więcek": "2-1",
+        "Rafał Kozioł": "1-0",
+        "Paweł Maszewski": "2-0",
+        "Rafał Flok": "1-0",
+        "Szymon Przebienda": "1-0",
+        "Bartosz Przebienda": "2-0",
+        "Sławomir Przebienda": "2-0",
+        "Jerzy Witusik": "3-1",
+        "Krzysztof Filip": "0-0",
+        "Waldemar Fundakowski": "2-1",
+        "Marcin Okarma": "2-0",
+        "Dariusz Garncarski": "1-1",
+        "Marcin Danecki": "2-0",
+        "Grzegorz Dąbrowski": "2-1",
+        "Grzegorz Murdzek": "2-1",
+        "Patrycja Bożek": "2-1",
+        "Małgorzata Pelczar-Szczypta": "2-1",
+        "Edward Baciak": "1-1",
+        "Gabryś Więcek": "2-0",
+        "Jurgen Klinsmann(GD)": "2-2",
+        "Marek Zarych": "2-0",
         "Mateusz Faryj": "1-1"
       }
     }
