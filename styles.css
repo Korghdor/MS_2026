@@ -1238,7 +1238,10 @@ footer {
   }
 
   .predictions-table-wrap {
-    max-height: calc(100vh - 210px);
+    max-height: none;
+    overflow-x: auto;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
   }
 
   .predictions-table th,
