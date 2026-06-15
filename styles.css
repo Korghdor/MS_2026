@@ -1379,6 +1379,101 @@ footer {
   }
 }
 
+@media (orientation: landscape) and (max-height: 600px) {
+  .predictions-page .nav {
+    min-height: 58px;
+  }
+
+  .predictions-page .brand-mark {
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+    font-size: 12px;
+  }
+
+  .predictions-page .brand strong {
+    font-size: 15px;
+  }
+
+  .predictions-page .brand small {
+    font-size: 9px;
+  }
+
+  .predictions-main {
+    padding-block: 18px 32px;
+  }
+
+  .predictions-heading {
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+
+  .predictions-heading .eyebrow {
+    margin-bottom: 4px;
+    font-size: 10px;
+  }
+
+  .predictions-heading h1 {
+    font-size: 34px;
+  }
+
+  .predictions-heading > p {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .predictions-table-wrap {
+    max-height: none;
+    overflow-x: auto;
+    overflow-y: visible;
+  }
+
+  .predictions-table th,
+  .predictions-table td {
+    min-width: 92px;
+    padding: 10px 8px;
+  }
+
+  .predictions-table th:first-child {
+    min-width: 136px;
+    max-width: 136px;
+    padding: 9px 8px;
+    white-space: normal;
+  }
+
+  .predictions-table th:nth-child(2),
+  .predictions-table td:nth-child(2) {
+    left: 136px;
+    min-width: 60px;
+    max-width: 60px;
+    padding-inline: 6px;
+  }
+
+  .match-cell,
+  .match-teams {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .match-teams {
+    display: flex;
+    gap: 2px;
+    width: 100%;
+    color: var(--navy-900);
+    font-size: 11px;
+    line-height: 1.18;
+  }
+
+  .match-team-divider {
+    display: none;
+  }
+
+  .result-badge {
+    min-width: 44px;
+    min-height: 28px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
