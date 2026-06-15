@@ -130,6 +130,10 @@ a {
   color: var(--green-500);
 }
 
+.back-label-short {
+  display: none;
+}
+
 .hero-content {
   display: grid;
   min-height: 608px;
@@ -950,6 +954,8 @@ footer {
 }
 
 .subpage-header {
+  position: relative;
+  width: 100vw;
   color: var(--white);
   background:
     radial-gradient(circle at 85% 10%, rgba(50, 200, 119, 0.16), transparent 28%),
@@ -1074,6 +1080,15 @@ footer {
   background: #eaf0ed;
   font-size: 11px;
   font-weight: 900;
+}
+
+.match-cell {
+  display: flex;
+  align-items: center;
+}
+
+.match-teams {
+  min-width: 0;
 }
 
 .result-badge {
@@ -1204,6 +1219,33 @@ footer {
     font-size: 12px;
   }
 
+  .predictions-page .nav {
+    gap: 12px;
+  }
+
+  .predictions-page .brand {
+    min-width: 0;
+  }
+
+  .predictions-page .back-link {
+    position: absolute;
+    top: 24px;
+    right: 14px;
+    z-index: 10;
+    padding: 4px 8px;
+    border-radius: 7px;
+    background: rgba(6, 24, 44, 0.82);
+    white-space: nowrap;
+  }
+
+  .back-label-full {
+    display: none;
+  }
+
+  .back-label-short {
+    display: inline;
+  }
+
   .predictions-main {
     padding-block: 42px 60px;
   }
@@ -1212,14 +1254,62 @@ footer {
     max-height: calc(100vh - 210px);
   }
 
+  .predictions-table th,
+  .predictions-table td {
+    min-width: 92px;
+    padding: 12px 10px;
+  }
+
   .predictions-table th:first-child {
-    min-width: 220px;
-    max-width: 220px;
+    min-width: 136px;
+    max-width: 136px;
+    padding: 10px 8px;
+    white-space: normal;
   }
 
   .predictions-table th:nth-child(2),
   .predictions-table td:nth-child(2) {
-    left: 220px;
+    left: 136px;
+    min-width: 60px;
+    max-width: 60px;
+    padding-inline: 6px;
+  }
+
+  .match-cell {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .match-number {
+    width: auto;
+    height: 20px;
+    margin-right: 0;
+    padding-inline: 7px;
+    border-radius: 6px;
+    font-size: 10px;
+  }
+
+  .match-number::before {
+    content: "Mecz ";
+  }
+
+  .match-teams {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100%;
+    color: var(--navy-900);
+    font-size: 11px;
+    line-height: 1.18;
+  }
+
+  .match-team-divider {
+    display: none;
+  }
+
+  .result-badge {
+    min-width: 44px;
   }
 
   .hero-content {

@@ -40,8 +40,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Marek Zarych",
     "Mateusz Faryj"
   ],
-  "completedCount": 12,
-  "upcomingCount": 3,
+  "completedCount": 11,
+  "upcomingCount": 4,
   "matches": [
     {
       "number": 1,
@@ -530,8 +530,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 12,
       "match": "Szwecja – Tunezja",
-      "result": "5-1",
-      "completed": true,
+      "result": "X-X",
+      "completed": false,
       "predictions": {
         "Maciej Zając": "1-0",
         "Tomasz Brocławik": "2-0",

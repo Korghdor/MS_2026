@@ -26,8 +26,10 @@
       (match) => `
         <tr class="${match.completed ? "match-completed" : "match-upcoming"}">
           <th scope="row">
-            <span class="match-number">${match.number}</span>
-            ${escapeHtml(match.match)}
+            <span class="match-cell">
+              <span class="match-number">${match.number}</span>
+              ${renderTeams(match.match)}
+            </span>
           </th>
           <td>
             <span class="result-badge">${escapeHtml(match.result)}</span>
@@ -60,6 +62,21 @@
   summary.textContent =
     `${data.completedCount} rozegranych meczów + ` +
     `${data.upcomingCount} najbliższe z wynikiem X-X`;
+
+  function renderTeams(matchName) {
+    const teams = String(matchName).split(/\s+[–—-]\s+/, 2);
+    if (teams.length !== 2) {
+      return `<span class="match-teams">${escapeHtml(matchName)}</span>`;
+    }
+
+    return `
+      <span class="match-teams">
+        <span class="match-team">${escapeHtml(teams[0])}</span>
+        <span class="match-team-divider" aria-hidden="true"> – </span>
+        <span class="match-team">${escapeHtml(teams[1])}</span>
+      </span>
+    `;
+  }
 
   function getOutcome(score) {
     const match = String(score).trim().match(/^(\d+)\s*[-:]\s*(\d+)$/);
