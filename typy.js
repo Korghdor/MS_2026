@@ -27,7 +27,6 @@
         <tr class="${match.completed ? "match-completed" : "match-upcoming"}">
           <th scope="row">
             <span class="match-cell">
-              <span class="match-number">${match.number}</span>
               ${renderTeams(match.match)}
             </span>
           </th>

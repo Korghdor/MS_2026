@@ -1069,19 +1069,6 @@ footer {
   background: #f7faf7;
 }
 
-.match-number {
-  display: inline-grid;
-  width: 28px;
-  height: 28px;
-  place-items: center;
-  margin-right: 9px;
-  border-radius: 8px;
-  color: var(--navy-800);
-  background: #eaf0ed;
-  font-size: 11px;
-  font-weight: 900;
-}
-
 .match-cell {
   display: flex;
   align-items: center;
@@ -1278,20 +1265,6 @@ footer {
   .match-cell {
     align-items: flex-start;
     flex-direction: column;
-    gap: 6px;
-  }
-
-  .match-number {
-    width: auto;
-    height: 20px;
-    margin-right: 0;
-    padding-inline: 7px;
-    border-radius: 6px;
-    font-size: 10px;
-  }
-
-  .match-number::before {
-    content: "Mecz ";
   }
 
   .match-teams {
