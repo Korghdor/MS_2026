@@ -1,7 +1,7 @@
 window.BALTICWOOD_PREDICTIONS_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Typy",
-  "generatedAt": "2026-06-15T16:46:12+00:00",
+  "generatedAt": "2026-06-15T18:58:31+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -40,7 +40,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Marek Zarych",
     "Mateusz Faryj"
   ],
-  "completedCount": 12,
+  "completedCount": 13,
   "upcomingCount": 4,
   "matches": [
     {
@@ -574,8 +574,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 13,
       "match": "Hiszpania – Republika Zielonego Przylądka",
-      "result": "X-X",
-      "completed": false,
+      "result": "0-0",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "3-0",
         "Tomasz Brocławik": "3-0",
@@ -745,6 +745,50 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Jurgen Klinsmann(GD)": "1-2",
         "Marek Zarych": "2-2",
         "Mateusz Faryj": "1-1"
+      }
+    },
+    {
+      "number": 17,
+      "match": "Francja – Senegal",
+      "result": "X-X",
+      "completed": false,
+      "predictions": {
+        "Maciej Zając": "1-1",
+        "Tomasz Brocławik": "2-0",
+        "Maciej Niemiec": "2-1",
+        "Janusz Orlewski": "2-0",
+        "Waldemar Węgrzyniak": "2-0",
+        "Dawid Cetnar": "2-0",
+        "Witold Pacek": "2-1",
+        "Bartek Szynal": "2-1",
+        "Paweł Turek": "2-0",
+        "Grzegorz Kilar": "3-1",
+        "Mariusz Blezień": "2-1",
+        "Ryszard Żyra": "1-1",
+        "Grzegorz Rak": "2-0",
+        "Iwona Garnczarska": "2-0",
+        "Krzysztof Więcek": "2-0",
+        "Rafał Kozioł": "1-1",
+        "Paweł Maszewski": "3-1",
+        "Rafał Flok": "2-2",
+        "Szymon Przebienda": "4-1",
+        "Bartosz Przebienda": "2-1",
+        "Sławomir Przebienda": "1-1",
+        "Jerzy Witusik": "2-1",
+        "Krzysztof Filip": "4-1",
+        "Waldemar Fundakowski": "2-0",
+        "Marcin Okarma": "3-1",
+        "Dariusz Garncarski": "2-1",
+        "Marcin Danecki": "3-1",
+        "Grzegorz Dąbrowski": "1-1",
+        "Grzegorz Murdzek": "3-1",
+        "Patrycja Bożek": "3-1",
+        "Małgorzata Pelczar-Szczypta": "3-0",
+        "Edward Baciak": "2-1",
+        "Gabryś Więcek": "2-1",
+        "Jurgen Klinsmann(GD)": "3-3",
+        "Marek Zarych": "3-1",
+        "Mateusz Faryj": "3-0"
       }
     }
   ]
