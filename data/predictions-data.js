@@ -867,7 +867,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Waldemar Fundakowski": "3-0",
         "Marcin Okarma": "3-0",
         "Dariusz Garncarski": "2-1",
-        "Marcin Danecki": "3-2",
+        "Marcin Danecki": "3-0",
         "Grzegorz Dąbrowski": "3-0",
         "Grzegorz Murdzek": "4-1",
         "Patrycja Bożek": "3-0",
