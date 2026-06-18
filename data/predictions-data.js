@@ -1058,7 +1058,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 24,
       "match": "Uzbekistan – Kolumbia",
-      "result": "1-2",
+      "result": "1-3",
       "completed": true,
       "predictions": {
         "Maciej Zając": "1-2",
