@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Największe pomyłki w typach BalticWood Mundial 2026."
+    />
+    <title>Największe pomyłki | BalticWood Mundial 2026</title>
+    <link rel="stylesheet" href="styles.css?v=20260618-9" />
+  </head>
+  <body class="predictions-page mistakes-page">
+    <header class="subpage-header">
+      <nav class="nav shell" aria-label="Nawigacja podstrony największych pomyłek">
+        <a class="brand" href="index.html" aria-label="BalticWood Mundial 2026">
+          <span class="brand-mark" aria-hidden="true">BW</span>
+          <span>
+            <strong>BalticWood</strong>
+            <small>Mundial 2026</small>
+          </span>
+        </a>
+        <div class="nav-links subpage-links">
+          <a class="nav-link nav-link-secondary" href="typy.html">Typy</a>
+          <a class="nav-link nav-link-secondary" href="samotni.html">Samotni</a>
+          <a class="nav-link back-link" href="index.html">
+            ← <span class="back-label-full">Strona główna</span
+            ><span class="back-label-short">Wróć</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="predictions-main shell">
+      <div class="predictions-heading">
+        <div>
+          <p class="eyebrow">Typy kontra rzeczywistość</p>
+          <h1>Największe pomyłki</h1>
+        </div>
+        <p id="mistakes-summary">Wczytywanie tablicy pomyłek...</p>
+      </div>
+
+      <section class="lone-hero mistakes-hero" aria-label="Opis największych pomyłek">
+        <div>
+          <p class="analytics-kicker">Jak liczymy?</p>
+          <h2>Kto odjechał najdalej?</h2>
+          <p>
+            Pomyłka to suma różnic bramek. Typ 4-0 przy wyniku 1-3 daje
+            6 bramek różnicy. X-X i brak typu nie są liczone.
+          </p>
+        </div>
+        <label class="prediction-search lone-search">
+          <span>Filtruj</span>
+          <input
+            id="mistakes-search"
+            type="search"
+            placeholder="Wpisz zawodnika, mecz albo typ..."
+            autocomplete="off"
+          />
+        </label>
+      </section>
+
+      <section class="surprise-notes" aria-label="Mecze niespodzianki poza rankingiem">
+        <article>
+          <p class="analytics-kicker">Mega niespodzianka</p>
+          <h2>Hiszpania – Republika Zielonego Przylądka</h2>
+          <p>
+            Tego 0-0 nie trafił nikt. W typach wszyscy odlecieli, ale najbardziej
+            chyba sami piłkarze z Hiszpanii, bo plan na bramki został w szatni.
+          </p>
+        </article>
+        <article>
+          <p class="analytics-kicker">Drugi lot specjalny</p>
+          <h2>Portugalia – DR Konga</h2>
+          <p>
+            Tu też nikt nie przewidział remisu 1-1. Portugalia miała być
+            autostradą po punkty, a wyszedł objazd przez rondo pod nazwą:
+            "futbol jednak nie czyta naszych typów".
+          </p>
+        </article>
+      </section>
+
+      <section class="mistakes-grid">
+        <article class="mistakes-panel">
+          <p class="analytics-kicker">Ranking pomyłek</p>
+          <h2>Łącznie od początku</h2>
+          <p>
+            Im wyżej, tym dalej od rzeczywistości. Matematyka bez emocji, ale
+            za to z lekkim uśmiechem.
+          </p>
+          <div class="mistakes-ranking" id="mistakes-ranking"></div>
+        </article>
+
+        <article class="mistakes-panel">
+          <p class="analytics-kicker">Pojedyncze typy</p>
+          <h2>Największe strzały w bok</h2>
+          <p id="mistakes-list-note">Pokazuję największe pojedyncze pomyłki.</p>
+          <div class="lone-list mistakes-list" id="mistakes-list" aria-live="polite"></div>
+        </article>
+      </section>
+    </main>
+
+    <noscript>
+      Do wyświetlenia największych pomyłek potrzebna jest obsługa JavaScript.
+    </noscript>
+    <script>
+      const predictionsScript = document.createElement("script");
+      predictionsScript.src = `data/predictions-data.js?v=${Date.now()}`;
+      predictionsScript.onload = () => {
+        const pageScript = document.createElement("script");
+        pageScript.src = `pomylki.js?v=${Date.now()}`;
+        document.body.appendChild(pageScript);
+      };
+      predictionsScript.onerror = () => {
+        document.getElementById("mistakes-summary").textContent =
+          "Nie udało się pobrać aktualnych typów.";
+      };
+      document.body.appendChild(predictionsScript);
+    </script>
+  </body>
+</html>

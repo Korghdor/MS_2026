@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Samotni strzelcy typów BalticWood Mundial 2026."
+    />
+    <title>Samotni strzelcy | BalticWood Mundial 2026</title>
+    <link rel="stylesheet" href="styles.css?v=20260618-9" />
+  </head>
+  <body class="predictions-page lone-page">
+    <header class="subpage-header">
+      <nav class="nav shell" aria-label="Nawigacja podstrony samotnych strzelców">
+        <a class="brand" href="index.html" aria-label="BalticWood Mundial 2026">
+          <span class="brand-mark" aria-hidden="true">BW</span>
+          <span>
+            <strong>BalticWood</strong>
+            <small>Mundial 2026</small>
+          </span>
+        </a>
+        <div class="nav-links subpage-links">
+          <a class="nav-link nav-link-secondary" href="typy.html">Typy</a>
+          <a class="nav-link nav-link-secondary" href="pomylki.html">Pomyłki</a>
+          <a class="nav-link back-link" href="index.html">
+            ← <span class="back-label-full">Strona główna</span
+            ><span class="back-label-short">Wróć</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="predictions-main shell">
+      <div class="predictions-heading">
+        <div>
+          <p class="eyebrow">Typ tylko dla odważnych</p>
+          <h1>Samotni strzelcy</h1>
+        </div>
+        <p id="lone-summary">Wczytywanie samotnych strzelców...</p>
+      </div>
+
+      <section class="lone-hero" aria-label="Opis samotnych strzelców">
+        <div>
+          <p class="analytics-kicker">O co chodzi?</p>
+          <h2>Jedyny dokładny strzał przy stole</h2>
+          <p>
+            Tu trafiają zawodnicy, którzy jako jedyni wybrali dokładny wynik.
+            Bez punktów za sam kierunek, bez półśrodków, tylko czyste
+            3-punktowe trafienie.
+          </p>
+        </div>
+        <label class="prediction-search lone-search">
+          <span>Filtruj</span>
+          <input
+            id="lone-search"
+            type="search"
+            placeholder="Wpisz zawodnika, mecz albo typ..."
+            autocomplete="off"
+          />
+        </label>
+      </section>
+
+      <div class="lone-list" id="lone-list" aria-live="polite"></div>
+    </main>
+
+    <noscript>
+      Do wyświetlenia samotnych strzelców potrzebna jest obsługa JavaScript.
+    </noscript>
+    <script>
+      const predictionsScript = document.createElement("script");
+      predictionsScript.src = `data/predictions-data.js?v=${Date.now()}`;
+      predictionsScript.onload = () => {
+        const pageScript = document.createElement("script");
+        pageScript.src = `samotni.js?v=${Date.now()}`;
+        document.body.appendChild(pageScript);
+      };
+      predictionsScript.onerror = () => {
+        document.getElementById("lone-summary").textContent =
+          "Nie udało się pobrać aktualnych typów.";
+      };
+      document.body.appendChild(predictionsScript);
+    </script>
+  </body>
+</html>

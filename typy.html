@@ -8,7 +8,7 @@
       content="Typy wszystkich graczy BalticWood Mundial 2026."
     />
     <title>Typy | BalticWood Mundial 2026</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260618-9" />
   </head>
   <body class="predictions-page">
     <header class="subpage-header">
@@ -35,6 +35,80 @@
         </div>
         <p id="predictions-summary">Wczytywanie typów...</p>
       </div>
+
+      <div class="predictions-toolbar" aria-label="Filtrowanie typów">
+        <div class="prediction-filter-group">
+          <label class="prediction-search">
+            <span>Filtruj zawodników</span>
+            <input
+              id="prediction-player-search"
+              type="search"
+              placeholder="Wpisz imię lub nazwisko..."
+              autocomplete="off"
+            />
+          </label>
+          <button class="filter-clear" id="prediction-clear-filter" type="button" hidden>
+            Wyczyść
+          </button>
+          <p id="prediction-filter-count">Pokazuję wszystkich zawodników.</p>
+        </div>
+
+        <div class="prediction-compare" aria-label="Porównanie dwóch zawodników">
+          <div class="prediction-compare-heading">
+            <span>Porównaj typy</span>
+            <strong>Dwóch zawodników obok siebie</strong>
+          </div>
+          <div class="prediction-compare-fields">
+            <label class="prediction-search prediction-search-compact">
+              <span>Zawodnik 1</span>
+              <input
+                id="prediction-compare-a"
+                type="search"
+                list="prediction-player-options"
+                placeholder="np. Maciej..."
+                autocomplete="off"
+              />
+            </label>
+            <label class="prediction-search prediction-search-compact">
+              <span>Zawodnik 2</span>
+              <input
+                id="prediction-compare-b"
+                type="search"
+                list="prediction-player-options"
+                placeholder="np. Tomasz..."
+                autocomplete="off"
+              />
+            </label>
+            <button
+              class="filter-clear"
+              id="prediction-clear-compare"
+              type="button"
+              hidden
+            >
+              Wyczyść porównanie
+            </button>
+          </div>
+          <p id="prediction-compare-summary">
+            Wpisz dwóch zawodników, aby porównać ich typy mecz po meczu.
+          </p>
+        </div>
+        <datalist id="prediction-player-options"></datalist>
+      </div>
+
+      <aside class="match-detail-card" id="match-detail-card" hidden>
+        <button
+          class="match-detail-close"
+          id="match-detail-close"
+          type="button"
+          aria-label="Zamknij kartę meczu"
+        >
+          ×
+        </button>
+        <p class="analytics-kicker">Karta meczu</p>
+        <h2 id="match-detail-title">Wybierz mecz z tabeli</h2>
+        <div class="match-detail-meta" id="match-detail-meta"></div>
+        <div class="match-detail-grid" id="match-detail-grid"></div>
+      </aside>
 
       <div class="predictions-table-wrap">
         <table class="predictions-table" id="predictions-table">

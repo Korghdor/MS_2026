@@ -8,7 +8,7 @@
       content="BalticWood Mundial 2026 - aktualna klasyfikacja typujących, podium i wyścig punktowy po każdym meczu."
     />
     <title>BalticWood Mundial 2026</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260618-9" />
   </head>
   <body>
     <header class="hero">
@@ -22,6 +22,14 @@
         </a>
         <div class="nav-links">
           <a class="nav-link nav-link-primary" href="typy.html">Typy</a>
+          <a
+            class="nav-link nav-link-secondary nav-link-lone"
+            href="samotni.html"
+            aria-label="Samotni strzelcy"
+          >
+            Samotni
+          </a>
+          <a class="nav-link nav-link-secondary" href="pomylki.html">Pomyłki</a>
           <a class="nav-link nav-link-secondary" href="#klasyfikacja">Klasyfikacja</a>
         </div>
       </nav>
@@ -78,6 +86,60 @@
           </p>
         </div>
         <div class="podium" id="podium-list" aria-live="polite"></div>
+      </section>
+
+      <section class="section shell" id="analizy">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Excel po godzinach</p>
+            <h2>Analizy i ciekawostki</h2>
+          </div>
+          <p class="section-note">
+            Tu widać, kto miał dzień, kto czuje wyniki nosem, a kto prowadzi
+            rozmowy motywacyjne z arkuszem kalkulacyjnym.
+          </p>
+        </div>
+
+        <div class="analytics-grid">
+          <article class="analytics-card daily-card">
+            <p class="analytics-kicker">Ranking dnia</p>
+            <h3 id="daily-ranking-title">Czekamy na dane dnia</h3>
+            <span id="daily-ranking-meta"></span>
+            <ol class="analytics-list" id="daily-ranking-list"></ol>
+          </article>
+
+          <article class="analytics-card trivia-card">
+            <div class="trivia-card-header">
+              <div>
+                <p class="analytics-kicker">Ciekawostki dnia</p>
+                <h3 id="trivia-title">Małe wielkie liczby</h3>
+                <span id="trivia-meta"></span>
+              </div>
+              <div class="table-controls trivia-controls" aria-label="Zmiana dnia ciekawostek">
+                <button id="trivia-prev" type="button" aria-label="Poprzedni dzień">
+                  <span aria-hidden="true">←</span>
+                </button>
+                <button id="trivia-next" type="button" aria-label="Następny dzień">
+                  <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </div>
+            <ul class="trivia-list" id="trivia-list"></ul>
+          </article>
+
+          <article class="analytics-card trivia-card">
+            <p class="analytics-kicker">Od początku turnieju</p>
+            <h3>Cały turniej</h3>
+            <span>Stałe podsumowanie wszystkich rozegranych meczów.</span>
+            <ul class="trivia-list" id="overall-trivia-list"></ul>
+            <a class="analytics-link" href="samotni.html">
+              Zobacz pełną listę samotnych strzelców
+            </a>
+            <a class="analytics-link" href="pomylki.html">
+              Sprawdź największe pomyłki
+            </a>
+          </article>
+        </div>
       </section>
 
       <section class="section section-dark" id="wyscig">
@@ -161,21 +223,42 @@
               <h3 id="table-match-title">Stan po ostatnim meczu</h3>
               <span id="table-match-meta"></span>
             </div>
-            <div class="table-controls" aria-label="Sterowanie historią klasyfikacji">
-              <button id="table-prev" type="button" aria-label="Poprzedni mecz">
-                <span aria-hidden="true">←</span>
-              </button>
-              <button
-                class="table-play-button"
-                id="table-play"
-                type="button"
-                aria-label="Odtwórz historię klasyfikacji"
-              >
-                Odtwórz
-              </button>
-              <button id="table-next" type="button" aria-label="Następny mecz">
-                <span aria-hidden="true">→</span>
-              </button>
+            <div class="table-actions">
+              <div class="table-mode" aria-label="Tryb historii klasyfikacji">
+                <button
+                  class="is-active"
+                  id="table-mode-match"
+                  type="button"
+                  data-table-mode="match"
+                  aria-pressed="true"
+                >
+                  Mecz po meczu
+                </button>
+                <button
+                  id="table-mode-day"
+                  type="button"
+                  data-table-mode="day"
+                  aria-pressed="false"
+                >
+                  Dzień po dniu
+                </button>
+              </div>
+              <div class="table-controls" aria-label="Sterowanie historią klasyfikacji">
+                <button id="table-prev" type="button" aria-label="Poprzedni krok">
+                  <span aria-hidden="true">←</span>
+                </button>
+                <button
+                  class="table-play-button"
+                  id="table-play"
+                  type="button"
+                  aria-label="Odtwórz historię klasyfikacji"
+                >
+                  Odtwórz
+                </button>
+                <button id="table-next" type="button" aria-label="Następny krok">
+                  <span aria-hidden="true">→</span>
+                </button>
+              </div>
             </div>
           </div>
           <div class="table-timeline">
@@ -188,12 +271,28 @@
               aria-label="Wybierz mecz w tabeli klasyfikacyjnej"
             />
             <div>
-              <span>Przed turniejem</span>
+              <span id="table-range-start">Przed turniejem</span>
               <strong id="table-progress">0 / 0</strong>
-              <span>Aktualnie</span>
+              <span id="table-range-end">Aktualnie</span>
             </div>
           </div>
+          <div class="movement-summary" aria-live="polite">
+            <article>
+              <span>Największy awans</span>
+              <strong id="movement-up-title">-</strong>
+              <p id="movement-up-list">Przesuń historię, aby zobaczyć zmiany.</p>
+            </article>
+            <article>
+              <span>Największy spadek</span>
+              <strong id="movement-down-title">-</strong>
+              <p id="movement-down-list">Przesuń historię, aby zobaczyć zmiany.</p>
+            </article>
+          </div>
         </div>
+
+        <p class="table-hint">
+          Kliknij nazwisko zawodnika, żeby zobaczyć jego mini statystyki.
+        </p>
 
         <div class="table-card">
           <table>
@@ -201,7 +300,7 @@
               <tr>
                 <th scope="col">Miejsce</th>
                 <th scope="col">Zawodnik</th>
-                <th scope="col">Ostatni mecz</th>
+                <th scope="col" id="gain-column-label">Ostatni mecz</th>
                 <th scope="col" class="points-column">Punkty</th>
               </tr>
             </thead>
@@ -211,6 +310,27 @@
             Brak zawodników pasujących do wyszukiwania.
           </p>
         </div>
+
+        <aside
+          class="player-stats-panel"
+          id="player-stats-panel"
+          aria-live="polite"
+          hidden
+        >
+          <button
+            class="player-stats-close"
+            id="player-stats-close"
+            type="button"
+            aria-label="Zamknij statystyki zawodnika"
+          >
+            ×
+          </button>
+          <p class="analytics-kicker">Profil zawodnika</p>
+          <h3 id="player-stats-name">Wybierz zawodnika</h3>
+          <div class="player-stats-grid" id="player-stats-grid"></div>
+          <div class="player-form-chart" id="player-stats-form"></div>
+          <p id="player-stats-note"></p>
+        </aside>
 
       </section>
     </main>
@@ -228,10 +348,18 @@
     <script>
       const dataScript = document.createElement("script");
       dataScript.src = `data/tournament-data.js?v=${Date.now()}`;
-      dataScript.onload = () => {
+      const loadAppScript = () => {
         const appScript = document.createElement("script");
-        appScript.src = "app.js";
+        appScript.src = `app.js?v=${Date.now()}`;
         document.body.appendChild(appScript);
+      };
+
+      dataScript.onload = () => {
+        const predictionsScript = document.createElement("script");
+        predictionsScript.src = `data/predictions-data.js?v=${Date.now()}`;
+        predictionsScript.onload = loadAppScript;
+        predictionsScript.onerror = loadAppScript;
+        document.body.appendChild(predictionsScript);
       };
       dataScript.onerror = () => {
         document.body.insertAdjacentHTML(
