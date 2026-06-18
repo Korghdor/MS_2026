@@ -58,7 +58,6 @@
   }
 
   function render(items, query = "") {
-    const uniqueMatches = new Set(items.map((item) => item.matchNumber));
     const totalText =
       loneScorers.length === 1
         ? "1 samotny dokładny wynik"
@@ -66,7 +65,7 @@
 
     summary.textContent = query
       ? `Pokazuję ${items.length} z ${totalText}.`
-      : `${totalText} w ${uniqueMatches.size} ${pluralMatches(uniqueMatches.size)}.`;
+      : `${totalText} w meczach, które już się odbyły.`;
 
     if (!items.length) {
       list.innerHTML = `
@@ -110,16 +109,6 @@
 
   function isRealPrediction(prediction) {
     return Boolean(prediction && prediction !== "X-X");
-  }
-
-  function pluralMatches(value) {
-    if (value === 1) return "meczu";
-    const lastTwo = value % 100;
-    const last = value % 10;
-    if (last >= 2 && last <= 4 && !(lastTwo >= 12 && lastTwo <= 14)) {
-      return "meczach";
-    }
-    return "meczach";
   }
 
   function normalize(value) {
