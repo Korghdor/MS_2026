@@ -70,7 +70,7 @@
       : `${records.length} ${pluralPredictions(records.length)} sprawdzonych. Największa pomyłka: ${biggest} ${pluralGoals(biggest)}.`;
 
     renderRanking(buildRanking(items));
-    renderMistakeCards(mistakeItems.slice(0, query ? 60 : 24), query, mistakeItems.length);
+    renderMistakeCards(getTopDistanceLevels(mistakeItems, 3), query, mistakeItems.length);
   }
 
   function buildRanking(items) {
@@ -144,10 +144,9 @@
   }
 
   function renderMistakeCards(items, query, totalCount) {
-    const limit = query ? 60 : 24;
     listNote.textContent = query
       ? `Pokazuję ${items.length} z ${totalCount} pasujących pomyłek.`
-      : `Pokazuję TOP ${Math.min(limit, totalCount)} pojedynczych pomyłek.`;
+      : `Pokazuję TOP 3 różnice bramkowe, razem z remisami na tym samym poziomie.`;
 
     if (!items.length) {
       list.innerHTML = `
@@ -160,6 +159,11 @@
     }
 
     list.innerHTML = items.map(renderMistakeCard).join("");
+  }
+
+  function getTopDistanceLevels(items, limit) {
+    const levels = [...new Set(items.map((item) => item.distance))].slice(0, limit);
+    return items.filter((item) => levels.includes(item.distance));
   }
 
   function renderMistakeCard(item) {
