@@ -602,7 +602,6 @@
     const dayStats = [...buildHitStats(dayMatches).values()];
     const dayExactLeaders = findMaxRows(dayStats, "exact");
     const dayOutcomeLeaders = findMaxRows(dayStats, "outcome");
-    const lastMatchLeaders = getLastMatchLeaders(daySnapshot.matchNumber);
     const consensus = getStrongestConsensus(dayMatches);
     const difficulty = getMatchDifficultyExtremes(dayMatches);
 
@@ -622,12 +621,6 @@
         value: dayOutcomeLeaders.max > 0
           ? `${formatNames(dayOutcomeLeaders.names, Infinity)} (${dayOutcomeLeaders.max})`
           : "Tego dnia bez trafionego kierunku",
-      },
-      {
-        label: "Najlepszy ostatni mecz",
-        value: lastMatchLeaders.max > 0
-          ? `${formatNames(lastMatchLeaders.names, Infinity)} (+${lastMatchLeaders.max})`
-          : "Ostatni mecz nikogo nie rozpieścił",
       },
       {
         label: "Najbardziej popularny typ",
@@ -899,28 +892,6 @@
     return stats;
   }
 
-  function getLastMatchLeaders(matchNumber) {
-    const snapshotIndex = snapshots.findIndex(
-      (snapshot) => Number(snapshot.matchNumber || 0) === Number(matchNumber || 0),
-    );
-
-    if (snapshotIndex <= 0) {
-      return { max: 0, names: [] };
-    }
-
-    const current = snapshots[snapshotIndex];
-    const previous = snapshots[snapshotIndex - 1];
-    return findMaxRows(
-      data.players.map((name) => ({
-        name,
-        points:
-          Number(current.totals[name] || 0) -
-          Number(previous.totals[name] || 0),
-      })),
-      "points",
-    );
-  }
-
   function getStrongestConsensus(matches = completedPredictionMatches) {
     let strongest = null;
 
@@ -1073,10 +1044,12 @@
     return `${names.slice(0, limit).join(", ")} i ${names.length - limit} os.`;
   }
 
-  function formatMatchNames(matches, limit = 2) {
+  function formatMatchNames(matches, limit = Infinity) {
     const names = matches.map((match) => match.match);
     if (names.length <= limit) return names.join(", ");
-    return `${names.slice(0, limit).join(", ")} i ${names.length - limit} mecze`;
+    const hiddenCount = names.length - limit;
+    const hiddenLabel = hiddenCount === 1 ? "mecz" : "mecze";
+    return `${names.slice(0, limit).join(", ")} i ${hiddenCount} ${hiddenLabel}`;
   }
 
   function pluralPlaces(value) {

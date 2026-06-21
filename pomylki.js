@@ -11,6 +11,7 @@
   const surpriseMatches = new Set([
     "Hiszpania – Republika Zielonego Przylądka",
     "Portugalia – DR Konga",
+    "Ekwador – Curaçao",
   ]);
 
   const records = getMistakeRecords();
