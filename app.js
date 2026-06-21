@@ -555,12 +555,14 @@
 
     const latest = snapshotList[dayIndex];
     const previous = snapshotList[dayIndex - 1];
-    const dailyRows = rankStandings(
+    const rankedRows = rankStandings(
       data.players.map((name) => ({
         name,
         points: Number(latest.totals[name] || 0) - Number(previous.totals[name] || 0),
       })),
-    ).slice(0, 6);
+    );
+    const positiveRows = rankedRows.filter((player) => player.points > 0);
+    const dailyRows = positiveRows.length ? positiveRows : rankedRows.slice(0, 6);
 
     title.textContent = formatDateLabel(latest.date);
     meta.textContent =
