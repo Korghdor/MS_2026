@@ -1,8 +1,8 @@
 window.BALTICWOOD_TOURNAMENT_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Faza Grupowa - Punktacja",
-  "generatedAt": "2026-06-23T03:30:39+00:00",
-  "workbookModifiedAt": "2026-06-23T03:30:26+00:00",
+  "generatedAt": "2026-06-23T18:45:07+00:00",
+  "workbookModifiedAt": "2026-06-23T14:09:29+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",

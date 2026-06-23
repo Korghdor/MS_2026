@@ -1,7 +1,7 @@
 window.BALTICWOOD_PREDICTIONS_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Typy",
-  "generatedAt": "2026-06-23T03:30:39+00:00",
+  "generatedAt": "2026-06-23T18:45:07+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -41,7 +41,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Mateusz Faryj"
   ],
   "completedCount": 44,
-  "upcomingCount": 3,
+  "upcomingCount": 4,
   "matches": [
     {
       "number": 1,
@@ -2013,7 +2013,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Dariusz Garncarski": "2-0",
         "Marcin Danecki": "3-0",
         "Grzegorz Dąbrowski": "2-0",
-        "Grzegorz Murdzek": "X-X",
+        "Grzegorz Murdzek": "2-0",
         "Patrycja Bożek": "3-1",
         "Małgorzata Pelczar-Szczypta": "3-1",
         "Edward Baciak": "2-0",
@@ -2057,7 +2057,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Dariusz Garncarski": "2-1",
         "Marcin Danecki": "2-0",
         "Grzegorz Dąbrowski": "1-0",
-        "Grzegorz Murdzek": "X-X",
+        "Grzegorz Murdzek": "2-0",
         "Patrycja Bożek": "2-0",
         "Małgorzata Pelczar-Szczypta": "3-0",
         "Edward Baciak": "1-0",
@@ -2101,7 +2101,7 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Dariusz Garncarski": "0-2",
         "Marcin Danecki": "0-2",
         "Grzegorz Dąbrowski": "0-3",
-        "Grzegorz Murdzek": "X-X",
+        "Grzegorz Murdzek": "1-3",
         "Patrycja Bożek": "0-2",
         "Małgorzata Pelczar-Szczypta": "0-2",
         "Edward Baciak": "1-1",
@@ -2109,6 +2109,50 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
         "Jurgen Klinsmann(GD)": "0-3",
         "Marek Zarych": "0-3",
         "Mateusz Faryj": "0-1"
+      }
+    },
+    {
+      "number": 48,
+      "match": "Kolumbia – DR Konga",
+      "result": "X-X",
+      "completed": false,
+      "predictions": {
+        "Maciej Zając": "2-1",
+        "Tomasz Brocławik": "3-0",
+        "Maciej Niemiec": "2-0",
+        "Janusz Orlewski": "1-0",
+        "Waldemar Węgrzyniak": "2-0",
+        "Dawid Cetnar": "1-1",
+        "Witold Pacek": "2-0",
+        "Bartek Szynal": "1-2",
+        "Paweł Turek": "3-0",
+        "Grzegorz Kilar": "2-0",
+        "Mariusz Blezień": "2-0",
+        "Ryszard Żyra": "2-0",
+        "Grzegorz Rak": "2-0",
+        "Iwona Garnczarska": "2-0",
+        "Krzysztof Więcek": "2-1",
+        "Rafał Kozioł": "3-0",
+        "Paweł Maszewski": "2-0",
+        "Rafał Flok": "2-0",
+        "Szymon Przebienda": "2-0",
+        "Bartosz Przebienda": "2-0",
+        "Sławomir Przebienda": "2-0",
+        "Jerzy Witusik": "2-0",
+        "Krzysztof Filip": "4-1",
+        "Waldemar Fundakowski": "2-2",
+        "Marcin Okarma": "2-0",
+        "Dariusz Garncarski": "2-0",
+        "Marcin Danecki": "2-0",
+        "Grzegorz Dąbrowski": "1-0",
+        "Grzegorz Murdzek": "2-1",
+        "Patrycja Bożek": "2-1",
+        "Małgorzata Pelczar-Szczypta": "1-0",
+        "Edward Baciak": "2-0",
+        "Gabryś Więcek": "2-1",
+        "Jurgen Klinsmann(GD)": "2-1",
+        "Marek Zarych": "2-0",
+        "Mateusz Faryj": "1-1"
       }
     }
   ]
