@@ -40,8 +40,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Marek Zarych",
     "Mateusz Faryj"
   ],
-  "completedCount": 43,
-  "upcomingCount": 4,
+  "completedCount": 44,
+  "upcomingCount": 3,
   "matches": [
     {
       "number": 1,
@@ -1938,8 +1938,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 44,
       "match": "Jordania – Algieria",
-      "result": "X-X",
-      "completed": false,
+      "result": "1-2",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "1-2",
         "Tomasz Brocławik": "0-2",
