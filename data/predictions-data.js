@@ -40,8 +40,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Marek Zarych",
     "Mateusz Faryj"
   ],
-  "completedCount": 47,
-  "upcomingCount": 4,
+  "completedCount": 48,
+  "upcomingCount": 3,
   "matches": [
     {
       "number": 1,
@@ -2114,8 +2114,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 48,
       "match": "Kolumbia – DR Konga",
-      "result": "X-X",
-      "completed": false,
+      "result": "1-0",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "2-1",
         "Tomasz Brocławik": "3-0",
