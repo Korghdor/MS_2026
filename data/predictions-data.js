@@ -40,8 +40,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Marek Zarych",
     "Mateusz Faryj"
   ],
-  "completedCount": 58,
-  "upcomingCount": 4,
+  "completedCount": 60,
+  "upcomingCount": 2,
   "matches": [
     {
       "number": 1,
@@ -2598,8 +2598,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 59,
       "match": "Turcja – USA",
-      "result": "X-X",
-      "completed": false,
+      "result": "3-2",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "0-2",
         "Tomasz Brocławik": "1-2",
@@ -2642,8 +2642,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 60,
       "match": "Paragwaj – Australia",
-      "result": "X-X",
-      "completed": false,
+      "result": "0-0",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "1-1",
         "Tomasz Brocławik": "1-1",
