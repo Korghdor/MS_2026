@@ -142,7 +142,7 @@
 
   summary.textContent =
     `${data.completedCount} rozegranych meczów + ` +
-    `${data.upcomingCount} najbliższe z wynikiem X-X`;
+    `${data.upcomingCount} do rozegrania z wynikiem X-X`;
 
   playerSearch.addEventListener("input", (event) => {
     updatePlayerFilter(event.target.value);

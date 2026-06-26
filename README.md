@@ -8,7 +8,7 @@ Statyczna strona rankingu typujących, generowana z arkusza
 - aktualne TOP 3,
 - animowany Race Chart po każdym rozegranym meczu,
 - pełną klasyfikację wszystkich zawodników,
-- podstronę z typami wszystkich graczy dla rozegranych i 4 kolejnych meczów,
+- podstronę z typami wszystkich graczy dla wszystkich meczów,
 - liczbę rozegranych meczów i datę aktualizacji.
 
 Lista zawodników jest wykrywana automatycznie z nagłówków od kolumny `F`.

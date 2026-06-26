@@ -264,7 +264,7 @@ def build_tournament_data(workbook_path: Path) -> dict:
     }
 
 
-def build_predictions_data(workbook_path: Path, upcoming_count: int = 4) -> dict:
+def build_predictions_data(workbook_path: Path) -> dict:
     try:
         with ZipFile(workbook_path) as archive:
             shared_strings = load_shared_strings(archive)
@@ -310,22 +310,14 @@ def build_predictions_data(workbook_path: Path, upcoming_count: int = 4) -> dict
             }
         )
 
-    last_completed_index = max(
-        (
-            index
-            for index, match in enumerate(all_matches)
-            if match["completed"]
-        ),
-        default=-1,
-    )
     completed_matches = [
         match for match in all_matches if match["completed"]
     ]
     upcoming_matches = [
         match
-        for match in all_matches[last_completed_index + 1 :]
+        for match in all_matches
         if not match["completed"]
-    ][:upcoming_count]
+    ]
     visible_matches = sorted(
         [*completed_matches, *upcoming_matches],
         key=lambda match: match["number"],
@@ -394,7 +386,7 @@ def main() -> int:
     print(
         f"Typy: {len(predictions_data['players'])} graczy, "
         f"{predictions_data['completedCount']} rozegranych + "
-        f"{predictions_data['upcomingCount']} kolejnych."
+        f"{predictions_data['upcomingCount']} do rozegrania."
     )
     print(f"Zapisano: {predictions_output_path.resolve()}")
     return 0

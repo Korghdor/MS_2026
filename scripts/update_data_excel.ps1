@@ -314,30 +314,15 @@ try {
         $AllPredictionMatches.Add([object]$PredictionMatch)
     }
 
-    $LastCompletedPredictionIndex = -1
-    for ($Index = 0; $Index -lt $AllPredictionMatches.Count; $Index++) {
-        if ($AllPredictionMatches[$Index].completed) {
-            $LastCompletedPredictionIndex = $Index
-        }
-    }
-
     $VisiblePredictionMatches = [Collections.Generic.List[object]]::new()
     $CompletedPredictionCount = 0
+    $UpcomingPredictionCount = 0
     foreach ($PredictionMatch in $AllPredictionMatches) {
+        $VisiblePredictionMatches.Add([object]$PredictionMatch)
         if ($PredictionMatch.completed) {
-            $VisiblePredictionMatches.Add([object]$PredictionMatch)
             $CompletedPredictionCount += 1
         }
-    }
-
-    $UpcomingPredictionCount = 0
-    for (
-        $Index = $LastCompletedPredictionIndex + 1;
-        $Index -lt $AllPredictionMatches.Count -and $UpcomingPredictionCount -lt 4;
-        $Index++
-    ) {
-        if (-not $AllPredictionMatches[$Index].completed) {
-            $VisiblePredictionMatches.Add([object]$AllPredictionMatches[$Index])
+        else {
             $UpcomingPredictionCount += 1
         }
     }
@@ -372,7 +357,7 @@ try {
 
     Write-Host "Gotowe: $($Players.Count) zawodników, $($CompletedMatches.Count)/$($MatchList.Count) rozegranych meczów."
     Write-Host "Zapisano: $ResolvedOutput"
-    Write-Host "Typy: $($PredictionPlayers.Count) graczy, $CompletedPredictionCount rozegranych + $UpcomingPredictionCount kolejnych."
+    Write-Host "Typy: $($PredictionPlayers.Count) graczy, $CompletedPredictionCount rozegranych + $UpcomingPredictionCount do rozegrania."
     Write-Host "Zapisano: $PredictionsOutput"
 }
 catch {
