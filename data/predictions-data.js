@@ -1,7 +1,7 @@
 window.BALTICWOOD_PREDICTIONS_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Typy",
-  "generatedAt": "2026-06-26T16:10:18+00:00",
+  "generatedAt": "2026-06-27T05:15:47+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -40,8 +40,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Marek Zarych",
     "Mateusz Faryj"
   ],
-  "completedCount": 60,
-  "upcomingCount": 12,
+  "completedCount": 66,
+  "upcomingCount": 6,
   "matches": [
     {
       "number": 1,
@@ -2686,8 +2686,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 61,
       "match": "Norwegia – Francja",
-      "result": "X-X",
-      "completed": false,
+      "result": "1-4",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "1-2",
         "Tomasz Brocławik": "1-2",
@@ -2730,8 +2730,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 62,
       "match": "Senegal – Irak",
-      "result": "X-X",
-      "completed": false,
+      "result": "5-0",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "2-0",
         "Tomasz Brocławik": "2-0",
@@ -2774,8 +2774,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 63,
       "match": "Republika Zielonego Przylądka – Arabia Saudyjska",
-      "result": "X-X",
-      "completed": false,
+      "result": "0-0",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "1-1",
         "Tomasz Brocławik": "1-1",
@@ -2818,8 +2818,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 64,
       "match": "Urugwaj – Hiszpania",
-      "result": "X-X",
-      "completed": false,
+      "result": "0-1",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "1-2",
         "Tomasz Brocławik": "1-2",
@@ -2862,8 +2862,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 65,
       "match": "Egipt – Iran",
-      "result": "X-X",
-      "completed": false,
+      "result": "1-1",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "1-1",
         "Tomasz Brocławik": "1-1",
@@ -2906,8 +2906,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 66,
       "match": "Nowa Zelandia – Belgia",
-      "result": "X-X",
-      "completed": false,
+      "result": "1-5",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "0-3",
         "Tomasz Brocławik": "0-3",
