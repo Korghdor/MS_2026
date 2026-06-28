@@ -543,15 +543,29 @@ h2 {
 
 .award-place {
   padding: 16px;
-  border: 1px solid rgba(17, 51, 84, 0.08);
+  border: 2px solid rgba(17, 51, 84, 0.08);
   border-radius: 16px;
   background: var(--white);
 }
 
 .award-place-first {
-  border-color: rgba(232, 184, 76, 0.45);
+  border-color: #d9a421;
   background:
-    radial-gradient(circle at 100% 0%, rgba(232, 184, 76, 0.18), transparent 34%),
+    radial-gradient(circle at 100% 0%, rgba(232, 184, 76, 0.2), transparent 34%),
+    var(--white);
+}
+
+.award-place-second {
+  border-color: #aeb6c2;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(174, 182, 194, 0.2), transparent 34%),
+    var(--white);
+}
+
+.award-place-third {
+  border-color: #b9783f;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(185, 120, 63, 0.2), transparent 34%),
     var(--white);
 }
 
