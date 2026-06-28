@@ -1,7 +1,7 @@
 window.BALTICWOOD_PREDICTIONS_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Typy",
-  "generatedAt": "2026-06-28T02:21:26+00:00",
+  "generatedAt": "2026-06-28T04:02:15+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -40,8 +40,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Marek Zarych",
     "Mateusz Faryj"
   ],
-  "completedCount": 70,
-  "upcomingCount": 2,
+  "completedCount": 72,
+  "upcomingCount": 0,
   "matches": [
     {
       "number": 1,
@@ -3126,8 +3126,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 71,
       "match": "Algieria – Austria",
-      "result": "X-X",
-      "completed": false,
+      "result": "3-3",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "0-0",
         "Tomasz Brocławik": "1-2",
@@ -3170,8 +3170,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 72,
       "match": "Jordania – Argentyna",
-      "result": "X-X",
-      "completed": false,
+      "result": "1-3",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "0-3",
         "Tomasz Brocławik": "0-3",
