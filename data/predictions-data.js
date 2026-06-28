@@ -1,7 +1,7 @@
 window.BALTICWOOD_PREDICTIONS_DATA = {
   "sourceFile": "MS_2026.xlsm",
   "sheet": "Typy",
-  "generatedAt": "2026-06-27T05:15:47+00:00",
+  "generatedAt": "2026-06-28T02:21:26+00:00",
   "players": [
     "Maciej Zając",
     "Tomasz Brocławik",
@@ -40,8 +40,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     "Marek Zarych",
     "Mateusz Faryj"
   ],
-  "completedCount": 66,
-  "upcomingCount": 6,
+  "completedCount": 70,
+  "upcomingCount": 2,
   "matches": [
     {
       "number": 1,
@@ -2950,8 +2950,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 67,
       "match": "Panama – Anglia",
-      "result": "X-X",
-      "completed": false,
+      "result": "0-2",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "0-3",
         "Tomasz Brocławik": "0-3",
@@ -2994,8 +2994,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 68,
       "match": "Chorwacja – Ghana",
-      "result": "X-X",
-      "completed": false,
+      "result": "2-1",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "2-1",
         "Tomasz Brocławik": "1-1",
@@ -3038,8 +3038,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 69,
       "match": "Kolumbia – Portugalia",
-      "result": "X-X",
-      "completed": false,
+      "result": "0-0",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "2-1",
         "Tomasz Brocławik": "1-1",
@@ -3082,8 +3082,8 @@ window.BALTICWOOD_PREDICTIONS_DATA = {
     {
       "number": 70,
       "match": "DR Konga – Uzbekistan",
-      "result": "X-X",
-      "completed": false,
+      "result": "3-1",
+      "completed": true,
       "predictions": {
         "Maciej Zając": "1-1",
         "Tomasz Brocławik": "2-1",
